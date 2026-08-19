@@ -30,7 +30,7 @@ teléfono?
 
 Un saludo,
 Juan Manuel Ferrera
-info@bhaktiyoga.es · [móvil]
+info@bhaktiyoga.es · 687 35 76 60
 Centros de Bhakti yoga · bhaktiyoga.es
 
 ---
@@ -52,7 +52,7 @@ vengan bien y lo cerramos.
 
 Un saludo,
 Juan Manuel Ferrera
-info@bhaktiyoga.es · [móvil]
+info@bhaktiyoga.es · 687 35 76 60
 
 ---
 

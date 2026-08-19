@@ -102,7 +102,7 @@ bhaktiyoga.es
 
 Responde a este correo con dos o tres fechas que te vengan bien y lo cerramos.
 
-**info@bhaktiyoga.es** · **[móvil]**
+**info@bhaktiyoga.es** · **687 35 76 60**
 
 ---
 
