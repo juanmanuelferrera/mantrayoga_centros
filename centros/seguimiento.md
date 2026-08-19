@@ -43,16 +43,36 @@ desactualizados (hay centros con dos teléfonos distintos según la fuente).
 **Antes de llamar, comprueba el dato en la web o el Instagram del propio
 centro.** Llamar a un número que ya no es suyo quema el primer contacto.
 
-## Pendiente de investigar
+## Estado de la investigación
 
-Faltan unos diez centros para llegar a treinta. Zonas sin cubrir:
+45 centros localizados. Reparto:
 
-- Elche
-- Benidorm
+| Localidad | Centros |
+|---|---|
+| Alicante ciudad | 17 |
+| Elche | 18 |
+| Benidorm | 5 |
+| Santa Pola | 2 |
+| San Juan de Alicante | 2 |
+| l'Alfàs del Pi | 1 |
+
+Por prioridad: 11 de A, 21 de B, 13 de C.
+
+Con 11 centros de prioridad A ya hay más de los 6-8 que caben en la Fase A. No
+hace falta buscar más para empezar.
+
+## Nota sobre Benidorm
+
+Son 45 minutos de coche cada trayecto. No compensa un solo taller. Si entran
+dos o más centros de Benidorm, se agrupan el mismo día. Si solo entra uno, va al
+final de la cola.
+
+## Pendiente de investigar (más adelante)
+
+Solo si hiciera falta ampliar por encima de 45:
+
 - El Campello
 - Mutxamel
 - San Vicente del Raspeig
-- Playa de San Juan (más allá del Bikram)
-
-Buscar también: escuelas de kundalini, centros de ayurveda con sala, y espacios
-culturales o asociaciones de barrio con sala libre.
+- Villajoyosa
+- Asociaciones de vecinos y centros culturales con sala libre
