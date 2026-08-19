@@ -6,7 +6,7 @@ en su perfil, es una vía legítima.
 
 ## Primer mensaje por WhatsApp
 
-> Hola [Nombre], buenas. Soy [Nombre], guío talleres de mantra yoga (meditación
+> Hola [nombre], buenas. Soy Juan Manuel Ferrera, guío talleres de mantra yoga (meditación
 > con mantra y canto en grupo, con música en vivo).
 >
 > Estoy proponiéndolos a centros de Alicante: una hora al mes, sin coste para el

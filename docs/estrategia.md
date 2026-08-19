@@ -29,6 +29,27 @@ mantra en el método. *Yoga-sutra* 1.27-1.28: `tasya vācakaḥ praṇavaḥ` /
 contemplación de su sentido. El mantra yoga no es un añadido exótico al yoga:
 es una de sus partes.
 
+## Nombre y credencial
+
+**Al centro:** Juan Manuel Ferrera. Al dueño le estás proponiendo algo para su
+negocio, y el nombre civil junto al CIF de la entidad es lo que le deja
+tranquilo.
+
+**En la sala:** los dos nombres, sin ceremonia. "Me llamo Juan Manuel; en la
+tradición en la que practico me llamo Jagannatha Mishra Dasa." Y se sigue.
+
+**El "Br." no sale fuera.** Brahmacari es un título interno que a un alumno de
+yoga no le dice nada y obliga a explicar algo que no viene al caso. Se usa
+dentro, no en un cartel.
+
+**La credencial:** desde 1981. Se dice con la fecha, no con el número de años.
+"Practico mantra yoga desde 1981" pesa más que "llevo cuarenta y cinco años",
+porque una fecha se puede comprobar y un número suena a redondeo. Es lo más
+fuerte que tienes y va en la primera línea del email.
+
+Con cuarenta y cinco años de práctica no hace falta argumentar nada más. Se dice
+una vez, al principio, y no se vuelve a mencionar.
+
 ## Modelo
 
 Gratuito. El centro cede la sala y avisa a sus alumnos. No se cobra entrada.

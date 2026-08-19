@@ -13,9 +13,9 @@ o profesor, mejor por Instagram (ver `whatsapp.md`).
 
 **Asunto:** Taller de mantra yoga para [Nombre del centro], sin coste
 
-Hola [Nombre]:
+Hola [nombre del contacto]:
 
-Me llamo [Nombre] y llevo [X] años practicando y guiando mantra yoga.
+Me llamo Juan Manuel Ferrera y practico y guío mantra yoga desde 1981.
 
 Te escribo para proponerte un taller mensual de una hora en [Nombre del centro]:
 meditación con mantra y canto en grupo, con música en vivo. Gratuito para el
@@ -29,8 +29,8 @@ convence, no hay segundo.
 teléfono?
 
 Un saludo,
-[Nombre]
-[Teléfono]
+Juan Manuel Ferrera
+info@bhaktiyoga.es · [móvil]
 Centros de Bhakti yoga · bhaktiyoga.es
 
 ---
@@ -39,7 +39,7 @@ Centros de Bhakti yoga · bhaktiyoga.es
 
 **Asunto:** De parte de [quien presenta] — taller de mantra yoga
 
-Hola [Nombre]:
+Hola [nombre del contacto]:
 
 [Quien presenta] me dijo que te escribiera.
 
@@ -51,8 +51,8 @@ Te adjunto una hoja con el detalle. Si lo ves, dime dos o tres fechas que te
 vengan bien y lo cerramos.
 
 Un saludo,
-[Nombre]
-[Teléfono]
+Juan Manuel Ferrera
+info@bhaktiyoga.es · [móvil]
 
 ---
 
@@ -60,14 +60,14 @@ Un saludo,
 
 **Asunto:** (responder al mismo hilo, sin cambiar el asunto)
 
-Hola [Nombre]:
+Hola [nombre del contacto]:
 
 Te vuelvo a escribir por si se te traspapeló. Sigue en pie: una hora al mes, sin
 coste para el centro.
 
 Si ahora no es el momento, dímelo y no insisto más.
 
-[Nombre]
+Juan Manuel
 
 ---
 

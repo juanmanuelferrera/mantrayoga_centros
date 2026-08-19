@@ -7,7 +7,7 @@ Objetivo de la llamada: **una fecha**, no una explicación.
 
 ## Apertura (15 segundos)
 
-> "Hola, ¿[Nombre]? Soy [Nombre], no nos conocemos. Te llamo un momento por una
+> "Hola, ¿[nombre del contacto]? Soy Juan Manuel Ferrera, no nos conocemos. Te llamo un momento por una
 > propuesta para el centro. ¿Te pillo bien o te llamo luego?"
 
 Si dice que está liado, pide hora y cuelga. No insistas.

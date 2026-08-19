@@ -14,7 +14,7 @@ texto de story y texto para su grupo de WhatsApp.
 >
 > No hace falta experiencia ni saber cantar. Quien no quiera cantar, escucha.
 >
-> Lo guía [Nombre], de Centros de Bhakti yoga.
+> Lo guía Juan Manuel Ferrera, de Centros de Bhakti yoga.
 >
 > Gratuito. Plazas limitadas, escríbenos para reservar.
 

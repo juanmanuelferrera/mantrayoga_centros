@@ -74,7 +74,9 @@ nada, no se vende nada.
 
 ### Quién lo imparte
 
-[Nombre], practicante de mantra yoga desde hace [X] años.
+**Juan Manuel Ferrera** (Jagannatha Mishra Dasa). Practico mantra yoga desde
+1981: cuarenta y cinco años cantando a diario. He guiado kirtan y meditación con
+mantra en España y fuera de ella.
 
 **Centros de Bhakti yoga**, entidad no lucrativa registrada, CIF G-76660679.
 bhaktiyoga.es
@@ -100,7 +102,7 @@ bhaktiyoga.es
 
 Responde a este correo con dos o tres fechas que te vengan bien y lo cerramos.
 
-**[email]** · **[teléfono]**
+**info@bhaktiyoga.es** · **[móvil]**
 
 ---
 
@@ -110,4 +112,4 @@ Responde a este correo con dos o tres fechas que te vengan bien y lo cerramos.
 - Tipografía sobria. Nada de fondos de loto ni de mandalas.
 - Una sola foto si acaso: gente cantando en círculo, real, no de banco de
   imágenes.
-- Rellenar antes de enviar: nombre, años de práctica, email y teléfono.
+- Rellenar antes de enviar: el móvil. Es el único dato que falta.
