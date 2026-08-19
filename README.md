@@ -1,3 +1,31 @@
-# mantrayoga_centros
+# Mantra Yoga en centros de yoga de Alicante
 
-Centros de Mantra Yoga.
+Material de trabajo para llevar un taller de mantra yoga de 1 hora a los
+centros de yoga de Alicante y comarca. Gratuito para el centro, a donativo,
+repetido de forma regular en cada sitio.
+
+Proyecto de **Centros de Bhakti yoga** (entidad no lucrativa, CIF G-76660679,
+bhaktiyoga.es).
+
+## Qué hay aquí
+
+| Carpeta | Para qué |
+|---|---|
+| `docs/` | Estrategia, fases y registro de métricas |
+| `dossier/` | El PDF que se envía a los centros |
+| `programa/` | El guion del taller: formato fijo y los ocho temas |
+| `centros/` | Lista de centros de Alicante y estado de cada uno |
+| `comunicacion/` | Email, WhatsApp, llamada, objeciones, cartel, Instagram |
+
+## Cómo se usa
+
+1. Abre `centros/centros-alicante.csv` y elige los diez primeros.
+2. Envía el email de `comunicacion/email-primer-contacto.md` con el dossier.
+3. Cuando un centro dice que sí, mándale el cartel y el texto de Instagram.
+4. Da el taller siguiendo `programa/formato-taller.md` y el tema del mes.
+5. Anota lo que pasó en `docs/metricas.md` y actualiza `centros/seguimiento.md`.
+
+## Regla de oro
+
+No se abren centros nuevos mientras los abiertos no se sostengan dos meses
+seguidos. Primero que funcione, luego que crezca.
