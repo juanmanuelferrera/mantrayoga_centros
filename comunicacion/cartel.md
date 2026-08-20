@@ -30,10 +30,14 @@ externas. Y Safari **no respeta `@page { margin: 0 }`**: aplica siempre los
 márgenes mínimos de la impresora, así que un cartel del tamaño exacto del papel
 no cabe, se corta por la derecha y lo que sobra cae en una segunda hoja.
 
-Por eso el cartel se imprime algo reducido. Cuánto exactamente depende de tu
-impresora, así que hay un mando: **Escala al imprimir**. Súbela hasta que llene
-la hoja en la vista previa; si aparece una segunda página, bájala un punto. Se
-ajusta una vez y ya queda.
+La solución no es adivinar cuánto cabe, sino no fijar el tamaño: al imprimir,
+el cartel mide `100vw × 100vh`, que en impresión son el hueco útil de la página
+ya descontados los márgenes mínimos de la impresora. Llena la hoja entera, sea
+cual sea esa impresora, y nunca se parte.
+
+El deslizador **Tamaño del texto al imprimir** no toca ese tamaño: ajusta solo
+la tipografía dentro de él. Súbelo si ves el cartel vacío, bájalo si algo se
+apretuja.
 
 Para redes ese ajuste da igual: `pdf-a-png.sh` recorta el margen blanco y
 devuelve la imagen a su medida real — 1080×1080 el cuadrado, 1080×1920 el story
