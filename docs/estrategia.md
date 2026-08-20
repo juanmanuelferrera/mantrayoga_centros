@@ -17,11 +17,11 @@ Se llama **mantra yoga**. El lenguaje es el de la meditación sonora, la
 respiración, el sánscrito y la tradición védica. En el cartel no aparece "Hare
 Krishna" ni el nombre de la entidad como reclamo.
 
-Esto no es ocultar nada. El maha-mantra se canta en el taller desde el primer
-día y se dice de dónde viene. Cuando alguien pregunta por el origen se contesta
-con naturalidad y sin rodeos, y el tema 8 del programa lo trata de frente. Lo
-que se evita es el cartel que cierra la puerta antes de que nadie entre por
-ella.
+Esto no es ocultar nada. El repertorio es de mantras clásicos y de cada uno se
+dice el texto exacto del que sale. Cuando alguien pregunta por el origen se
+contesta con naturalidad y sin rodeos, y el último tema del repertorio lo trata
+de frente. Lo que se evita es el cartel que cierra la puerta antes de que nadie
+entre por ella.
 
 Anclaje que cualquier centro de yoga acepta sin discusión: Patanjali ya pone el
 mantra en el método. *Yoga-sutra* 1.27-1.28: `tasya vācakaḥ praṇavaḥ` /

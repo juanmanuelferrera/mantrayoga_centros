@@ -18,8 +18,9 @@ Hola [nombre del contacto]:
 Me llamo Juan Manuel Ferrera y practico y guío mantra yoga desde 1981.
 
 Te escribo para proponerte un taller mensual de una hora en [Nombre del centro]:
-meditación con mantra y canto en grupo, con música en vivo. Gratuito para el
-centro y para quien venga. Solo necesito la sala una hora al mes.
+aprender a cantar bien los mantras clásicos en sánscrito, con su pronunciación y
+su sentido. Cada mes un tema distinto. Gratuito para el centro y para quien
+venga. Solo necesito la sala una hora al mes.
 
 Lo hago porque quiero que esta práctica llegue a gente que ya hace yoga. Para el
 centro no hay coste, ni permanencia, ni exclusividad. Si el primero no te
@@ -43,9 +44,9 @@ Hola [nombre del contacto]:
 
 [Quien presenta] me dijo que te escribiera.
 
-Guío talleres de mantra yoga: una hora, meditación con mantra y canto en grupo
-con música en vivo. Los estoy llevando a centros de yoga de Alicante, una vez al
-mes en cada sitio y sin coste para el centro.
+Guío talleres de mantra yoga: una hora, aprender a cantar bien los mantras
+clásicos en sánscrito. Los estoy llevando a centros de yoga de Alicante, una vez
+al mes en cada sitio y sin coste para el centro.
 
 Te adjunto una hoja con el detalle. Si lo ves, dime dos o tres fechas que te
 vengan bien y lo cerramos.

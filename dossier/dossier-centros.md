@@ -15,8 +15,8 @@ nosotros.
 
 ### En una línea
 
-Una sesión mensual de meditación con mantra y canto en grupo, guiada, gratuita
-para el centro y para quien asiste.
+Una sesión mensual para aprender a cantar bien los mantras clásicos en
+sánscrito. Guiada, gratuita para el centro y para quien asiste.
 
 ---
 
@@ -45,18 +45,20 @@ Sesenta minutos, en círculo, en el suelo.
 
 | | |
 |---|---|
-| **10 min** | Qué es el mantra yoga y por qué funciona |
+| **4 min** | El mantra del mes: cuál es, de dónde sale, qué dice |
 | **7 min** | Postura, respiración y preparación de la voz |
-| **12 min** | Japa: meditación individual con mala, en voz baja |
-| **17 min** | Kirtan: canto en grupo, llamada y respuesta, con música en vivo |
-| **6 min** | Silencio |
-| **4 min** | Cierre y práctica para casa |
+| **12 min** | Pronunciación: sílaba a sílaba y línea a línea |
+| **11 min** | Cantarlo: al unísono primero, luego cada uno a su paso |
+| **5 min** | Asentamiento en silencio |
+| **11 min** | Repartidos en cápsulas cortas de cultura védica, entre bloque y bloque |
+| **4 min** | Preguntas, cierre y práctica para casa |
+
+Cada mes se trabaja un tema distinto y de él salen los mantras: Ramachandra, el
+origen del mundo, el metro védico, el gayatri. Cada sesión se entiende sola, así
+que quien llega nuevo no se pierde y quien repite no repite.
 
 No hace falta experiencia, ni saber cantar, ni saber sánscrito. Quien no quiere
 cantar, escucha.
-
-Cada mes cambia el tema, así que quien repite no repite contenido. Hay ocho
-temas distintos.
 
 ---
 
@@ -75,8 +77,8 @@ nada, no se vende nada.
 ### Quién lo imparte
 
 **Juan Manuel Ferrera** (Jagannatha Mishra Dasa). Practico mantra yoga desde
-1981: cuarenta y cinco años cantando a diario. He guiado kirtan y meditación con
-mantra en España y fuera de ella.
+1981: cuarenta y cinco años cantando a diario. He guiado recitación y meditación
+con mantra en España y fuera de ella.
 
 **Centros de Bhakti yoga**, entidad no lucrativa registrada, CIF G-76660679.
 bhaktiyoga.es

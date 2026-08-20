@@ -14,9 +14,9 @@ Si dice que está liado, pide hora y cuelga. No insistas.
 
 ## El qué (30 segundos)
 
-> "Guío talleres de mantra yoga: una hora, meditación con mantra y canto en
-> grupo con música en vivo. Los estoy llevando a centros de yoga de Alicante,
-> una vez al mes en cada sitio.
+> "Guío talleres de mantra yoga: una hora, para aprender a cantar bien los
+> mantras clásicos en sánscrito. Los estoy llevando a centros de yoga de
+> Alicante, una vez al mes en cada sitio.
 >
 > Para el centro no tiene coste, y para los alumnos tampoco. Solo necesito la
 > sala una hora."

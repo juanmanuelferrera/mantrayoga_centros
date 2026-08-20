@@ -9,8 +9,9 @@ texto de story y texto para su grupo de WhatsApp.
 
 > **Mantra yoga en [centro]**
 >
-> El [día] a las [hora] tenemos taller de mantra yoga: meditación con mantra y
-> canto en grupo, con música en vivo. Una hora.
+> El [día] a las [hora] tenemos taller de mantra yoga: aprender a cantar bien
+> los mantras clásicos en sánscrito, con la pronunciación y el sentido de cada
+> uno. Una hora.
 >
 > No hace falta experiencia ni saber cantar. Quien no quiera cantar, escucha.
 >
@@ -18,7 +19,7 @@ texto de story y texto para su grupo de WhatsApp.
 >
 > Gratuito. Plazas limitadas, escríbenos para reservar.
 
-Hashtags: `#yogaalicante #mantra #kirtan #meditacion #alicante #[barrio]`
+Hashtags: `#yogaalicante #mantra #sanscrito #meditacion #alicante #[barrio]`
 
 ---
 
@@ -47,7 +48,7 @@ Hashtags: `#yogaalicante #mantra #kirtan #meditacion #alicante #[barrio]`
 ## Mensaje para el grupo de WhatsApp del centro
 
 > Hola a todos. El [día] a las [hora] tenemos taller de mantra yoga aquí en el
-> centro: meditación con mantra y canto en grupo con música en vivo, una hora.
+> centro: aprender a cantar los mantras clásicos en sánscrito, una hora.
 >
 > Es gratuito y no hace falta experiencia. Decidnos si venís para contar plazas.
 

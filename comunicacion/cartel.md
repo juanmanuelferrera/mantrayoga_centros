@@ -14,13 +14,13 @@ Formatos que hay que entregar:
 
 **MANTRA YOGA**
 
-*Meditación con mantra y canto en grupo*
+*Aprende a cantar los mantras clásicos en sánscrito*
 
 [DÍA] [FECHA] · [HORA]
 [NOMBRE DEL CENTRO]
 
-Una hora. Música en vivo.
-No hace falta experiencia ni saber cantar.
+Una hora. Cada mes, un tema distinto.
+No hace falta experiencia ni saber sánscrito.
 
 **Gratuito**
 
