@@ -1,97 +1,142 @@
 # Formato del taller
 
-La estructura es siempre la misma. Solo cambia el bloque de tema. Así el taller
-es reconocible para quien repite, y tú lo puedes dar sin preparar de cero.
+**Qué es.** Un taller para aprender a cantar bien los mantras clásicos en
+sánscrito: pronunciación, métrica y melodía. Entre bloque y bloque de práctica
+entran explicaciones cortas de cultura védica.
+
+**Qué no es.** No es una sesión de kirtan y no es una charla. Si la sala pide
+kirtan al final, se hace; si no lo pide, no aparece.
+
+La estructura es siempre la misma. Solo cambia el mantra del mes. Así el taller
+es reconocible para quien repite, y tú lo das sin preparar de cero.
+
+## La regla de las cápsulas
+
+Las explicaciones no van en un bloque al principio. Van **intercaladas**, en
+cápsulas de uno o dos minutos, entre los bloques de práctica. Cuatro o cinco por
+sesión.
+
+Por qué: ocho minutos seguidos de explicación pierden a la sala. Dos minutos
+mientras la gente descansa la voz, no. Y la explicación cae justo cuando acaba
+de tener sentido, porque la acaban de cantar.
+
+Cada cápsula responde a una pregunta que el propio verso ha levantado. Nunca se
+abre un tema que no venga a cuento.
 
 ## Versión estándar: 60 minutos
 
 | Min | Bloque | Qué pasa |
 |---|---|---|
 | 0-5 | Acogida | Círculo, nombres, qué vamos a hacer y cuánto dura |
-| 5-14 | Tema del mes | Charla corta, concreta, con un ejemplo. Nunca más de 9 min |
-| 14-21 | Cuerpo y voz | Postura sentada, respiración, calentar la voz |
-| 21-33 | Japa guiado | Mala, técnica, práctica en voz baja |
-| 33-50 | Kirtan | En vivo, llamada y respuesta. Sube y baja |
-| 50-56 | Silencio | Tumbados o sentados. Nadie habla |
-| 56-60 | Cierre | Cómo seguir en casa, hoja de mantras, fecha del mes que viene |
+| 5-9 | Presentar el mantra | Cuál es, de dónde sale, qué dice. Cuatro minutos |
+| 9-16 | Cuerpo y voz | Postura, respiración, abrir la garganta |
+| 16-19 | **Cápsula 1** | Por qué el sánscrito se transmitió cantando y no leyendo |
+| 19-31 | Pronunciación | Sílaba a sílaba, línea a línea, sin melodía todavía |
+| 31-34 | **Cápsula 2** | La métrica del verso: por qué tiene ese número de sílabas |
+| 34-45 | Cantar | Melodía sencilla. Al unísono, luego cada uno a su paso |
+| 45-48 | **Cápsula 3** | Lo que el verso dice, ahora que ya lo han cantado |
+| 48-53 | Asentamiento | En silencio o repitiendo mentalmente. Sin voz |
+| 53-56 | Preguntas | Cortas. Lo que quede se contesta al salir |
+| 56-60 | Cierre | Hoja del mes, práctica para casa, fecha del siguiente |
 
 ## Versión larga: 90 minutos
 
-Cuando el centro da hora y media. No se estira todo por igual: crece el kirtan y
-entra un bloque de preguntas.
+Crecen la pronunciación y el canto, que es donde la gente nota que aprende algo,
+y entra una cápsula más.
 
 | Min | Bloque |
 |---|---|
 | 0-7 | Acogida |
-| 7-20 | Tema del mes |
-| 20-30 | Cuerpo y voz |
-| 30-45 | Japa guiado |
-| 45-52 | Preguntas |
-| 52-78 | Kirtan |
-| 78-85 | Silencio |
-| 85-90 | Cierre |
+| 7-13 | Presentar el mantra |
+| 13-23 | Cuerpo y voz |
+| 23-27 | Cápsula 1 |
+| 27-45 | Pronunciación |
+| 45-49 | Cápsula 2 |
+| 49-66 | Cantar |
+| 66-70 | Cápsula 3 |
+| 70-77 | Asentamiento |
+| 77-82 | Cápsula 4 y preguntas |
+| 82-90 | Cierre |
+
+## Qué entra en una cápsula y qué no
+
+**Entra:** cómo funciona el metro védico. Por qué hay vocales largas y cortas y
+qué pasa si te las saltas. Qué es un rishi. Cómo se transmitió un texto durante
+siglos sin escribirlo. De qué texto sale el verso y qué clase de libro es. Qué
+significan las palabras. Por qué el sonido ocupa en esta cultura el lugar que en
+otras ocupa la imagen.
+
+**No entra:** lo que el alumno debería creer. Lo que debería comer. A qué
+debería apuntarse. Ninguna comparación con otras tradiciones en la que la
+nuestra salga ganando.
+
+La prueba: si la cápsula la pudiera dar un profesor de sánscrito de universidad
+sin mentir, entra. Si no, se queda fuera.
+
+## El kirtan: solo si lo piden
+
+No está en el programa y no se anuncia en el cartel. Si al acabar alguien
+pregunta si se canta en grupo, o la sala se queda con ganas, entonces sí:
+
+- Se hace **después** del cierre, no dentro de la hora. La hora prometida es la
+  hora, y el centro tiene otra clase detrás.
+- Se avisa: "quien quiera irse, que se vaya sin problema."
+- Diez o quince minutos, sencillo, y se acaba.
+- Si un centro lo pide dos meses seguidos, se pacta con el dueño una sesión de
+  hora y media con el kirtan dentro.
+
+Que salga de ellos y no de ti cambia por completo cómo se recibe.
 
 ## Reglas que no se rompen
 
-1. **Se empieza y se acaba a la hora.** El centro tiene otra clase detrás. Salir
-   tarde una vez es no volver.
-2. **La charla nunca pasa de 9 minutos.** Vienen a cantar, no a escuchar.
-3. **El kirtan es el corazón.** Es el bloque más largo y el que hace que
-   vuelvan. Si algo hay que recortar, se recorta la charla.
-4. **El silencio no se salta.** Es donde la gente nota lo que ha pasado.
-5. **Nada de sermón.** Se canta y se explica lo que se canta. Las preguntas se
-   contestan cuando se hacen, no antes.
+1. **Se empieza y se acaba a la hora.** Salir tarde una vez es no volver.
+2. **Ninguna explicación pasa de tres minutos.** Ni la primera.
+3. **La pronunciación es el corazón.** Es donde se llevan algo que no tenían. Si
+   hay que recortar, se recorta explicación, nunca pronunciación.
+4. **El asentamiento no se salta.** Es donde notan lo que ha pasado.
+5. **Nada de sermón.** Se canta y se explica lo que se canta.
 6. **Se dice la fecha del mes que viene en voz alta**, y se deja escrita en la
    pizarra o en la recepción del centro.
 
 ## Material que llevas siempre
 
-- Armonio (o el instrumento que uses) y karatalas.
-- Malas de repuesto: 15-20. Mucha gente no tiene.
-- Hojas de mantras impresas: 30. Ver `material-alumno/hoja-mantras.md`.
+- Hojas del mes impresas: 30. Ver `material-alumno/`.
+- Instrumento y karatalas, en la bolsa, por si sale kirtan. No a la vista desde
+  el principio.
+- Malas de repuesto: 10-15, para quien quiera repetir en casa.
 - Un plato o cesta pequeña para el donativo. Discreto, junto a la salida.
-- Una hoja en blanco para apuntar los nombres de quien quiera aviso del
-  siguiente taller.
+- Una hoja en blanco para los nombres de quien quiera aviso del siguiente.
 
 ## Montaje de la sala
 
 - Círculo o semicírculo. Nunca filas mirando al frente. Esto no es una clase.
 - Tú al mismo nivel que ellos, sentado en el suelo. Sin tarima.
-- Luz baja pero no a oscuras. La gente tiene que poder leer la hoja.
+- **Luz suficiente para leer.** En la pronunciación necesitan ver la hoja, así
+  que aquí no vale la penumbra.
 - Cojines o mantas dobladas. Casi todos los centros los tienen.
-- Prueba de sonido antes de que entre nadie. Llega 30 minutos antes.
+- Llega 30 minutos antes.
 
 ## Cómo abrir (primeros 5 minutos)
 
-Di estas cuatro cosas y nada más:
+Cuatro cosas y nada más:
 
-1. Quién eres y desde cuándo cantas.
-2. Que esto dura una hora exacta y se acaba a las X.
-3. Que no hace falta saber cantar ni saber sánscrito. Se repite y ya.
-4. Que quien no quiera cantar puede escuchar. Nadie mira a nadie.
+1. Quién eres y desde cuándo practicas.
+2. Que dura una hora exacta y se acaba a las X.
+3. Que hoy se llevan un verso concreto, bien pronunciado y entendido.
+4. Que no hace falta saber sánscrito ni saber cantar. Se repite y ya.
 
-La cuarta frase es la más importante. Quita el miedo de la sala.
+La cuarta es la más importante. Quita el miedo de la sala.
 
 ## Cómo cerrar (últimos 4 minutos)
 
-1. Una frase sobre cómo seguir en casa: diez minutos al día, a la misma hora.
-2. Reparte la hoja de mantras. Se la llevan.
+1. Cómo practicar en casa: diez minutos al día, a la misma hora.
+2. Reparte la hoja del mes. Se la llevan.
 3. Fecha del próximo taller, en voz alta y escrita.
 4. "Si quieres que te avise, apunta tu nombre aquí."
 5. Gracias al centro, por su nombre, delante de todos.
 
 Nada de venta. Nada de "y si te interesa profundizar". Se acabó.
 
-## Los ocho temas
+## El repertorio
 
-Cada uno completo en sí mismo. Un recién llegado no se pierde y quien repite no
-repite. Ocho temas dan ocho meses.
-
-1. El sonido como práctica: qué es el mantra yoga
-2. Respiración y voz
-3. Japa: el mala y la práctica diaria
-4. Kirtan: por qué se canta en grupo
-5. Los mantras clásicos: Om y el maha-mantra
-6. Mantra y mente: atención, distracción, constancia
-7. Sánscrito para quien canta: pronunciación y sentido
-8. Bhakti: la devoción como método
+Un mantra por mes, cada sesión completa en sí misma. Ver `repertorio.md`.
