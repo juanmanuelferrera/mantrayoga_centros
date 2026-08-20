@@ -1,16 +1,25 @@
 % Cartel del taller — Mantra Yoga
-% No se compila directamente: usa ./build.sh
-% Rellena los seis campos de abajo y vuelve a compilar.
+% Compilar con ./build.sh  (no directamente)
+% Rellena los campos de abajo y vuelve a compilar.
 
-% ====================== RELLENA ESTO ======================
+% ===================== RELLENA ESTO =====================
 \def\TEMA{El sonido y el pra\d{n}ava}
-\def\DIA{Jueves 15 de octubre}
-\def\HORA{19:00}
+\def\DOW{Jueves}
+\def\NUM{15}
+\def\MES{Octubre}
+\def\HORA{19:00 h}
 \def\CENTRO{Yoga Espacio Vital}
-\def\RESERVA{info@yogaespaciovital.com}
-% ==========================================================
+\def\DIRECCION{Pl. de la Misericordia 9, Alicante}
+\def\CANAL{wa}                      % tel | wa | tg
+\def\TELEFONO{617 22 24 55}
+\def\CONTACTO{yogaespaciovital.com}
+\def\FIJO{Todos los terceros jueves}
+\def\LOGO{}                          % ruta a un PNG, o vacio
+\def\LOGOPOS{centro}                 % centro | arriba
+% ========================================================
 
 \ifx\FORMATO\undefined \def\FORMATO{a4} \fi
+\ifx\FONDO\undefined   \def\FONDO{claro} \fi
 
 \documentclass{article}
 \usepackage{fontspec}
@@ -18,78 +27,149 @@
 \usepackage{xcolor}
 \usepackage{colortbl}
 \usepackage{amssymb}
+\usepackage{tabularx}
+\usepackage{graphicx}
 \usepackage{etoolbox}
+\usepackage{tikz}
 
-\definecolor{tinta}{HTML}{1A1A1A}
-\definecolor{ocre}{HTML}{9C5A28}
-\definecolor{gris}{HTML}{6B6B6B}
-\definecolor{papel}{HTML}{FBFAF8}
+% ---------- color ----------
+\ifdefstring{\FONDO}{oscuro}{
+  \definecolor{papel}{HTML}{14181A}\definecolor{tinta}{HTML}{EFEFE8}
+  \definecolor{tenue}{HTML}{8B9490}\definecolor{acento}{HTML}{E2705C}
+  \definecolor{marca}{HTML}{5A6562}\definecolor{filete}{HTML}{333B3E}
+}{
+  \definecolor{papel}{HTML}{F0F0EA}\definecolor{tinta}{HTML}{15181A}
+  \definecolor{tenue}{HTML}{5B6461}\definecolor{acento}{HTML}{A63A2A}
+  \definecolor{marca}{HTML}{B6BCB7}\definecolor{filete}{HTML}{CFD4CD}
+}
+
+% ---------- formato y escala ----------
+\ifdefstring{\FORMATO}{a4}{\geometry{paperwidth=210mm,paperheight=297mm,margin=15mm}\def\U{1.00}}{}
+\ifdefstring{\FORMATO}{cuadrado}{\geometry{paperwidth=1080bp,paperheight=1080bp,margin=76bp}\def\U{1.36}}{}
+\ifdefstring{\FORMATO}{story}{\geometry{paperwidth=1080bp,paperheight=1920bp,margin=90bp}\def\U{1.55}}{}
+
+\newcommand{\sz}[1]{\fpeval{#1*\U}}
 
 \setmainfont{Palatino}
-\newfontfamily\titular{Helvetica Neue}[UprightFont={* Medium}, BoldFont={* Bold}, ItalicFont={* Italic}]
+\newfontfamily\display{Didot}[BoldFont={Didot Bold}]
+\newfontfamily\mono{Menlo}
 
-% --- Tamaños según formato ---
-\ifdefstring{\FORMATO}{cuadrado}{
-  \geometry{paperwidth=1080bp, paperheight=1080bp, margin=80bp}
-  \def\SZTIT{86}\def\SZSUB{27}\def\SZTEMA{25}\def\SZFECHA{54}\def\SZCENTRO{33}
-  \def\SZNOTA{23}\def\SZGRATIS{62}\def\SZPIE{18}\def\SZFOOT{15}
-  \def\SZHORA{34}\def\UNIDAD{18bp}
-}{}
-\ifdefstring{\FORMATO}{story}{
-  \geometry{paperwidth=1080bp, paperheight=1920bp, margin=90bp}
-  \def\SZTIT{96}\def\SZSUB{30}\def\SZTEMA{28}\def\SZFECHA{62}\def\SZCENTRO{37}
-  \def\SZNOTA{26}\def\SZGRATIS{72}\def\SZPIE{21}\def\SZFOOT{17}
-  \def\SZHORA{39}\def\UNIDAD{20bp}
-}{}
-\ifdefstring{\FORMATO}{a4}{
-  \geometry{a4paper, margin=22mm}
-  \def\SZTIT{54}\def\SZSUB{17}\def\SZTEMA{16}\def\SZFECHA{36}\def\SZCENTRO{21}
-  \def\SZNOTA{15}\def\SZGRATIS{40}\def\SZPIE{12}\def\SZFOOT{9}
-  \def\SZHORA{23}\def\UNIDAD{11bp}
-}{}
-
-\newlength{\U}
-\setlength{\U}{\UNIDAD}
-
-\pagecolor{papel}
+\pagecolor{papel}\color{tinta}
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
 
-\newcommand{\linea}[1]{{\color{ocre}\rule{\textwidth}{#1}}}
-\newcommand{\tx}[3]{{#1\fontsize{#2}{\fpeval{#2*1.15}}\selectfont #3\par}}
+\newcommand{\pon}[3]{{#1\fontsize{\sz{#2}}{\fpeval{\sz{#2}*1.14}}\selectfont #3\par}}
+\newcommand{\etiqueta}[1]{{\mono\fontsize{\sz{8}}{\sz{11}}\selectfont\color{tenue}\MakeUppercase{#1}\par}}
+
+% ---------- el logo ----------
+\newcommand{\ellogo}[1]{%
+  \ifx\LOGO\empty\else\includegraphics[height=\sz{#1}bp,keepaspectratio]{\LOGO}\fi}
+\newcommand{\haylogo}{\ifx\LOGO\empty 0\else 1\fi}
+
+% ---------- la banda de silabas ----------
+\newcommand{\sil}[1]{%
+  \ifnum#1=1 \textcolor{marca}{\rule{\sz{11}bp}{\sz{6}bp}}%
+  \else \textcolor{marca!42}{\rule{\sz{11}bp}{\sz{6}bp}}\fi\hspace{\sz{4}bp}}
+\newcommand{\pada}[8]{\sil{#1}\sil{#2}\sil{#3}\sil{#4}\sil{#5}\sil{#6}\sil{#7}\sil{#8}}
+\newcommand{\sloka}{%
+  \pada01011010\hspace{\sz{9}bp}\pada01101011\hspace{\sz{9}bp}%
+  \pada10110100\hspace{\sz{9}bp}\pada01011010}
+
+% ---------- iconos ----------
+\newcommand{\icono}{%
+  \raisebox{-0.2\height}{\begin{tikzpicture}[x=\sz{1.25}pt,y=\sz{1.25}pt,
+      line width=\sz{1.15}pt,draw=acento,line cap=round,line join=round]
+    \ifdefstring{\CANAL}{wa}{
+      \draw[rounded corners=1.8] (-5,-1.6) rectangle (5,5);
+      \draw (-3.2,-1.6) -- (-3.9,-4.6) -- (-0.6,-1.6);
+    }{}
+    \ifdefstring{\CANAL}{tg}{
+      \draw (5.4,4.4) -- (-2.0,-0.6) -- (-5.4,0.8) -- (5.4,4.4) -- (0.4,-5.0) -- (-2.0,-0.6);
+    }{}
+    \ifdefstring{\CANAL}{tel}{
+      \draw (-4.4,4.6) -- (-1.6,4.6) -- (-0.6,1.8) -- (-2.4,0.6)
+            .. controls (-1.2,-2.0) and (1.0,-3.6) .. (3.0,-4.2)
+            -- (4.2,-2.6) -- (5.0,-5.0) -- (2.2,-5.4);
+    }{}
+  \end{tikzpicture}}}
 
 \begin{document}
-\color{tinta}
-\centering
 
-\linea{2.5pt}
-\vspace{2.0\U}
+% ================= 1. cabecera: el local =================
+\noindent
+\begin{minipage}[b]{0.56\textwidth}
+  \ifnum\haylogo=1 \ifdefstring{\LOGOPOS}{arriba}{\ellogo{56}}{}\fi
+\end{minipage}\hfill
+\begin{minipage}[b]{0.42\textwidth}
+  \raggedleft{\mono\fontsize{\sz{8}}{\sz{11}}\selectfont\color{tenue}\MakeUppercase{\FIJO}}
+\end{minipage}
 
-\tx{\titular\bfseries}{\SZTIT}{MANTRA YOGA}
-\vspace{1.2\U}
-\tx{\titular\color{gris}}{\SZSUB}{Aprende a cantar los mantras clásicos en sánscrito}
+\vspace{\sz{7}bp}
+{\color{filete}\rule{\textwidth}{0.6pt}}
 
+% ================= 2. identidad =================
+\vspace{\sz{24}bp}
+\pon{\display\bfseries}{76}{Mantra}
+\vspace{\sz{-20}bp}
+\pon{\display\bfseries}{76}{Yoga}
+\vspace{\sz{12}bp}
+\noindent{\color{acento}\rule{\sz{78}bp}{1.8pt}}\par
+\vspace{\sz{12}bp}
+\noindent\parbox{0.68\textwidth}{%
+  \raggedright\hyphenpenalty=10000\exhyphenpenalty=10000
+  \color{tenue}\fontsize{\sz{15}}{\fpeval{\sz{15}*1.32}}\selectfont
+  Aprende a cantar los mantras cl\'asicos en s\'anscrito}\par
+
+% ================= banda de silabas =================
+% ================= logo en el centro =================
 \vspace{\stretch{1}}
+\ifnum\haylogo=1 \ifdefstring{\LOGOPOS}{centro}{%
+  \begin{center}\ellogo{88}\end{center}}{}\fi
+\vspace{\stretch{1.1}}
 
-\tx{\titular\color{ocre}}{\SZTEMA}{Tema de este mes: \TEMA}
-\vspace{1.3\U}
-\tx{\titular\bfseries}{\SZFECHA}{\DIA}
-\vspace{0.45\U}
-\tx{\titular\bfseries\color{ocre}}{\SZHORA}{\HORA\ h}
-\vspace{0.9\U}
-\tx{}{\SZCENTRO}{\CENTRO}
+% ================= banda de silabas =================
+\noindent\sloka
+\vspace{\sz{22}bp}
 
-\vspace{\stretch{1.15}}
+% ================= 3. la fecha =================
+\noindent
+\begin{minipage}[b]{0.40\textwidth}
+  {\display\bfseries\fontsize{\sz{92}}{\sz{92}}\selectfont \NUM}
+\end{minipage}%
+\begin{minipage}[b]{0.58\textwidth}
+  \vspace{0pt}
+  {\mono\fontsize{\sz{13}}{\sz{18}}\selectfont\color{tenue}\MakeUppercase{\DOW}\par}
+  \vspace{\sz{4}bp}
+  {\display\fontsize{\sz{25}}{\sz{27}}\selectfont \MES\par}
+  \vspace{\sz{4}bp}
+  {\mono\bfseries\fontsize{\sz{13}}{\sz{17}}\selectfont\color{acento}\MakeUppercase{\HORA}\par}
+\end{minipage}
 
-\tx{}{\SZNOTA}{Una hora. No hace falta experiencia ni saber sánscrito.}
-\vspace{1.2\U}
-\tx{\titular\bfseries\color{ocre}}{\SZGRATIS}{GRATUITO}
-\vspace{1.0\U}
-\tx{\color{gris}}{\SZPIE}{Plazas limitadas · Reserva en \RESERVA}
+% ================= 4. barra =================
+\vspace{\sz{15}bp}
+\noindent\colorbox{acento}{%
+  \begin{minipage}{\dimexpr\textwidth-2\fboxsep}
+    \color{papel}\mono\fontsize{\sz{10}}{\sz{14}}\selectfont
+    \vspace{\sz{3}bp}
+    \textbf{GRATUITO}\hfill UNA HORA {\small$\cdot$} SIN EXPERIENCIA PREVIA
+    \vspace{\sz{3}bp}
+  \end{minipage}}
 
-\vspace{2.0\U}
-\linea{1pt}
-\vspace{0.9\U}
-\tx{\titular\color{gris}}{\SZFOOT}{Centros de Bhakti yoga · bhaktiyoga.es}
+% ================= 5. reticula de datos =================
+\vspace{\sz{15}bp}
+\noindent
+\begin{tabularx}{\textwidth}{@{}X@{\hspace{\sz{22}bp}}X@{}}
+\arrayrulecolor{filete}\hline\noalign{\vspace{\sz{7}bp}}
+\etiqueta{Tema de este mes}\vspace{\sz{3}bp}
+  {\itshape\fontsize{\sz{14}}{\sz{18}}\selectfont\TEMA} &
+\etiqueta{D\'onde}\vspace{\sz{3}bp}
+  {\fontsize{\sz{14}}{\sz{18}}\selectfont\CENTRO\par
+   \fontsize{\sz{12}}{\sz{16}}\selectfont\color{tenue}\DIRECCION} \\[\sz{9}bp]
+\hline\noalign{\vspace{\sz{7}bp}}
+\etiqueta{Reservas}\vspace{\sz{3}bp}
+  {\fontsize{\sz{14}}{\sz{18}}\selectfont\icono\hspace{\sz{4}bp}\TELEFONO} &
+\etiqueta{M\'as informaci\'on}\vspace{\sz{3}bp}
+  {\fontsize{\sz{14}}{\sz{18}}\selectfont\CONTACTO} \\[\sz{5}bp]
+\end{tabularx}
 
 \end{document}

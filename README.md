@@ -21,7 +21,7 @@ bhaktiyoga.es).
 
 | Qué | Dónde |
 |---|---|
-| Productor de carteles | `comunicacion/cartel/cartel.html` (ábrelo en el navegador) |
+| Productor de carteles | `comunicacion/cartel/` — edita `cartel.tex` y ejecuta `./build.sh` |
 | Copia en línea del productor | https://claude.ai/code/artifact/24fc66da-d47d-49f9-bd61-d96e08a50402 |
 | Repositorio | https://github.com/juanmanuelferrera/mantrayoga_centros |
 | Web de la entidad | https://bhaktiyoga.es |

@@ -14,82 +14,34 @@ local**: la página publicada bloquea las descargas.
 
 Y hay una versión LaTeX en `cartel/cartel.tex` para PDF vectorial.
 
-## Cómo guardar un cartel
+## Cómo sacar los carteles
 
-1. Abre `cartel/cartel.html` en el navegador y rellena los campos.
-2. Pulsa **Guardar cuadrado**, **Guardar story** o **Guardar A4**.
-3. En el diálogo elige **PDF → Guardar como PDF**, y marca **Print
-   backgrounds** en la sección de Safari (si no, no imprime los fondos).
-   Para papel, **Double-sided → Off**.
-4. Guarda los PDF en una carpeta y ejecuta `pdf-a-png.sh` dentro de ella.
+**Usa la versión LaTeX.** Es la que da los archivos definitivos, con el tamaño
+exacto y sin depender del navegador.
 
-### Por qué el rodeo
+1. Abre `comunicacion/cartel/cartel.tex` y rellena los campos de arriba: tema,
+   día de la semana, número, mes, hora, centro, dirección, canal (`tel`, `wa` o
+   `tg`), número, contacto, posición fija y, si lo tienes, la ruta al logo.
+2. Ejecuta `./build.sh` en esa carpeta.
+3. Salen seis archivos: PDF y PNG de los tres formatos.
 
-Una página web no puede generar un PNG de esto por sí sola sin librerías
-externas. Y Safari **no respeta `@page { margin: 0 }`**: aplica siempre los
-márgenes mínimos de la impresora, así que un cartel del tamaño exacto del papel
-no cabe, se corta por la derecha y lo que sobra cae en una segunda hoja.
+| Archivo | Para qué |
+|---|---|
+| `cartel-a4.pdf` | Imprimir y colgar. Fondo claro, llena la hoja, una sola página |
+| `cartel-cuadrado.png` | Feed de Instagram. 1080 × 1080, fondo oscuro |
+| `cartel-story.png` | Stories. 1080 × 1920, fondo oscuro |
 
-Tampoco sirve `100vh`: en Safari eso es el papel entero (297 mm), no el hueco
-útil. Y encima Safari imprime cabecera y pie con la URL, la fecha y el número de
-página, que roban otros 20 mm.
+Para cambiar el fondo de un formato, edita la llamada correspondiente en
+`build.sh` (`claro` u `oscuro`).
 
-**Por eso lo primero es desmarcar «Print headers and footers»** en la sección
-Safari del diálogo. Además de recuperar ese espacio, quita la URL y la fecha,
-que se estaban imprimiendo encima del cartel.
+### La versión HTML
 
-Luego, con el deslizador **Escala al imprimir**, sube hasta que llene la hoja en
-la vista previa; si aparece una segunda página, baja un punto. Depende de cada
-impresora y se ajusta una sola vez.
-
-Si esto acaba cansando, el A4 se puede generar con LaTeX (`cartel.tex`), que da
-un PDF exacto sin pasar por el navegador ni por sus márgenes. Haría falta
-rehacer en LaTeX el diseño nuevo.
-
-Para redes ese ajuste da igual: `pdf-a-png.sh` recorta el margen blanco y
-devuelve la imagen a su medida real — 1080×1080 el cuadrado, 1080×1920 el story
-y 1240×1754 el A4 (150 dpi).
-
-Necesita ImageMagick: `brew install imagemagick`.
-
-Se lo mandas al centro el mismo día que dice que sí. Cuanto menos tenga que
-hacer el centro, más lo publica.
-
-Formatos que hay que entregar:
-- **Cuadrado 1080x1080** para el feed de Instagram.
-- **Vertical 1080x1920** para stories.
-- **A4 vertical** para imprimir y colgar en la puerta y el vestuario.
-
----
-
-## Texto del cartel
-
-**MANTRA YOGA**
-
-*Aprende a cantar los mantras clásicos en sánscrito*
-
-[DÍA] [FECHA] · [HORA]
-[NOMBRE DEL CENTRO]
-
-Una hora. Cada mes, un tema distinto.
-No hace falta experiencia ni saber sánscrito.
-
-**Gratuito**
-
-Plazas limitadas · Reserva en [contacto del centro]
-
----
-
-## Variante para los meses siguientes
-
-Debajo del título, en pequeño:
-
-*Tema de este mes: [tema]*
-
-Sirve para que quien ya vino sepa que no repite. Es la línea que trae de vuelta
-a los repetidores, así que no la quites.
-
----
+`cartel.html` sigue ahí y es más cómoda para probar textos y ver los tres
+formatos a la vez en vivo. Pero **no la uses para generar los archivos
+finales**: Safari no permite controlar los márgenes de impresión ni desactivar
+sus cabeceras desde el documento, así que el resultado depende de ajustes del
+diálogo y sale distinto en cada impresora. Sirve para decidir; LaTeX, para
+producir.
 
 ## El logo del centro
 
