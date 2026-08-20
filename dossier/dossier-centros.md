@@ -113,3 +113,20 @@ Responde a este correo con dos o tres fechas que te vengan bien y lo cerramos.
 - Una sola foto si acaso: gente cantando en círculo, real, no de banco de
   imágenes.
 - Rellenar antes de enviar: el móvil. Es el único dato que falta.
+
+---
+
+## Cómo se genera el PDF
+
+La maqueta está en `dossier-centros.tex`. Este archivo `.md` es la fuente del
+texto; si cambias el texto, cámbialo en los dos sitios.
+
+```
+cd dossier && xelatex dossier-centros.tex
+```
+
+Requiere XeLaTeX (viene con MacTeX) y las fuentes Palatino y Helvetica Neue, que
+ya están en macOS.
+
+**El PDF tiene que caber en dos páginas.** Si al añadir texto salen tres,
+recorta. Un dossier de tres páginas no se lee.
