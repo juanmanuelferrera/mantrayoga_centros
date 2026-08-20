@@ -86,9 +86,10 @@ body{
   transform-origin:top left; background:var(--p-bg); color:var(--p-ink);
   display:flex; flex-direction:column; font-family:"Gentium Book Plus",Georgia,serif;
 }
-.board.sq{width:1080px; height:1080px; padding:76px 78px 70px}
-.board.st{width:1080px; height:1920px; padding:120px 88px 110px}
-.board.a4{width:794px;  height:1123px; padding:58px 54px 52px}
+.board{--u:1}
+.board.sq{width:calc(1080px*var(--u)); height:calc(1080px*var(--u)); padding:calc(76px*var(--u)) calc(78px*var(--u)) calc(70px*var(--u))}
+.board.st{width:calc(1080px*var(--u)); height:calc(1920px*var(--u)); padding:calc(120px*var(--u)) calc(88px*var(--u)) calc(110px*var(--u))}
+.board.a4{width:calc(794px*var(--u));  height:calc(1123px*var(--u)); padding:calc(58px*var(--u)) calc(54px*var(--u)) calc(52px*var(--u))}
 
 .mono{font-family:"IBM Plex Mono",monospace; text-transform:uppercase; letter-spacing:.22em; font-weight:500}
 
@@ -165,9 +166,9 @@ body{
 
 .grow{flex:1 1 auto; min-height:.8em}
 
-.sq{--logo:152px; --k:13px; --t:98px;  --s:26px; --rule:110px; --num:158px; --dow:24px; --mes:40px; --hora:26px; --bar:16px; --val:24px; --sw:16px; --sh:9px}
-.st{--logo:198px; --k:16px; --t:122px; --s:32px; --rule:136px; --num:200px; --dow:30px; --mes:50px; --hora:32px; --bar:20px; --val:30px; --sw:20px; --sh:11px}
-.a4{--logo:138px; --k:11px; --t:88px;  --s:23px; --rule:98px;  --num:146px; --dow:21px; --mes:36px; --hora:22px; --bar:14px; --val:21px; --sw:14px; --sh:8px}
+.sq{--logo:calc(152px*var(--u)); --k:calc(13px*var(--u)); --t:calc(98px*var(--u)); --s:calc(26px*var(--u)); --rule:calc(110px*var(--u)); --num:calc(158px*var(--u)); --dow:calc(24px*var(--u)); --mes:calc(40px*var(--u)); --hora:calc(26px*var(--u)); --bar:calc(16px*var(--u)); --val:calc(24px*var(--u)); --sw:calc(16px*var(--u)); --sh:calc(9px*var(--u))}
+.st{--logo:calc(198px*var(--u)); --k:calc(16px*var(--u)); --t:calc(122px*var(--u)); --s:calc(32px*var(--u)); --rule:calc(136px*var(--u)); --num:calc(200px*var(--u)); --dow:calc(30px*var(--u)); --mes:calc(50px*var(--u)); --hora:calc(32px*var(--u)); --bar:calc(20px*var(--u)); --val:calc(30px*var(--u)); --sw:calc(20px*var(--u)); --sh:calc(11px*var(--u))}
+.a4{--logo:calc(138px*var(--u)); --k:calc(11px*var(--u)); --t:calc(88px*var(--u)); --s:calc(23px*var(--u)); --rule:calc(98px*var(--u)); --num:calc(146px*var(--u)); --dow:calc(21px*var(--u)); --mes:calc(36px*var(--u)); --hora:calc(22px*var(--u)); --bar:calc(14px*var(--u)); --val:calc(21px*var(--u)); --sw:calc(14px*var(--u)); --sh:calc(8px*var(--u))}
 
 .board .mono,.board .k{font-size:var(--k)}
 .board .z-title{font-size:var(--t)}
@@ -196,7 +197,7 @@ body{
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 
 @media print{
-  html,body{margin:0; padding:0; height:auto; overflow:hidden}
+  html,body{margin:0; padding:0; height:auto}
   .masthead,.panel,.help,.slot-label{display:none!important}
   body{background:#fff}
   .wrap{padding:0!important; margin:0!important; max-width:none; gap:0!important; display:block}
@@ -222,12 +223,14 @@ body{
   /* Safari no respeta @page{margin:0} y usa los margenes minimos de la
      impresora, asi que un cartel del tamano exacto del papel no cabe: se
      corta por la derecha y lo que sobra cae en una segunda hoja.
-     Con zoom encoge la caja entera (no solo el dibujo) y siempre cabe.
+     Se encoge con un factor real (--u), no con zoom: zoom dibuja mas pequeno
+     pero Safari sigue paginando con el tamano original y deja una hoja en
+     blanco detras.
      El margen blanco que queda lo recorta despues pdf-a-png.sh. */
-  html[data-print="sq"] .board.sq{zoom:.86}
-  html[data-print="st"] .board.st{zoom:.86}
+  html[data-print="sq"] .board.sq{--u:.86}
+  html[data-print="st"] .board.st{--u:.86}
   html[data-print="a4"] .board.a4{
-    zoom:.84;
+    --u:.80;
     --p-bg:#F0F0EA; --p-ink:#15181A; --p-dim:#5B6461;
     --p-accent:#A63A2A; --p-mark:#B6BCB7; --p-rule:#CFD4CD;
   }
