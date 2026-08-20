@@ -219,12 +219,15 @@ body{
   html[data-print="st"] .slot:not(.slot-st),
   html[data-print="a4"] .slot:not(.slot-a4){display:none!important}
 
-  /* una pizca por debajo del alto de pagina: 297 mm exactos provocan
-     una segunda hoja en blanco por redondeo */
-  html[data-print="sq"] .board.sq{width:1080px; height:1078px}
-  html[data-print="st"] .board.st{width:1080px; height:1918px}
+  /* Safari no respeta @page{margin:0} y usa los margenes minimos de la
+     impresora, asi que un cartel del tamano exacto del papel no cabe: se
+     corta por la derecha y lo que sobra cae en una segunda hoja.
+     Con zoom encoge la caja entera (no solo el dibujo) y siempre cabe.
+     El margen blanco que queda lo recorta despues pdf-a-png.sh. */
+  html[data-print="sq"] .board.sq{zoom:.86}
+  html[data-print="st"] .board.st{zoom:.86}
   html[data-print="a4"] .board.a4{
-    width:210mm; height:296.4mm; padding:16mm 15mm 14mm;
+    zoom:.84;
     --p-bg:#F0F0EA; --p-ink:#15181A; --p-dim:#5B6461;
     --p-accent:#A63A2A; --p-mark:#B6BCB7; --p-rule:#CFD4CD;
   }
@@ -295,11 +298,16 @@ body{
       <button class="switch save" data-save="a4">Guardar A4</button>
     </div>
     <p class="help" style="margin:0">
-      Cada botón abre el diálogo de impresión con el tamaño exacto de ese
-      formato. En el diálogo elige <b>PDF → Guardar como PDF</b>. El A4 sale
-      siempre en claro; el cuadrado y el story salen con el fondo que tengas
-      puesto. Para convertir esos PDF en PNG de 1080 px, ejecuta
-      <code>./pdf-a-png.sh</code> en la carpeta donde los guardes.
+      Cada botón abre el diálogo de impresión con el tamaño de ese formato. En
+      el diálogo elige <b>PDF → Guardar como PDF</b>, y marca
+      <b>Print backgrounds</b> en la sección de Safari. El A4 sale siempre en
+      claro; el cuadrado y el story, con el fondo que tengas puesto.
+      <br><br>
+      El cartel se imprime algo reducido a propósito, porque Safari impone los
+      márgenes mínimos de la impresora y a tamaño completo se partiría en dos
+      hojas. Ese margen blanco lo recorta
+      <code>./pdf-a-png.sh</code>, que además devuelve el PNG al tamaño exacto:
+      1080 px el cuadrado y el story, 150 dpi el A4.
     </p>
   </section>
 

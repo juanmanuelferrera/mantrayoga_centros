@@ -18,14 +18,22 @@ Y hay una versión LaTeX en `cartel/cartel.tex` para PDF vectorial.
 
 1. Abre `cartel/cartel.html` en el navegador y rellena los campos.
 2. Pulsa **Guardar cuadrado**, **Guardar story** o **Guardar A4**.
-3. En el diálogo de impresión elige **PDF → Guardar como PDF**.
-4. Para redes hace falta PNG: guarda los PDF en una carpeta y ejecuta
-   `comunicacion/cartel/pdf-a-png.sh` dentro de ella. Convierte el cuadrado y el
-   story a 1080 px exactos y el A4 a 150 dpi.
+3. En el diálogo elige **PDF → Guardar como PDF**, y marca **Print
+   backgrounds** en la sección de Safari (si no, no imprime los fondos).
+4. Guarda los PDF en una carpeta y ejecuta `pdf-a-png.sh` dentro de ella.
+
+### Por qué el rodeo
 
 Una página web no puede generar un PNG de esto por sí sola sin librerías
-externas, así que el rodeo por PDF no es pereza: es el único camino que da el
-tamaño exacto.
+externas. Y Safari **no respeta `@page { margin: 0 }`**: aplica siempre los
+márgenes mínimos de la impresora, así que un cartel del tamaño exacto del papel
+no cabe, se corta por la derecha y lo que sobra cae en una segunda hoja.
+
+Por eso el cartel se imprime algo reducido y con margen blanco alrededor. Ese
+margen lo recorta `pdf-a-png.sh`, que además devuelve la imagen a su medida
+real: 1080×1080 el cuadrado, 1080×1920 el story y 1240×1754 el A4 (150 dpi).
+
+Necesita ImageMagick: `brew install imagemagick`.
 
 Se lo mandas al centro el mismo día que dice que sí. Cuanto menos tenga que
 hacer el centro, más lo publica.

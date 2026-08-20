@@ -1,8 +1,13 @@
 #!/bin/bash
 # Convierte los PDF guardados desde cartel.html en PNG del tamaño exacto.
 #
-#   1080 px de ancho para el cuadrado y el story (Instagram)
-#   150 dpi para el A4 (calidad de impresión)
+# El navegador imprime el cartel algo reducido y con margen blanco, porque
+# Safari impone los márgenes mínimos de la impresora. Este script recorta ese
+# margen y devuelve la imagen a su medida real:
+#
+#   cuadrado → 1080 × 1080
+#   story    → 1080 × 1920
+#   A4       → 1240 × 1754 (150 dpi)
 #
 # Uso: ./pdf-a-png.sh [carpeta]   (por defecto, la carpeta actual)
 
@@ -10,29 +15,34 @@ set -e
 DIR="${1:-.}"
 cd "$DIR"
 
+command -v magick >/dev/null || { echo "Falta ImageMagick: brew install imagemagick"; exit 1; }
+
 shopt -s nullglob
 hechos=0
 
 for f in *.pdf; do
   base="${f%.pdf}"
-  # tamaño de página en puntos, para saber qué formato es
-  medidas=$(pdfinfo "$f" 2>/dev/null | awk '/Page size/{print $3, $5}')
-  ancho=${medidas%% *}
-  alto=${medidas##* }
+  tmp="/tmp/cartel-$$.png"
 
-  if [ -z "$ancho" ]; then
-    echo "  saltado (no es un PDF legible): $f"
-    continue
-  fi
+  # Se rasteriza en grande, se aplana sobre blanco y se recorta el margen.
+  magick -density 300 "$f[0]" -background white -flatten \
+         -fuzz 2% -trim +repage "$tmp"
 
-  # A4 son 595 x 842 puntos; el resto son los carteles de redes
-  if [ "${ancho%.*}" -lt 620 ] && [ "${alto%.*}" -gt 800 ]; then
-    pdftoppm -png -r 150 -singlefile "$f" "$base"
-    echo "  A4 a 150 dpi   → $base.png"
+  # La proporción de lo recortado dice qué formato es.
+  read -r w h < <(magick identify -format "%w %h" "$tmp")
+  ratio=$(echo "scale=4; $w / $h" | bc)
+
+  if (( $(echo "$ratio > 0.90" | bc -l) )); then
+    destino="1080x1080!"; etiqueta="cuadrado 1080×1080"
+  elif (( $(echo "$ratio < 0.62" | bc -l) )); then
+    destino="1080x1920!"; etiqueta="story 1080×1920"
   else
-    pdftoppm -png -r 96 -singlefile "$f" "$base"
-    echo "  1080 px        → $base.png"
+    destino="1240x1754!"; etiqueta="A4 a 150 dpi"
   fi
+
+  magick "$tmp" -resize "$destino" -strip "$base.png"
+  rm -f "$tmp"
+  echo "  $etiqueta → $base.png"
   hechos=$((hechos+1))
 done
 
