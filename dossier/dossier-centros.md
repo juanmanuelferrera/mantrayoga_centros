@@ -115,13 +115,15 @@ insistir. No hay nada más.
 
 **Mis alumnos no van a querer cantar.** Es lo que dicen todos los centros y
 luego cantan. Empiezo muy bajito y aviso de que quien no quiera cantar puede
-escuchar. Nadie se siente señalado.
+escuchar.
 
 ---
 
-### El siguiente paso
+### Cómo seguimos
 
-Responde a este correo con dos o tres fechas que te vengan bien y lo cerramos.
+No hace falta que decidas nada ahora ni que contestes a esto. Me pasaré un día
+de estos por el centro a saludar y, si pillo buen momento, te lo cuento en cinco
+minutos y decides con calma. Si prefieres que avisemos antes, dime tú el día.
 
 **info@bhaktiyoga.es** · **687 35 76 60**
 

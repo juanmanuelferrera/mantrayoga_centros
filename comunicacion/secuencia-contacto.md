@@ -1,21 +1,23 @@
 # Secuencia de contacto
 
-Tres pasos, doce días. El primero no pide nada, el segundo pide una cita, el
-tercero cierra.
+**El email no cierra nada. El email prepara la visita.**
 
-| Paso | Cuándo | Qué se pide |
+Un estudio de yoga pequeño casi nunca contesta un correo de alguien que no
+conoce. Lo que funciona es aparecer. Pero aparecer en frío te convierte en un
+comercial en la puerta; aparecer cinco días después de un email te convierte en
+"el que escribió el otro día". Esa diferencia lo es todo.
+
+| Paso | Cuándo | Qué es |
 |---|---|---|
-| 1. El envío | Día 0 | Nada. Solo que lo miren |
-| 2. La cita | Día 5 | Quince minutos en su centro, sin compromiso |
-| 3. El cierre | Día 12 | Un sí o un no |
-
-**La clave está en el paso 1: no pedir nada.** Un email que no pide nada no
-cuesta leerlo. Y como anuncia que volverás a escribir, el paso 2 deja de ser
-insistencia y pasa a ser algo ya avisado.
+| 1. El email | Día 0 | Informativo. No pide nada y anuncia que te pasarás |
+| 2. La visita | Día 4-7 | Te presentas en el centro. Quince minutos o cinco |
+| 3. El cierre | En la visita, o a los pocos días | Un día concreto, o un no |
 
 ---
 
-## Paso 1 · Día 0 · El envío
+## Paso 1 · Día 0 · El email
+
+Manda el material y anuncia la visita. Nada más.
 
 **Asunto:** Taller de mantra yoga para [Nombre del centro], sin coste
 
@@ -23,14 +25,14 @@ Hola [nombre del contacto]:
 
 Me llamo Juan Manuel Ferrera y practico y guío mantra yoga desde 1981.
 
-Te dejo aquí una hoja con un taller que estoy llevando a centros de yoga de
-Alicante: una hora al mes, para aprender a cantar bien los mantras clásicos en
-sánscrito, con su pronunciación y su sentido. Cada mes un tema distinto.
+Te dejo una hoja con un taller que estoy llevando a centros de yoga de Alicante:
+una hora al mes, para aprender a cantar bien los mantras clásicos en sánscrito,
+con su pronunciación y su sentido. Cada mes un tema distinto. Es gratuito para
+el centro y para quien venga.
 
-Es gratuito para el centro y para quien venga. No te pido nada ahora, solo que
-le eches un vistazo cuando tengas un rato.
-
-Te escribo en unos días por si te encaja.
+No te pido nada ahora. Me pasaré un día de estos por el centro a saludar y, si
+pillo buen momento, te lo cuento en cinco minutos. Si prefieres que avisemos
+antes, dime tú el día.
 
 Un saludo,
 Juan Manuel Ferrera
@@ -39,79 +41,84 @@ Centros de Bhakti yoga · bhaktiyoga.es
 
 *(Adjunto: dossier-centros.pdf, 2 páginas)*
 
----
+**La frase que hace el trabajo** es "me pasaré un día de estos". Convierte la
+visita en algo avisado. Sin ella, apareces sin más y arrancas a la defensiva.
 
-## Paso 2 · Día 5 · La cita
-
-Se responde **al mismo hilo**, sin cambiar el asunto. Si tienes su WhatsApp, por
-ahí (ver `whatsapp.md`).
-
-Hola [nombre]:
-
-¿Pudiste mirar lo que te mandé?
-
-Si te encaja aunque sea a medias, ¿te va bien que me pase quince minutos por el
-centro cualquier día de esta semana o la que viene? Sin compromiso: te lo cuento
-en persona, ves quién soy, y decides después con calma.
-
-Dime un día y una hora que te vengan bien y me adapto.
-
-Un saludo,
-Juan Manuel
-
-**Por qué funciona.** Pides quince minutos, no una hora. En su casa, no en la
-tuya. Y dices "decides después", que es lo que quita la presión de tener que
-contestar en la cita.
+Si no tienes email pero sí Instagram o WhatsApp, sirve igual. Ver `whatsapp.md`.
 
 ---
 
-## Paso 3 · Día 12 · El cierre
+## Paso 2 · Día 4-7 · La visita
 
-Una línea. Al mismo hilo.
+### Cuándo ir
 
-Hola [nombre]:
+Esto decide más que lo que digas.
 
-Te vuelvo a escribir por si se te traspapeló. Si ahora no es el momento, dímelo
-y no insisto más.
+- **Bien:** quince o veinte minutos **antes** de una clase de tarde, o justo
+  **después** de una de mañana. Hay alguien en recepción, la sala está tranquila
+  y el profesor está por allí.
+- **Mal:** en mitad de una clase. No hay nadie atendiendo, o interrumpes.
+- **Mal:** lunes a primera hora y viernes a última.
 
-Juan Manuel
+Mira su horario en la web o en Instagram antes de ir. Con eso aciertas casi
+siempre.
 
-**No hay cuarto mensaje.** Se anota "sin respuesta" en el CSV y se cierra. Se
-puede reabrir dentro de seis meses.
+### Agrupa por zona
 
----
+Cuatro o cinco centros de la misma zona en una tarde. Elche y Benidorm, día
+propio. Una visita suelta a Benidorm no compensa; cuatro, sí.
 
-## La cita
+### Qué llevas
 
-Quince minutos. Objetivo: **una fecha**, no una explicación.
+- El dossier impreso, dos o tres copias.
+- Una hoja del alumno de muestra.
+- Nada más. Sin instrumentos: no vas a hacer una demostración salvo que te la
+  pidan.
 
-**Qué llevas.** El dossier impreso (aunque ya lo tenga). Una hoja del alumno de
-muestra. Nada más. Sin instrumentos: no vas a hacer una demostración salvo que
-te la pidan.
+### Cómo entras
 
-**Los primeros dos minutos** son de escuchar. Pregunta por el centro: cuánto
-llevan, qué clases funcionan mejor, qué franja les cuesta llenar. Eso te da el
-día y la hora que vas a proponer tú después.
+> "Hola, buenas. Soy Juan Manuel, escribí un correo hace unos días sobre un
+> taller de mantra yoga. ¿Está [nombre]? Si es mal momento vuelvo otro día, sin
+> problema."
 
-**Los siguientes cinco** son tuyos. Cuenta el taller en concreto: qué pasa en
+Esas dos últimas frases son las importantes. Ofreces irte tú antes de que te lo
+tengan que decir, y eso baja la guardia de cualquiera.
+
+**Si no está la persona:** deja el dossier con su nombre escrito encima, di
+cuándo vuelves y vete. No cuentes el taller a quien no decide.
+
+### Si te atienden
+
+**Los primeros dos minutos, escucha.** Pregunta por el centro: cuánto llevan,
+qué clases van mejor, qué franja les cuesta llenar. Eso te da el día y la hora
+que vas a proponer tú luego.
+
+**Los siguientes cinco son tuyos.** Cuenta el taller en concreto: qué pasa en
 esos sesenta minutos, qué se lleva la gente a casa, qué tema harías el primer
 día. Que se lo pueda imaginar.
 
-**Los últimos ocho** son de sus preguntas. Ver `objeciones.md`.
+**El resto, sus preguntas.** Ver `objeciones.md`.
 
-**Cómo se cierra.** Nunca preguntes "¿te interesa?". Pregunta por el día:
+---
 
-> "¿Qué día de la semana os viene mejor? Yo miraría [la franja que te ha dicho
-> que le cuesta llenar]."
+## Paso 3 · El cierre
 
-Si dice que se lo tiene que pensar:
+**Nunca preguntes "¿te interesa?".** Pregunta por el día:
+
+> "¿Qué día de la semana os viene mejor? Yo miraría [la franja que acaba de
+> decirte que le cuesta llenar]."
+
+**Si dice que se lo tiene que pensar:**
 
 > "Claro. ¿Te llamo el [día concreto]?"
 
 Fecha concreta o no hay seguimiento.
 
-**Si dice que no.** "Sin problema, gracias por el rato. Si en algún momento os
+**Si dice que no:** "Sin problema, gracias por el rato. Si en algún momento os
 encaja, aquí estoy." Se anota y se cierra. Un no no se rebate.
+
+**Si no pudiste hablar con quien decide:** vuelve una segunda vez, en otra
+franja horaria. Dos visitas y se cierra la ficha.
 
 ---
 
@@ -125,5 +132,5 @@ encaja, aquí estoy." Se anota y se cierra. Un no no se rebate.
 
 ## Ritmo
 
-No más de cinco envíos nuevos por semana. Si contestan tres a la vez y no tienes
-agenda, quedas mal.
+Cinco emails por semana y una tarde de visitas. Si cierras tres centros a la vez
+y no tienes agenda para atenderlos, quedas mal.

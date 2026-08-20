@@ -20,10 +20,11 @@ bhaktiyoga.es).
 ## Cómo se usa
 
 1. Abre `centros/centros-alicante.csv` y elige los de prioridad A.
-2. Sigue `comunicacion/secuencia-contacto.md`: mandas el material, dejas pasar
-   cinco días y pides una cita de quince minutos sin compromiso.
-3. En la cita cierras un día. Cuando hay fecha, mándale al centro el cartel y el
-   texto de Instagram ya hechos.
+2. Sigue `comunicacion/secuencia-contacto.md`: mandas el email con el material
+   anunciando que te pasarás, y a los cuatro o cinco días te presentas en el
+   centro. El email prepara la visita; la visita es la que cierra.
+3. En la visita cierras un día. Cuando hay fecha, mándale al centro el cartel y
+   el texto de Instagram ya hechos.
 4. Da el taller siguiendo `programa/formato-taller.md` y el tema de
    `programa/repertorio.md`.
 5. Anota lo que pasó en `docs/metricas.md` y actualiza `centros/seguimiento.md`.
