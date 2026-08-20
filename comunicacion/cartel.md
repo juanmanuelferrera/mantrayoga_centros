@@ -20,6 +20,7 @@ Y hay una versión LaTeX en `cartel/cartel.tex` para PDF vectorial.
 2. Pulsa **Guardar cuadrado**, **Guardar story** o **Guardar A4**.
 3. En el diálogo elige **PDF → Guardar como PDF**, y marca **Print
    backgrounds** en la sección de Safari (si no, no imprime los fondos).
+   Para papel, **Double-sided → Off**.
 4. Guarda los PDF en una carpeta y ejecuta `pdf-a-png.sh` dentro de ella.
 
 ### Por qué el rodeo
@@ -29,9 +30,14 @@ externas. Y Safari **no respeta `@page { margin: 0 }`**: aplica siempre los
 márgenes mínimos de la impresora, así que un cartel del tamaño exacto del papel
 no cabe, se corta por la derecha y lo que sobra cae en una segunda hoja.
 
-Por eso el cartel se imprime algo reducido y con margen blanco alrededor. Ese
-margen lo recorta `pdf-a-png.sh`, que además devuelve la imagen a su medida
-real: 1080×1080 el cuadrado, 1080×1920 el story y 1240×1754 el A4 (150 dpi).
+Por eso el cartel se imprime algo reducido. Cuánto exactamente depende de tu
+impresora, así que hay un mando: **Escala al imprimir**. Súbela hasta que llene
+la hoja en la vista previa; si aparece una segunda página, bájala un punto. Se
+ajusta una vez y ya queda.
+
+Para redes ese ajuste da igual: `pdf-a-png.sh` recorta el margen blanco y
+devuelve la imagen a su medida real — 1080×1080 el cuadrado, 1080×1920 el story
+y 1240×1754 el A4 (150 dpi).
 
 Necesita ImageMagick: `brew install imagemagick`.
 
