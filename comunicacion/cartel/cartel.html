@@ -1,0 +1,348 @@
+<title>Cartel Mantra Yoga</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..900&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+/* ============ tokens: la página ============ */
+:root{
+  --bg:#E8EAE5; --surface:#F5F6F2; --text:#191C1A; --muted:#666B66;
+  --line:#D2D6CE; --accent:#A63A2A; --focus:#A63A2A;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#151815; --surface:#1D211D; --text:#E9EBE5; --muted:#969C95;
+    --line:#2C312C; --accent:#D97160; --focus:#D97160;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#151815; --surface:#1D211D; --text:#E9EBE5; --muted:#969C95;
+  --line:#2C312C; --accent:#D97160; --focus:#D97160;
+}
+
+/* ============ tokens: el cartel (fijos, es un objeto impreso) ============ */
+.board{
+  --p-bg:#14181A; --p-ink:#EDEDE6; --p-dim:#8E9793;
+  --p-accent:#E2705C; --p-mark:#5C6764; --p-rule:#2B3235;
+}
+.board[data-ink="claro"]{
+  --p-bg:#EFEFE9; --p-ink:#16191A; --p-dim:#5E6764;
+  --p-accent:#A63A2A; --p-mark:#B4BAB5; --p-rule:#D3D7D0;
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:15px; line-height:1.5;
+}
+:focus-visible{outline:2px solid var(--focus); outline-offset:2px}
+
+.wrap{max-width:1180px; margin:0 auto; padding:40px 24px 96px; display:flex; flex-direction:column; gap:40px}
+
+/* ---- cabecera ---- */
+.masthead{display:flex; flex-direction:column; gap:10px; border-bottom:1px solid var(--line); padding-bottom:24px}
+.eyebrow{
+  font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:var(--accent);
+  font-weight:600;
+}
+.masthead h1{
+  margin:0; font-family:"Bodoni Moda",Didot,"Times New Roman",serif;
+  font-weight:700; font-size:clamp(30px,5vw,46px); line-height:1.02; letter-spacing:-.01em;
+  text-wrap:balance;
+}
+.masthead p{margin:0; color:var(--muted); max-width:62ch; font-size:14px}
+
+/* ---- controles ---- */
+.panel{
+  background:var(--surface); border:1px solid var(--line); border-radius:4px;
+  padding:22px; display:flex; flex-direction:column; gap:18px;
+}
+.panel-head{display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:12px}
+.panel-head h2{margin:0; font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:var(--muted); font-weight:600}
+.fields{display:grid; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); gap:14px}
+.field{display:flex; flex-direction:column; gap:6px}
+.field label{font-size:10px; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); font-weight:600}
+.field input{
+  font:inherit; font-size:14px; color:var(--text); background:var(--bg);
+  border:1px solid var(--line); border-radius:3px; padding:9px 11px;
+}
+.field input:hover{border-color:var(--muted)}
+
+.switches{display:flex; flex-wrap:wrap; gap:8px}
+.switch{
+  font:inherit; font-size:12px; letter-spacing:.06em; cursor:pointer;
+  background:var(--bg); color:var(--text); border:1px solid var(--line);
+  border-radius:999px; padding:7px 15px; transition:background .15s,border-color .15s,color .15s;
+}
+.switch:hover{border-color:var(--muted)}
+.switch[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff}
+
+/* ---- artboards ---- */
+.boards{display:flex; flex-direction:column; gap:44px}
+.slot{display:flex; flex-direction:column; gap:12px}
+.slot-label{display:flex; flex-wrap:wrap; gap:10px; align-items:baseline; color:var(--muted); font-size:11px; letter-spacing:.14em; text-transform:uppercase}
+.slot-label b{color:var(--text); font-weight:600}
+.stage{width:100%; overflow:hidden}
+.board{
+  transform-origin:top left;
+  background:var(--p-bg); color:var(--p-ink);
+  display:flex; flex-direction:column;
+  font-family:"Gentium Book Plus",Georgia,serif;
+}
+
+/* medidas reales */
+.board.sq{width:1080px; height:1080px; padding:86px}
+.board.st{width:1080px; height:1920px; padding:104px 92px}
+.board.a4{width:794px;  height:1123px; padding:74px 64px}
+
+/* ---- composición interna del cartel ---- */
+.b-top{display:flex; flex-direction:column; gap:.55em}
+.b-eyebrow{
+  font-family:"IBM Plex Mono",monospace; font-weight:600; color:var(--p-accent);
+  text-transform:uppercase; letter-spacing:.26em;
+}
+.b-title{
+  font-family:"Bodoni Moda",Didot,serif; font-weight:700;
+  line-height:.86; letter-spacing:-.025em; margin:0;
+}
+.b-sub{font-style:italic; color:var(--p-dim); line-height:1.3; margin:0; max-width:20ch}
+
+.b-mid{display:flex; flex-direction:column; gap:.5em}
+.b-tag{
+  font-family:"IBM Plex Mono",monospace; font-weight:500; color:var(--p-dim);
+  text-transform:uppercase; letter-spacing:.24em;
+}
+.b-tema{font-style:italic; line-height:1.15; margin:0; color:var(--p-ink)}
+.b-date{
+  font-family:"Bodoni Moda",Didot,serif; font-weight:600; line-height:.95;
+  letter-spacing:-.015em; margin:0; font-variant-numeric:tabular-nums;
+}
+.b-hora{font-family:"IBM Plex Mono",monospace; font-weight:500; color:var(--p-accent); letter-spacing:.06em}
+.b-centro{line-height:1.15; margin:0; color:var(--p-ink)}
+
+.b-bot{display:flex; flex-direction:column; gap:.9em}
+.b-free{
+  align-self:flex-start; background:var(--p-accent); color:var(--p-bg);
+  font-family:"IBM Plex Mono",monospace; font-weight:600;
+  text-transform:uppercase; letter-spacing:.2em; padding:.5em .9em;
+}
+.b-note{color:var(--p-dim); line-height:1.35; margin:0}
+.b-foot{
+  display:flex; justify-content:space-between; gap:1.5em; align-items:flex-end;
+  font-family:"IBM Plex Mono",monospace; color:var(--p-dim);
+  border-top:1px solid var(--p-rule); padding-top:.9em; letter-spacing:.05em;
+}
+
+/* la rejilla del śloka: 4 pādas de 8 sílabas */
+.sloka{display:flex; flex-direction:column; gap:.42em}
+.pada{display:flex; gap:.42em}
+.syl{background:var(--p-mark); border-radius:1px}
+.syl.g{opacity:.95}
+.syl.l{opacity:.42}
+.sloka-cap{
+  font-family:"IBM Plex Mono",monospace; color:var(--p-dim);
+  text-transform:uppercase; letter-spacing:.24em;
+}
+
+/* escalas tipográficas por formato */
+.sq{--t:104px; --s:25px; --tag:13px; --tema:34px; --d:64px; --h:26px; --c:31px; --free:15px; --n:22px; --f:14px; --sw:15px; --sh:9px}
+.st{--t:126px; --s:31px; --tag:16px; --tema:42px; --d:78px; --h:32px; --c:38px; --free:18px; --n:27px; --f:16px; --sw:19px; --sh:11px}
+.a4{--t:78px;  --s:19px; --tag:10px; --tema:26px; --d:47px; --h:20px; --c:23px; --free:11px; --n:16px; --f:10px; --sw:11px; --sh:7px}
+
+.board .b-title{font-size:var(--t)}
+.board .b-sub{font-size:var(--s)}
+.board .b-eyebrow,.board .b-tag,.board .sloka-cap{font-size:var(--tag)}
+.board .b-tema{font-size:var(--tema)}
+.board .b-date{font-size:var(--d)}
+.board .b-hora{font-size:var(--h)}
+.board .b-centro{font-size:var(--c)}
+.board .b-free{font-size:var(--free)}
+.board .b-note{font-size:var(--n)}
+.board .b-foot{font-size:var(--f)}
+.board .syl{width:var(--sw); height:var(--sh)}
+
+.spacer{flex:1 1 auto; min-height:1.2em}
+
+.help{color:var(--muted); font-size:13px; line-height:1.6; max-width:66ch}
+.help code{background:var(--surface); border:1px solid var(--line); border-radius:3px; padding:1px 5px; font-size:12px}
+
+@media (prefers-reduced-motion:reduce){*{transition:none !important; animation:none !important}}
+
+/* ---- impresión: solo el A4, siempre en claro ---- */
+@page{size:A4; margin:0}
+@media print{
+  .masthead,.panel,.help,.slot-label,.slot:not(.print-slot){display:none !important}
+  body{background:#fff}
+  .wrap{padding:0; max-width:none; gap:0}
+  .stage{overflow:visible}
+  .board.a4{
+    transform:none !important; width:210mm; height:297mm; padding:19mm 16mm;
+    --p-bg:#EFEFE9; --p-ink:#16191A; --p-dim:#5E6764;
+    --p-accent:#A63A2A; --p-mark:#B4BAB5; --p-rule:#D3D7D0;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+}
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">Centros de Bhakti yoga · Alicante</div>
+    <h1>Cartel del taller</h1>
+    <p>Cambia los seis campos y los tres formatos se actualizan a la vez. Para
+       Instagram, captura el cartel a tamaño real; para la puerta del centro,
+       imprime esta página y saldrá solo el A4, en claro.</p>
+  </header>
+
+  <section class="panel" aria-label="Datos del cartel">
+    <div class="panel-head">
+      <h2>Datos del taller</h2>
+      <div class="switches">
+        <button class="switch" id="inkToggle" aria-pressed="false">Fondo claro</button>
+      </div>
+    </div>
+    <div class="fields">
+      <div class="field">
+        <label for="f-tema">Tema del mes</label>
+        <input id="f-tema" data-field="tema" value="El sonido y el praṇava">
+      </div>
+      <div class="field">
+        <label for="f-dia">Día</label>
+        <input id="f-dia" data-field="dia" value="Jueves 15 de octubre">
+      </div>
+      <div class="field">
+        <label for="f-hora">Hora</label>
+        <input id="f-hora" data-field="hora" value="19:00 h">
+      </div>
+      <div class="field">
+        <label for="f-centro">Centro</label>
+        <input id="f-centro" data-field="centro" value="Yoga Espacio Vital">
+      </div>
+      <div class="field">
+        <label for="f-reserva">Reservas</label>
+        <input id="f-reserva" data-field="reserva" value="info@yogaespaciovital.com">
+      </div>
+      <div class="field">
+        <label for="f-fijo">Posición fija</label>
+        <input id="f-fijo" data-field="fijo" value="Todos los terceros jueves">
+      </div>
+    </div>
+  </section>
+
+  <div class="boards" id="boards"></div>
+
+  <p class="help">
+    Los tres carteles miden lo que tienen que medir: <code>1080×1080</code> para el
+    feed, <code>1080×1920</code> para stories y A4 para papel. La rejilla de barras
+    es un <i>śloka</i>: cuatro pādas de ocho sílabas, largas en tono fuerte y breves
+    en tono flojo.
+  </p>
+
+</div>
+
+<template id="tpl">
+  <div class="board">
+    <div class="b-top">
+      <div class="b-eyebrow">Taller mensual · Gratuito</div>
+      <h2 class="b-title">Mantra<br>Yoga</h2>
+      <p class="b-sub">Aprende a cantar los mantras clásicos en sánscrito</p>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div class="b-mid">
+      <div class="b-tag">Tema de este mes</div>
+      <p class="b-tema" data-out="tema"></p>
+      <div style="height:.35em"></div>
+      <p class="b-date" data-out="dia"></p>
+      <div class="b-hora" data-out="hora"></div>
+      <div style="height:.3em"></div>
+      <p class="b-centro" data-out="centro"></p>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div class="b-bot">
+      <div class="sloka" aria-hidden="true">
+        <div class="pada"></div><div class="pada"></div>
+        <div class="pada"></div><div class="pada"></div>
+      </div>
+      <div class="b-free">Gratuito</div>
+      <p class="b-note">Una hora. No hace falta experiencia ni saber sánscrito.<br>
+        Plazas limitadas · Reservas en <span data-out="reserva"></span></p>
+      <div class="b-foot">
+        <span data-out="fijo"></span>
+        <span>bhaktiyoga.es</span>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+const FORMATOS = [
+  {cls:'sq', nombre:'Feed de Instagram', medida:'1080 × 1080'},
+  {cls:'st', nombre:'Story',             medida:'1080 × 1920'},
+  {cls:'a4', nombre:'A4 para imprimir',  medida:'210 × 297 mm', print:true}
+];
+// patrón de sílabas largas (1) y breves (0), cuatro pādas de ocho
+const PADAS = [
+  [0,1,0,1,1,0,1,0],[0,1,1,0,1,0,1,1],
+  [1,0,1,1,0,1,0,0],[0,1,0,1,1,0,1,0]
+];
+
+const boards = document.getElementById('boards');
+const tpl = document.getElementById('tpl');
+
+FORMATOS.forEach(f => {
+  const slot = document.createElement('section');
+  slot.className = 'slot' + (f.print ? ' print-slot' : '');
+  slot.innerHTML = `<div class="slot-label"><b>${f.nombre}</b><span>${f.medida}</span></div>
+                    <div class="stage"></div>`;
+  const board = tpl.content.firstElementChild.cloneNode(true);
+  board.classList.add(f.cls);
+  board.querySelectorAll('.pada').forEach((p, i) => {
+    PADAS[i].forEach(long => {
+      const s = document.createElement('span');
+      s.className = 'syl ' + (long ? 'g' : 'l');
+      p.appendChild(s);
+    });
+  });
+  slot.querySelector('.stage').appendChild(board);
+  boards.appendChild(slot);
+});
+
+function pinta(){
+  document.querySelectorAll('input[data-field]').forEach(inp => {
+    const val = inp.value;
+    document.querySelectorAll(`[data-out="${inp.dataset.field}"]`)
+      .forEach(el => el.textContent = val);
+  });
+}
+document.querySelectorAll('input[data-field]').forEach(i => i.addEventListener('input', pinta));
+
+function escala(){
+  document.querySelectorAll('.stage').forEach(stage => {
+    const board = stage.firstElementChild;
+    const real = board.classList.contains('a4') ? 794 : 1080;
+    const s = Math.min(1, stage.clientWidth / real);
+    board.style.transform = `scale(${s})`;
+    stage.style.height = (board.offsetHeight * s) + 'px';
+  });
+}
+addEventListener('resize', escala);
+
+const btn = document.getElementById('inkToggle');
+btn.addEventListener('click', () => {
+  const on = btn.getAttribute('aria-pressed') === 'true';
+  btn.setAttribute('aria-pressed', String(!on));
+  document.querySelectorAll('.board').forEach(b => {
+    if (on) b.removeAttribute('data-ink'); else b.setAttribute('data-ink','claro');
+  });
+});
+
+pinta();
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(escala);
+escala();
+</script>
