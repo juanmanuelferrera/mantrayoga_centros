@@ -85,7 +85,7 @@ body{
 }
 .board.sq{width:1080px; height:1080px; padding:76px 78px 70px}
 .board.st{width:1080px; height:1920px; padding:120px 88px 110px}
-.board.a4{width:794px;  height:1123px; padding:62px 58px 56px}
+.board.a4{width:794px;  height:1123px; padding:58px 54px 52px}
 
 .mono{font-family:"IBM Plex Mono",monospace; text-transform:uppercase; letter-spacing:.22em; font-weight:500}
 
@@ -151,7 +151,7 @@ body{
 
 .sq{--logo:104px; --k:13px; --t:98px;  --s:26px; --rule:110px; --num:158px; --dow:24px; --mes:40px; --hora:26px; --bar:16px; --val:24px; --sw:16px; --sh:9px}
 .st{--logo:132px; --k:16px; --t:122px; --s:32px; --rule:136px; --num:200px; --dow:30px; --mes:50px; --hora:32px; --bar:20px; --val:30px; --sw:20px; --sh:11px}
-.a4{--logo:78px;  --k:10px; --t:72px;  --s:20px; --rule:82px;  --num:116px; --dow:18px; --mes:30px; --hora:19px; --bar:12px; --val:18px; --sw:12px; --sh:7px}
+.a4{--logo:98px;  --k:11px; --t:88px;  --s:23px; --rule:98px;  --num:146px; --dow:21px; --mes:36px; --hora:22px; --bar:14px; --val:21px; --sw:14px; --sh:8px}
 
 .board .mono,.board .k{font-size:var(--k)}
 .board .z-title{font-size:var(--t)}
@@ -163,6 +163,20 @@ body{
 .board .z-bar{font-size:var(--bar)}
 .board .cell .v{font-size:var(--val)}
 .board .syl{width:var(--sw); height:var(--sh)}
+
+/* --- composición centrada (alternativa) --- */
+.board[data-align="centro"]{text-align:center}
+.board[data-align="centro"] .z-head{flex-direction:column; align-items:center; gap:.75em}
+.board[data-align="centro"] .z-head .k{margin-left:0}
+.board[data-align="centro"] .z-logo img{margin:0 auto; object-position:center bottom; max-width:78%}
+.board[data-align="centro"] .z-rule{margin-left:auto; margin-right:auto}
+.board[data-align="centro"] .z-sub{margin-left:auto; margin-right:auto}
+.board[data-align="centro"] .z-sloka{justify-content:center}
+.board[data-align="centro"] .z-when{justify-content:center; align-items:baseline}
+.board[data-align="centro"] .z-when-txt{align-items:flex-start; text-align:left}
+.board[data-align="centro"] .z-bar{justify-content:center; gap:.9em}
+.board[data-align="centro"] .z-bar span{text-align:center}
+.board[data-align="centro"] .z-contacto{justify-content:center}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 
@@ -196,6 +210,7 @@ body{
       <div class="switches">
         <button class="switch" id="inkToggle" aria-pressed="false">Fondo claro</button>
         <button class="switch" id="logoToggle" aria-pressed="false">Aclarar logo</button>
+        <button class="switch" id="alignToggle" aria-pressed="false">Centrado</button>
         <button class="switch" id="logoClear" hidden>Quitar logo</button>
       </div>
     </div>
@@ -240,7 +255,8 @@ body{
     filete de sílabas, la fecha y la rejilla de datos. El número del día es la
     pieza mayor a propósito: es lo que registra alguien que pasa por delante. El
     filete son cuatro pādas de ocho sílabas, un <i>śloka</i>, con las largas en
-    tono fuerte. Medidas reales: <code>1080×1080</code>, <code>1080×1920</code> y A4.
+    tono fuerte. El A4 lleva su propia escala, más grande, porque la hoja es
+    proporcionalmente más alta que el cuadrado. Medidas reales: <code>1080×1080</code>, <code>1080×1920</code> y A4.
   </p>
 </div>
 
@@ -391,6 +407,16 @@ logoFx.addEventListener('click',function(){
     if(on){b.removeAttribute('data-logofx')}else{b.setAttribute('data-logofx','aclarar')}
   });
 });
+var align=document.getElementById('alignToggle');
+align.addEventListener('click',function(){
+  var on=align.getAttribute('aria-pressed')==='true';
+  align.setAttribute('aria-pressed',String(!on));
+  document.querySelectorAll('.board').forEach(function(b){
+    if(on){b.removeAttribute('data-align')}else{b.setAttribute('data-align','centro')}
+  });
+  requestAnimationFrame(escala);
+});
+
 var ink=document.getElementById('inkToggle');
 ink.addEventListener('click',function(){
   var on=ink.getAttribute('aria-pressed')==='true';
