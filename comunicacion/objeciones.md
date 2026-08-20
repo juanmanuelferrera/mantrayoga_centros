@@ -9,13 +9,21 @@ suena a excusa.
 ## Del centro
 
 **"¿Esto es Hare Krishna?"**
-Es la tradición bhakti de la India, sí, el linaje de Chaitanya. El mantra que
-cantamos es ese. Lo digo en la sesión sin problema. No pido a nadie que crea
-nada, no reparto libros y no capto gente para ningún sitio. Se canta y se
-explica lo que se canta.
+El mantra que cantamos es ese, sí. Viene de la tradición bhakti de la India, del
+linaje de Chaitanya, siglo XVI. Lo que no hay es una organización que se llame
+así: son muchos grupos distintos dentro del mismo linaje. Yo vengo de una
+entidad pequeña, Centros de Bhakti yoga, y no represento a ninguna otra.
 
-Esta es la pregunta importante y hay que contestarla de frente. Si titubeas, se
+No pido a nadie que crea nada, no reparto libros y no capto gente para ningún
+sitio. Se canta y se explica lo que se canta.
+
+Es la pregunta importante y hay que contestarla de frente. Si titubeas, se
 acabó. Si lo dices recto, la mayoría se queda tranquila.
+
+**No la pongas tú sobre la mesa.** En el dossier no aparece la etiqueta, porque
+escrita y sin nadie delante planta un miedo que casi nadie tenía. El dossier
+declara la tradición en sus propios términos ("linaje de Chaitanya") y esta
+respuesta se guarda para cuando alguien pregunte.
 
 **"¿Vas a captar a mis alumnos?"**
 Al revés. No tengo centro al que llevarlos y la gente que venga de fuera conoce

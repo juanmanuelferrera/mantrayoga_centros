@@ -98,6 +98,25 @@ bhaktiyoga.es
 
 ---
 
+### Lo que suelen preguntarme
+
+**¿Y si no viene nadie?** Entonces no has perdido nada, porque no has pagado
+nada. Yo tampoco. Probamos uno más o lo dejamos, como prefieras.
+
+**¿Vas a captar a mis alumnos?** Al revés. No tengo centro al que llevarlos, y
+la gente que venga de fuera conoce el tuyo. A quien quiera seguir le digo que
+vuelva aquí el mes que viene.
+
+**¿Por qué es gratis?** Somos una entidad no lucrativa y el objetivo es que esta
+práctica llegue a gente. Hay un plato de donativo voluntario al final, sin
+insistir. No hay nada más.
+
+**Mis alumnos no van a querer cantar.** Es lo que dicen todos los centros y
+luego cantan. Empiezo muy bajito y aviso de que quien no quiera cantar puede
+escuchar. Nadie se siente señalado.
+
+---
+
 ### El siguiente paso
 
 Responde a este correo con dos o tres fechas que te vengan bien y lo cerramos.
