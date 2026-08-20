@@ -94,14 +94,27 @@ body{
   border-bottom:1px solid var(--p-rule); padding-bottom:.9em; min-height:1.4em;
 }
 .z-logo{display:none}
-.board[data-haslogo="si"] .z-logo{display:block}
-.z-logo img{
-  max-height:calc(var(--logo) * var(--logo-k,1));
-  max-width:min(62%, calc(var(--logo) * var(--logo-k,1) * 5));
-  width:auto; object-fit:contain; object-position:left bottom; display:block;
+.z-logo img{width:auto; object-fit:contain; display:block}
+
+/* arriba, en la cabecera, a bandera izquierda */
+.board[data-haslogo="si"][data-logopos="arriba"] .z-logo.top{display:block}
+.z-logo.top img{
+  max-height:calc(var(--logo) * var(--logo-k,1) * .66);
+  max-width:min(62%, calc(var(--logo) * var(--logo-k,1) * 3.4));
+  object-position:left bottom;
 }
+
+/* en el centro de la pagina, entre la banda de silabas y la fecha */
+.board[data-haslogo="si"]:not([data-logopos="arriba"]) .z-logo.mid{display:flex; justify-content:center; padding:.6em 0}
+.z-logo.mid img{
+  max-height:calc(var(--logo) * var(--logo-k,1));
+  max-width:min(74%, calc(var(--logo) * var(--logo-k,1) * 5));
+}
+.board[data-align="centro"] .z-logo.top{margin:0 auto}
+.board[data-align="centro"] .z-logo.top img{object-position:center bottom; margin:0 auto}
 .board[data-logofx="aclarar"] .z-logo img{filter:grayscale(1) invert(1) brightness(1.75) contrast(1.05)}
 .z-head .k{color:var(--p-dim); white-space:nowrap; margin-left:auto}
+.board[data-align="centro"] .z-head .k{margin:0 auto}
 
 .z-id{padding-top:1.35em}
 .z-title{
@@ -149,9 +162,9 @@ body{
 
 .grow{flex:1 1 auto; min-height:.8em}
 
-.sq{--logo:104px; --k:13px; --t:98px;  --s:26px; --rule:110px; --num:158px; --dow:24px; --mes:40px; --hora:26px; --bar:16px; --val:24px; --sw:16px; --sh:9px}
-.st{--logo:132px; --k:16px; --t:122px; --s:32px; --rule:136px; --num:200px; --dow:30px; --mes:50px; --hora:32px; --bar:20px; --val:30px; --sw:20px; --sh:11px}
-.a4{--logo:98px;  --k:11px; --t:88px;  --s:23px; --rule:98px;  --num:146px; --dow:21px; --mes:36px; --hora:22px; --bar:14px; --val:21px; --sw:14px; --sh:8px}
+.sq{--logo:152px; --k:13px; --t:98px;  --s:26px; --rule:110px; --num:158px; --dow:24px; --mes:40px; --hora:26px; --bar:16px; --val:24px; --sw:16px; --sh:9px}
+.st{--logo:198px; --k:16px; --t:122px; --s:32px; --rule:136px; --num:200px; --dow:30px; --mes:50px; --hora:32px; --bar:20px; --val:30px; --sw:20px; --sh:11px}
+.a4{--logo:138px; --k:11px; --t:88px;  --s:23px; --rule:98px;  --num:146px; --dow:21px; --mes:36px; --hora:22px; --bar:14px; --val:21px; --sw:14px; --sh:8px}
 
 .board .mono,.board .k{font-size:var(--k)}
 .board .z-title{font-size:var(--t)}
@@ -168,7 +181,6 @@ body{
 .board[data-align="centro"]{text-align:center}
 .board[data-align="centro"] .z-head{flex-direction:column; align-items:center; gap:.75em}
 .board[data-align="centro"] .z-head .k{margin-left:0}
-.board[data-align="centro"] .z-logo img{margin:0 auto; object-position:center bottom; max-width:78%}
 .board[data-align="centro"] .z-rule{margin-left:auto; margin-right:auto}
 .board[data-align="centro"] .z-sub{margin-left:auto; margin-right:auto}
 .board[data-align="centro"] .z-sloka{justify-content:center}
@@ -210,7 +222,8 @@ body{
       <div class="switches">
         <button class="switch" id="inkToggle" aria-pressed="false">Fondo claro</button>
         <button class="switch" id="logoToggle" aria-pressed="false">Aclarar logo</button>
-        <button class="switch" id="alignToggle" aria-pressed="false">Centrado</button>
+        <button class="switch" id="posToggle" aria-pressed="false">Logo arriba</button>
+        <button class="switch" id="alignToggle" aria-pressed="false">Texto centrado</button>
         <button class="switch" id="logoClear" hidden>Quitar logo</button>
       </div>
     </div>
@@ -255,15 +268,17 @@ body{
     filete de sílabas, la fecha y la rejilla de datos. El número del día es la
     pieza mayor a propósito: es lo que registra alguien que pasa por delante. El
     filete son cuatro pādas de ocho sílabas, un <i>śloka</i>, con las largas en
-    tono fuerte. El A4 lleva su propia escala, más grande, porque la hoja es
-    proporcionalmente más alta que el cuadrado. Medidas reales: <code>1080×1080</code>, <code>1080×1920</code> y A4.
+    tono fuerte. El logo del centro va por defecto en mitad del cartel, entre la banda de
+    sílabas y la fecha, donde ocupa el aire del medio; con <b>Logo arriba</b>
+    sube a la cabecera y se hace más pequeño. El A4 lleva su propia escala,
+    más grande, porque la hoja es proporcionalmente más alta que el cuadrado. Medidas reales: <code>1080×1080</code>, <code>1080×1920</code> y A4.
   </p>
 </div>
 
 <template id="tpl">
   <div class="board">
     <div class="z-head">
-      <div class="z-logo"><img data-logo alt=""></div>
+      <div class="z-logo top"><img data-logo alt=""></div>
       <div class="mono k" data-out="fijo"></div>
     </div>
 
@@ -277,6 +292,10 @@ body{
       <div class="pada"></div><div class="pada"></div>
       <div class="pada"></div><div class="pada"></div>
     </div>
+
+    <div class="grow"></div>
+
+    <div class="z-logo mid"><img data-logo alt=""></div>
 
     <div class="grow"></div>
 
@@ -384,9 +403,10 @@ var logoIn=document.getElementById('f-logo'),
 
 function ponLogo(src){
   document.querySelectorAll('.board').forEach(function(b){
-    var img=b.querySelector('[data-logo]');
-    if(src){img.src=src; b.setAttribute('data-haslogo','si')}
-    else{img.removeAttribute('src'); b.removeAttribute('data-haslogo')}
+    b.querySelectorAll('[data-logo]').forEach(function(img){
+      if(src){img.src=src}else{img.removeAttribute('src')}
+    });
+    if(src){b.setAttribute('data-haslogo','si')}else{b.removeAttribute('data-haslogo')}
   });
   logoNo.hidden=!src;
   requestAnimationFrame(escala);
@@ -407,6 +427,16 @@ logoFx.addEventListener('click',function(){
     if(on){b.removeAttribute('data-logofx')}else{b.setAttribute('data-logofx','aclarar')}
   });
 });
+var pos=document.getElementById('posToggle');
+pos.addEventListener('click',function(){
+  var on=pos.getAttribute('aria-pressed')==='true';
+  pos.setAttribute('aria-pressed',String(!on));
+  document.querySelectorAll('.board').forEach(function(b){
+    if(on){b.removeAttribute('data-logopos')}else{b.setAttribute('data-logopos','arriba')}
+  });
+  requestAnimationFrame(escala);
+});
+
 var align=document.getElementById('alignToggle');
 align.addEventListener('click',function(){
   var on=align.getAttribute('aria-pressed')==='true';
