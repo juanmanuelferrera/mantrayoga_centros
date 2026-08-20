@@ -227,18 +227,10 @@ body{
      pero Safari sigue paginando con el tamano original y deja una hoja en
      blanco detras.
      El margen blanco que queda lo recorta despues pdf-a-png.sh. */
-  /* la caja pasa a medir exactamente el area imprimible de la hoja:
-     en impresion, 100vw/100vh son el hueco util de la pagina, ya
-     descontados los margenes minimos de la impresora. Asi no hay que
-     adivinar cuanto cabe. El deslizador solo ajusta la tipografia. */
-  html[data-print] .wrap,
-  html[data-print] .boards,
-  html[data-print] .slot,
-  html[data-print] .stage{width:100%!important}
-  html[data-print] .board{
-    width:100vw!important; height:100vh!important; max-height:100vh;
-    overflow:hidden;
-  }
+  /* Safari no da forma de saber el area imprimible: 100vh es el papel
+     entero, no el hueco util. Ademas imprime cabecera y pie, que roban
+     unos 20 mm mas. Asi que la caja se encoge con un factor real y el
+     usuario lo ajusta a su impresora. */
   html[data-print="sq"] .board.sq{--u:var(--pu,.88)}
   html[data-print="st"] .board.st{--u:var(--pu,.88)}
   html[data-print="a4"] .board.a4{
@@ -309,8 +301,8 @@ body{
     </div>
     <div class="fields" style="margin-bottom:2px">
       <div class="field">
-        <label for="f-escala">Tamaño del texto al imprimir <span id="escalaVal">88%</span></label>
-        <input id="f-escala" type="range" min="0.7" max="1.05" step="0.01" value="0.88">
+        <label for="f-escala">Escala al imprimir <span id="escalaVal">88%</span></label>
+        <input id="f-escala" type="range" min="0.7" max="1" step="0.01" value="0.88">
       </div>
     </div>
     <div class="switches">
@@ -324,10 +316,14 @@ body{
       <b>Print backgrounds</b> en la sección de Safari. El A4 sale siempre en
       claro; el cuadrado y el story, con el fondo que tengas puesto.
       <br><br>
-      Al imprimir, el cartel ocupa exactamente el hueco útil de la hoja, sea
-      cual sea el margen mínimo de tu impresora. El deslizador no cambia ese
-      tamaño: ajusta solo la tipografía dentro de él. Súbelo si ves el cartel
-      vacío, bájalo si algo se apretuja.
+      <b>Antes de nada, en la sección Safari del diálogo desmarca «Print
+      headers and footers».</b> Si no, Safari imprime la URL y la fecha en cada
+      hoja, y esa franja roba unos 20 mm que impiden que el cartel quepa y llene
+      la página.
+      <br><br>
+      Luego sube la escala hasta que llene la hoja en la vista previa. Si
+      aparece una segunda página, bájala un punto. Depende de cada impresora y
+      se ajusta una sola vez.
       <br><br>
       El margen blanco que quede lo recorta <code>./pdf-a-png.sh</code>, que
       además devuelve el PNG al tamaño exacto: 1080 px el cuadrado y el story,

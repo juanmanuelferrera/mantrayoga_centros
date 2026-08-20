@@ -30,14 +30,21 @@ externas. Y Safari **no respeta `@page { margin: 0 }`**: aplica siempre los
 márgenes mínimos de la impresora, así que un cartel del tamaño exacto del papel
 no cabe, se corta por la derecha y lo que sobra cae en una segunda hoja.
 
-La solución no es adivinar cuánto cabe, sino no fijar el tamaño: al imprimir,
-el cartel mide `100vw × 100vh`, que en impresión son el hueco útil de la página
-ya descontados los márgenes mínimos de la impresora. Llena la hoja entera, sea
-cual sea esa impresora, y nunca se parte.
+Tampoco sirve `100vh`: en Safari eso es el papel entero (297 mm), no el hueco
+útil. Y encima Safari imprime cabecera y pie con la URL, la fecha y el número de
+página, que roban otros 20 mm.
 
-El deslizador **Tamaño del texto al imprimir** no toca ese tamaño: ajusta solo
-la tipografía dentro de él. Súbelo si ves el cartel vacío, bájalo si algo se
-apretuja.
+**Por eso lo primero es desmarcar «Print headers and footers»** en la sección
+Safari del diálogo. Además de recuperar ese espacio, quita la URL y la fecha,
+que se estaban imprimiendo encima del cartel.
+
+Luego, con el deslizador **Escala al imprimir**, sube hasta que llene la hoja en
+la vista previa; si aparece una segunda página, baja un punto. Depende de cada
+impresora y se ajusta una sola vez.
+
+Si esto acaba cansando, el A4 se puede generar con LaTeX (`cartel.tex`), que da
+un PDF exacto sin pasar por el navegador ni por sus márgenes. Haría falta
+rehacer en LaTeX el diseño nuevo.
 
 Para redes ese ajuste da igual: `pdf-a-png.sh` recorta el margen blanco y
 devuelve la imagen a su medida real — 1080×1080 el cuadrado, 1080×1920 el story
