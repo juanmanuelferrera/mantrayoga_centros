@@ -196,24 +196,38 @@ body{
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 
 @media print{
+  html,body{margin:0; padding:0; height:auto; overflow:hidden}
   .masthead,.panel,.help,.slot-label{display:none!important}
   body{background:#fff}
-  .wrap{padding:0; max-width:none; gap:0}
-  .stage{overflow:visible}
-  .board{transform:none!important}
+  .wrap{padding:0!important; margin:0!important; max-width:none; gap:0!important; display:block}
+  .boards{gap:0!important; display:block}
+  .slot{gap:0!important; display:block; margin:0!important}
+
+  /* el JS fija una altura al contenedor para la vista escalada;
+     al imprimir estorba y hace que el cartel se derrame a otra hoja */
+  .stage{height:auto!important; overflow:visible!important}
+
+  .board{
+    transform:none!important; margin:0!important;
+    break-inside:avoid; page-break-inside:avoid;
+    break-after:avoid;   page-break-after:avoid;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
 
   /* solo se imprime el formato elegido */
   html[data-print="sq"] .slot:not(.slot-sq),
   html[data-print="st"] .slot:not(.slot-st),
   html[data-print="a4"] .slot:not(.slot-a4){display:none!important}
 
-  /* el A4 siempre en claro, aunque en pantalla este oscuro */
+  /* una pizca por debajo del alto de pagina: 297 mm exactos provocan
+     una segunda hoja en blanco por redondeo */
+  html[data-print="sq"] .board.sq{width:1080px; height:1078px}
+  html[data-print="st"] .board.st{width:1080px; height:1918px}
   html[data-print="a4"] .board.a4{
-    width:210mm; height:297mm; padding:16mm 15mm 14mm;
+    width:210mm; height:296.4mm; padding:16mm 15mm 14mm;
     --p-bg:#F0F0EA; --p-ink:#15181A; --p-dim:#5B6461;
     --p-accent:#A63A2A; --p-mark:#B6BCB7; --p-rule:#CFD4CD;
   }
-  .board{-webkit-print-color-adjust:exact; print-color-adjust:exact}
 }
 </style>
 
