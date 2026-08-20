@@ -4,7 +4,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..900&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 
 <style>
-/* ============ tokens: la página ============ */
 :root{
   --bg:#E8EAE5; --surface:#F5F6F2; --text:#191C1A; --muted:#666B66;
   --line:#D2D6CE; --accent:#A63A2A; --focus:#A63A2A;
@@ -20,59 +19,47 @@
   --line:#2C312C; --accent:#D97160; --focus:#D97160;
 }
 
-/* ============ tokens: el cartel (fijos, es un objeto impreso) ============ */
 .board{
-  --p-bg:#14181A; --p-ink:#EDEDE6; --p-dim:#8E9793;
-  --p-accent:#E2705C; --p-mark:#5C6764; --p-rule:#2B3235;
+  --p-bg:#14181A; --p-ink:#EFEFE8; --p-dim:#8B9490;
+  --p-accent:#E2705C; --p-mark:#5A6562; --p-rule:#333B3E;
 }
 .board[data-ink="claro"]{
-  --p-bg:#EFEFE9; --p-ink:#16191A; --p-dim:#5E6764;
-  --p-accent:#A63A2A; --p-mark:#B4BAB5; --p-rule:#D3D7D0;
+  --p-bg:#F0F0EA; --p-ink:#15181A; --p-dim:#5B6461;
+  --p-accent:#A63A2A; --p-mark:#B6BCB7; --p-rule:#CFD4CD;
 }
 
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{
   margin:0; background:var(--bg); color:var(--text);
-  font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
-  font-size:15px; line-height:1.5;
+  font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace; font-size:15px; line-height:1.5;
 }
 :focus-visible{outline:2px solid var(--focus); outline-offset:2px}
+.wrap{max-width:1180px; margin:0 auto; padding:40px 24px 96px; display:flex; flex-direction:column; gap:36px}
 
-.wrap{max-width:1180px; margin:0 auto; padding:40px 24px 96px; display:flex; flex-direction:column; gap:40px}
-
-/* ---- cabecera ---- */
-.masthead{display:flex; flex-direction:column; gap:10px; border-bottom:1px solid var(--line); padding-bottom:24px}
-.eyebrow{
-  font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:var(--accent);
-  font-weight:600;
-}
+.masthead{display:flex; flex-direction:column; gap:12px; border-bottom:1px solid var(--line); padding-bottom:22px}
+.eyebrow{font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:var(--accent); font-weight:600}
 .masthead h1{
-  margin:0; font-family:"Bodoni Moda",Didot,"Times New Roman",serif;
-  font-weight:700; font-size:clamp(30px,5vw,46px); line-height:1.02; letter-spacing:-.01em;
-  text-wrap:balance;
+  margin:0; font-family:"Bodoni Moda",Didot,serif; font-weight:700;
+  font-size:clamp(30px,5vw,46px); line-height:1.02; letter-spacing:-.01em; text-wrap:balance;
 }
 .masthead p{margin:0; color:var(--muted); max-width:62ch; font-size:14px}
 
-/* ---- controles ---- */
-.panel{
-  background:var(--surface); border:1px solid var(--line); border-radius:4px;
-  padding:22px; display:flex; flex-direction:column; gap:18px;
-}
+.panel{background:var(--surface); border:1px solid var(--line); border-radius:4px; padding:22px; display:flex; flex-direction:column; gap:18px}
 .panel-head{display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:12px}
 .panel-head h2{margin:0; font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:var(--muted); font-weight:600}
-.fields{display:grid; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); gap:14px}
-.field{display:flex; flex-direction:column; gap:6px}
+.fields{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px}
+.field{display:flex; flex-direction:column; gap:6px; min-width:0}
 .field label{font-size:10px; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); font-weight:600}
-.field input{
+.field input,.field select{
   font:inherit; font-size:14px; color:var(--text); background:var(--bg);
-  border:1px solid var(--line); border-radius:3px; padding:9px 11px;
+  border:1px solid var(--line); border-radius:3px; padding:9px 11px; min-width:0;
 }
-.field input:hover{border-color:var(--muted)}
+.field select{cursor:pointer}
+.field input:hover,.field select:hover{border-color:var(--muted)}
 .field input[type=range]{padding:0; border:0; background:transparent; accent-color:var(--accent)}
 .field input[type=file]{padding:7px 9px; font-size:12px}
 #logoVal{color:var(--accent); font-variant-numeric:tabular-nums}
-
 .switches{display:flex; flex-wrap:wrap; gap:8px}
 .switch{
   font:inherit; font-size:12px; letter-spacing:.06em; cursor:pointer;
@@ -82,134 +69,124 @@ body{
 .switch:hover{border-color:var(--muted)}
 .switch[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff}
 
-/* ---- artboards ---- */
 .boards{display:flex; flex-direction:column; gap:44px}
 .slot{display:flex; flex-direction:column; gap:12px}
 .slot-label{display:flex; flex-wrap:wrap; gap:10px; align-items:baseline; color:var(--muted); font-size:11px; letter-spacing:.14em; text-transform:uppercase}
 .slot-label b{color:var(--text); font-weight:600}
 .stage{width:100%; overflow:hidden}
-.board{
-  transform-origin:top left;
-  background:var(--p-bg); color:var(--p-ink);
-  display:flex; flex-direction:column;
-  font-family:"Gentium Book Plus",Georgia,serif;
-}
-
-/* medidas reales */
-.board.sq{width:1080px; height:1080px; padding:86px}
-.board.st{width:1080px; height:1920px; padding:104px 92px}
-.board.a4{width:794px;  height:1123px; padding:74px 64px}
-
-/* ---- composición interna del cartel ---- */
-.b-top{display:flex; flex-direction:column; gap:.55em}
-.b-eyebrow{
-  font-family:"IBM Plex Mono",monospace; font-weight:600; color:var(--p-accent);
-  text-transform:uppercase; letter-spacing:.26em;
-}
-.b-title{
-  font-family:"Bodoni Moda",Didot,serif; font-weight:700;
-  line-height:.86; letter-spacing:-.025em; margin:0;
-}
-.b-sub{font-style:italic; color:var(--p-dim); line-height:1.3; margin:0; max-width:20ch}
-
-.b-mid{display:flex; flex-direction:column; gap:.5em}
-.b-tag{
-  font-family:"IBM Plex Mono",monospace; font-weight:500; color:var(--p-dim);
-  text-transform:uppercase; letter-spacing:.24em;
-}
-.b-tema{font-style:italic; line-height:1.15; margin:0; color:var(--p-ink)}
-.b-date{
-  font-family:"Bodoni Moda",Didot,serif; font-weight:600; line-height:.95;
-  letter-spacing:-.015em; margin:0; font-variant-numeric:tabular-nums;
-}
-.b-hora{font-family:"IBM Plex Mono",monospace; font-weight:500; color:var(--p-accent); letter-spacing:.06em}
-.b-centro{line-height:1.15; margin:0; color:var(--p-ink)}
-
-.b-bot{display:flex; flex-direction:column; gap:.9em}
-.b-free{
-  align-self:flex-start; background:var(--p-accent); color:var(--p-bg);
-  font-family:"IBM Plex Mono",monospace; font-weight:600;
-  text-transform:uppercase; letter-spacing:.2em; padding:.5em .9em;
-}
-.b-note{color:var(--p-dim); line-height:1.35; margin:0}
-.b-logo{display:none; margin-bottom:.35em}
-.board[data-haslogo="si"] .b-logo{display:block}
-.b-logo img{
-  max-height:calc(var(--logo) * var(--logo-k, 1));
-  max-width:min(78%, calc(var(--logo) * var(--logo-k, 1) * 5));
-  width:auto; object-fit:contain; object-position:left center; display:block;
-}
-.board[data-logofx="aclarar"] .b-logo img{filter:grayscale(1) invert(1) brightness(1.7) contrast(1.1)}
-.b-logo span{
-  font-family:"IBM Plex Mono",monospace; color:var(--p-dim);
-  text-transform:uppercase; letter-spacing:.24em;
-}
-.b-foot{
-  display:flex; justify-content:space-between; gap:1.5em; align-items:flex-end;
-  font-family:"IBM Plex Mono",monospace; color:var(--p-dim);
-  border-top:1px solid var(--p-rule); padding-top:.9em; letter-spacing:.05em;
-}
-
-/* la rejilla del śloka: 4 pādas de 8 sílabas */
-.sloka{display:flex; flex-direction:column; gap:.42em}
-.pada{display:flex; gap:.42em}
-.syl{background:var(--p-mark); border-radius:1px}
-.syl.g{opacity:.95}
-.syl.l{opacity:.42}
-.sloka-cap{
-  font-family:"IBM Plex Mono",monospace; color:var(--p-dim);
-  text-transform:uppercase; letter-spacing:.24em;
-}
-
-/* escalas tipográficas por formato */
-.sq{--t:104px; --s:25px; --tag:13px; --tema:34px; --d:64px; --h:26px; --c:31px; --free:15px; --n:22px; --f:14px; --sw:15px; --sh:9px; --logo:122px}
-.st{--t:126px; --s:31px; --tag:16px; --tema:42px; --d:78px; --h:32px; --c:38px; --free:18px; --n:27px; --f:16px; --sw:19px; --sh:11px; --logo:148px}
-.a4{--t:78px;  --s:19px; --tag:10px; --tema:26px; --d:47px; --h:20px; --c:23px; --free:11px; --n:16px; --f:10px; --sw:11px; --sh:7px; --logo:88px}
-
-.board .b-title{font-size:var(--t)}
-.board .b-sub{font-size:var(--s)}
-.board .b-eyebrow,.board .b-tag,.board .sloka-cap{font-size:var(--tag)}
-.board .b-tema{font-size:var(--tema)}
-.board .b-date{font-size:var(--d)}
-.board .b-hora{font-size:var(--h)}
-.board .b-centro{font-size:var(--c)}
-.board .b-free{font-size:var(--free)}
-.board .b-note{font-size:var(--n)}
-.board .b-foot{font-size:var(--f)}
-.board .syl{width:var(--sw); height:var(--sh)}
-.board .b-logo span{font-size:var(--tag)}
-
-.spacer{flex:1 1 auto; min-height:1.2em}
-
-.help{color:var(--muted); font-size:13px; line-height:1.6; max-width:66ch}
+.help{color:var(--muted); font-size:13px; line-height:1.65; max-width:68ch}
 .help code{background:var(--surface); border:1px solid var(--line); border-radius:3px; padding:1px 5px; font-size:12px}
 
-@media (prefers-reduced-motion:reduce){*{transition:none !important; animation:none !important}}
+/* ============ EL CARTEL ============ */
+.board{
+  transform-origin:top left; background:var(--p-bg); color:var(--p-ink);
+  display:flex; flex-direction:column; font-family:"Gentium Book Plus",Georgia,serif;
+}
+.board.sq{width:1080px; height:1080px; padding:76px 78px 70px}
+.board.st{width:1080px; height:1920px; padding:120px 88px 110px}
+.board.a4{width:794px;  height:1123px; padding:62px 58px 56px}
 
-/* ---- impresión: solo el A4, siempre en claro ---- */
+.mono{font-family:"IBM Plex Mono",monospace; text-transform:uppercase; letter-spacing:.22em; font-weight:500}
+
+.z-head{
+  display:flex; justify-content:space-between; align-items:flex-end; gap:2em;
+  border-bottom:1px solid var(--p-rule); padding-bottom:.9em; min-height:1.4em;
+}
+.z-logo{display:none}
+.board[data-haslogo="si"] .z-logo{display:block}
+.z-logo img{
+  max-height:calc(var(--logo) * var(--logo-k,1));
+  max-width:min(62%, calc(var(--logo) * var(--logo-k,1) * 5));
+  width:auto; object-fit:contain; object-position:left bottom; display:block;
+}
+.board[data-logofx="aclarar"] .z-logo img{filter:grayscale(1) invert(1) brightness(1.75) contrast(1.05)}
+.z-head .k{color:var(--p-dim); white-space:nowrap; margin-left:auto}
+
+.z-id{padding-top:1.35em}
+.z-title{
+  font-family:"Bodoni Moda",Didot,serif; font-weight:700; margin:0;
+  line-height:.84; letter-spacing:-.028em;
+}
+.z-rule{width:var(--rule); height:2px; background:var(--p-accent); margin-top:.9em}
+.z-sub{
+  color:var(--p-dim); margin:.85em 0 0; line-height:1.35; max-width:27ch;
+  font-weight:400; letter-spacing:.005em;
+}
+
+.z-sloka{display:flex; gap:1.6em; padding-top:1.5em}
+.pada{display:flex; gap:.5em}
+.syl{background:var(--p-mark); border-radius:1px}
+.syl.l{opacity:.38}
+
+.z-when{display:flex; align-items:flex-end; gap:.55em; padding-top:.4em}
+.z-num{
+  font-family:"Bodoni Moda",Didot,serif; font-weight:700; line-height:.78;
+  letter-spacing:-.05em; font-variant-numeric:lining-nums tabular-nums;
+}
+.z-when-txt{display:flex; flex-direction:column; gap:.3em; padding-bottom:.45em}
+.z-dow{color:var(--p-dim)}
+.z-mes{font-family:"Bodoni Moda",Didot,serif; font-weight:500; line-height:1; letter-spacing:-.01em}
+.z-hora{color:var(--p-accent); font-weight:600}
+
+.z-bar{
+  background:var(--p-accent); color:var(--p-bg); margin-top:1.15em;
+  padding:.65em .95em; display:flex; justify-content:space-between; gap:1.5em; align-items:baseline;
+  font-family:"IBM Plex Mono",monospace; text-transform:uppercase;
+}
+.z-bar b{letter-spacing:.22em; font-weight:600}
+.z-bar span{letter-spacing:.13em; font-weight:500; opacity:.94; text-align:right}
+
+.z-grid{display:grid; grid-template-columns:1fr 1fr; column-gap:2.4em; margin-top:1.2em}
+.cell{border-top:1px solid var(--p-rule); padding:.9em 0 .95em; min-width:0}
+.cell .k{color:var(--p-dim); display:block; margin-bottom:.5em}
+.cell .v{display:block; line-height:1.28; overflow-wrap:anywhere}
+.cell .v.em{font-style:italic}
+.cell .v.sm{color:var(--p-dim); margin-top:.22em}
+.z-contacto{display:flex; align-items:center; gap:.45em; flex-wrap:wrap}
+.b-ico{display:inline-flex; color:var(--p-accent); flex:none}
+.b-ico svg{width:1.3em; height:1.3em; display:block}
+
+.grow{flex:1 1 auto; min-height:.8em}
+
+.sq{--logo:104px; --k:13px; --t:98px;  --s:26px; --rule:110px; --num:158px; --dow:24px; --mes:40px; --hora:26px; --bar:16px; --val:24px; --sw:16px; --sh:9px}
+.st{--logo:132px; --k:16px; --t:122px; --s:32px; --rule:136px; --num:200px; --dow:30px; --mes:50px; --hora:32px; --bar:20px; --val:30px; --sw:20px; --sh:11px}
+.a4{--logo:78px;  --k:10px; --t:72px;  --s:20px; --rule:82px;  --num:116px; --dow:18px; --mes:30px; --hora:19px; --bar:12px; --val:18px; --sw:12px; --sh:7px}
+
+.board .mono,.board .k{font-size:var(--k)}
+.board .z-title{font-size:var(--t)}
+.board .z-sub{font-size:var(--s)}
+.board .z-num{font-size:var(--num)}
+.board .z-dow{font-size:var(--dow)}
+.board .z-mes{font-size:var(--mes)}
+.board .z-hora{font-size:var(--hora)}
+.board .z-bar{font-size:var(--bar)}
+.board .cell .v{font-size:var(--val)}
+.board .syl{width:var(--sw); height:var(--sh)}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
 @page{size:A4; margin:0}
 @media print{
-  .masthead,.panel,.help,.slot-label,.slot:not(.print-slot){display:none !important}
+  .masthead,.panel,.help,.slot-label,.slot:not(.print-slot){display:none!important}
   body{background:#fff}
   .wrap{padding:0; max-width:none; gap:0}
   .stage{overflow:visible}
   .board.a4{
-    transform:none !important; width:210mm; height:297mm; padding:19mm 16mm;
-    --p-bg:#EFEFE9; --p-ink:#16191A; --p-dim:#5E6764;
-    --p-accent:#A63A2A; --p-mark:#B4BAB5; --p-rule:#D3D7D0;
+    transform:none!important; width:210mm; height:297mm; padding:16mm 15mm 14mm;
+    --p-bg:#F0F0EA; --p-ink:#15181A; --p-dim:#5B6461;
+    --p-accent:#A63A2A; --p-mark:#B6BCB7; --p-rule:#CFD4CD;
     -webkit-print-color-adjust:exact; print-color-adjust:exact;
   }
 }
 </style>
 
 <div class="wrap">
-
   <header class="masthead">
     <div class="eyebrow">Centros de Bhakti yoga · Alicante</div>
     <h1>Cartel del taller</h1>
-    <p>Cambia los seis campos y los tres formatos se actualizan a la vez. Para
-       Instagram, captura el cartel a tamaño real; para la puerta del centro,
-       imprime esta página y saldrá solo el A4, en claro.</p>
+    <p>Rellena los campos y los tres formatos se actualizan a la vez. Para redes,
+       captura el cartel a tamaño real; para la puerta del centro, imprime esta
+       página y saldrá solo el A4, en claro.</p>
   </header>
 
   <section class="panel" aria-label="Datos del cartel">
@@ -222,121 +199,132 @@ body{
       </div>
     </div>
     <div class="fields">
-      <div class="field">
-        <label for="f-tema">Tema del mes</label>
-        <input id="f-tema" data-field="tema" value="El sonido y el praṇava">
-      </div>
-      <div class="field">
-        <label for="f-dia">Día</label>
-        <input id="f-dia" data-field="dia" value="Jueves 15 de octubre">
-      </div>
-      <div class="field">
-        <label for="f-hora">Hora</label>
-        <input id="f-hora" data-field="hora" value="19:00 h">
-      </div>
-      <div class="field">
-        <label for="f-centro">Centro</label>
-        <input id="f-centro" data-field="centro" value="Yoga Espacio Vital">
-      </div>
-      <div class="field">
-        <label for="f-reserva">Reservas</label>
-        <input id="f-reserva" data-field="reserva" value="info@yogaespaciovital.com">
-      </div>
-      <div class="field">
-        <label for="f-fijo">Posición fija</label>
-        <input id="f-fijo" data-field="fijo" value="Todos los terceros jueves">
-      </div>
-      <div class="field">
-        <label for="f-logo">Logo del centro (opcional)</label>
-        <input id="f-logo" type="file" accept="image/*">
-      </div>
-      <div class="field">
-        <label for="f-logosize">Tamaño del logo <span id="logoVal">100%</span></label>
-        <input id="f-logosize" type="range" min="0.5" max="2" step="0.05" value="1">
-      </div>
+      <div class="field"><label for="f-tema">Tema del mes</label>
+        <input id="f-tema" data-field="tema" value="El sonido y el praṇava"></div>
+      <div class="field"><label for="f-dow">Día de la semana</label>
+        <input id="f-dow" data-field="dow" value="Jueves"></div>
+      <div class="field"><label for="f-num">Día</label>
+        <input id="f-num" data-field="num" value="15"></div>
+      <div class="field"><label for="f-mes">Mes</label>
+        <input id="f-mes" data-field="mes" value="Octubre"></div>
+      <div class="field"><label for="f-hora">Hora</label>
+        <input id="f-hora" data-field="hora" value="19:00 h"></div>
+      <div class="field"><label for="f-centro">Centro</label>
+        <input id="f-centro" data-field="centro" value="Yoga Espacio Vital"></div>
+      <div class="field"><label for="f-direccion">Dirección</label>
+        <input id="f-direccion" data-field="direccion" value="Pl. de la Misericordia 9, Alicante"></div>
+      <div class="field"><label for="f-canal">Ese número es…</label>
+        <select id="f-canal">
+          <option value="tel">Teléfono</option>
+          <option value="wa" selected>WhatsApp</option>
+          <option value="tg">Telegram</option>
+        </select></div>
+      <div class="field"><label for="f-telefono">Número</label>
+        <input id="f-telefono" data-field="telefono" value="617 22 24 55"></div>
+      <div class="field"><label for="f-contacto">Email o web</label>
+        <input id="f-contacto" data-field="contacto" value="yogaespaciovital.com"></div>
+      <div class="field"><label for="f-fijo">Posición fija</label>
+        <input id="f-fijo" data-field="fijo" value="Todos los terceros jueves"></div>
+      <div class="field"><label for="f-logo">Logo del centro</label>
+        <input id="f-logo" type="file" accept="image/*"></div>
+      <div class="field"><label for="f-logosize">Tamaño del logo <span id="logoVal">100%</span></label>
+        <input id="f-logosize" type="range" min="0.5" max="2" step="0.05" value="1"></div>
     </div>
   </section>
 
   <div class="boards" id="boards"></div>
 
   <p class="help">
-    Los tres carteles miden lo que tienen que medir: <code>1080×1080</code> para el
-    feed, <code>1080×1920</code> para stories y A4 para papel. La rejilla de barras
-    es un <i>śloka</i>: cuatro pādas de ocho sílabas, largas en tono fuerte y breves
-    en tono flojo. El logo del centro va arriba del todo, encima del título: la sala
-    es suya y eso es información principal, no un crédito al pie. Ajusta el
-    tamaño con el control, porque un logo ancho y uno cuadrado no ocupan igual. Si su logo es oscuro y lo
-    estás poniendo sobre fondo oscuro, usa <b>Aclarar logo</b>, o pasa el cartel
-    a fondo claro.
+    La retícula ordena el cartel en cinco zonas: el local arriba, la identidad, el
+    filete de sílabas, la fecha y la rejilla de datos. El número del día es la
+    pieza mayor a propósito: es lo que registra alguien que pasa por delante. El
+    filete son cuatro pādas de ocho sílabas, un <i>śloka</i>, con las largas en
+    tono fuerte. Medidas reales: <code>1080×1080</code>, <code>1080×1920</code> y A4.
   </p>
-
 </div>
 
 <template id="tpl">
   <div class="board">
-    <div class="b-top">
-      <div class="b-logo"><img data-logo alt=""></div>
-      <div class="b-eyebrow">Taller mensual · Gratuito</div>
-      <h2 class="b-title">Mantra<br>Yoga</h2>
-      <p class="b-sub">Aprende a cantar los mantras clásicos en sánscrito</p>
+    <div class="z-head">
+      <div class="z-logo"><img data-logo alt=""></div>
+      <div class="mono k" data-out="fijo"></div>
     </div>
 
-    <div class="spacer"></div>
-
-    <div class="b-mid">
-      <div class="b-tag">Tema de este mes</div>
-      <p class="b-tema" data-out="tema"></p>
-      <div style="height:.35em"></div>
-      <p class="b-date" data-out="dia"></p>
-      <div class="b-hora" data-out="hora"></div>
-      <div style="height:.3em"></div>
-      <p class="b-centro" data-out="centro"></p>
+    <div class="z-id">
+      <h2 class="z-title">Mantra<br>Yoga</h2>
+      <div class="z-rule"></div>
+      <p class="z-sub">Aprende a cantar los mantras clásicos en sánscrito</p>
     </div>
 
-    <div class="spacer"></div>
+    <div class="z-sloka" aria-hidden="true">
+      <div class="pada"></div><div class="pada"></div>
+      <div class="pada"></div><div class="pada"></div>
+    </div>
 
-    <div class="b-bot">
-      <div class="sloka" aria-hidden="true">
-        <div class="pada"></div><div class="pada"></div>
-        <div class="pada"></div><div class="pada"></div>
+    <div class="grow"></div>
+
+    <div class="z-when">
+      <div class="z-num" data-out="num"></div>
+      <div class="z-when-txt">
+        <div class="z-dow mono" data-out="dow"></div>
+        <div class="z-mes" data-out="mes"></div>
+        <div class="z-hora mono" data-out="hora"></div>
       </div>
-      <div class="b-free">Gratuito</div>
-      <p class="b-note">Una hora. No hace falta experiencia ni saber sánscrito.<br>
-        Plazas limitadas · Reservas en <span data-out="reserva"></span></p>
-      <div class="b-foot">
-        <span data-out="fijo"></span>
-        <span>bhaktiyoga.es</span>
+    </div>
+
+    <div class="z-bar">
+      <b>Gratuito</b>
+      <span>Una hora &middot; sin experiencia previa</span>
+    </div>
+
+    <div class="z-grid">
+      <div class="cell">
+        <span class="k mono">Tema de este mes</span>
+        <span class="v em" data-out="tema"></span>
+      </div>
+      <div class="cell">
+        <span class="k mono">D&oacute;nde</span>
+        <span class="v" data-out="centro"></span>
+        <span class="v sm" data-out="direccion"></span>
+      </div>
+      <div class="cell">
+        <span class="k mono">Reservas</span>
+        <span class="v z-contacto"><span class="b-ico" data-ico aria-hidden="true"></span><span data-out="telefono"></span></span>
+      </div>
+      <div class="cell">
+        <span class="k mono">M&aacute;s informaci&oacute;n</span>
+        <span class="v" data-out="contacto"></span>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-const FORMATOS = [
-  {cls:'sq', nombre:'Feed de Instagram', medida:'1080 × 1080'},
-  {cls:'st', nombre:'Story',             medida:'1080 × 1920'},
-  {cls:'a4', nombre:'A4 para imprimir',  medida:'210 × 297 mm', print:true}
+var FORMATOS=[
+  {cls:'sq',nombre:'Feed de Instagram',medida:'1080 × 1080'},
+  {cls:'st',nombre:'Story',medida:'1080 × 1920'},
+  {cls:'a4',nombre:'A4 para imprimir',medida:'210 × 297 mm',print:true}
 ];
-// patrón de sílabas largas (1) y breves (0), cuatro pādas de ocho
-const PADAS = [
-  [0,1,0,1,1,0,1,0],[0,1,1,0,1,0,1,1],
-  [1,0,1,1,0,1,0,0],[0,1,0,1,1,0,1,0]
-];
+var PADAS=[[0,1,0,1,1,0,1,0],[0,1,1,0,1,0,1,1],[1,0,1,1,0,1,0,0],[0,1,0,1,1,0,1,0]];
+var HANDSET='M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z';
+var SVG0='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">';
+var ICONOS={
+  tel: SVG0+'<path d="'+HANDSET+'"/></svg>',
+  wa:  SVG0+'<path d="M21 11.6a8.4 8.4 0 0 1-12.5 7.3L3 20.6l1.8-5.3A8.4 8.4 0 1 1 21 11.6z"/><g transform="translate(7.1 7.1) scale(0.41)"><path d="'+HANDSET+'" stroke-width="4.4"/></g></svg>',
+  tg:  SVG0+'<path d="M22 2 11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>'
+};
 
-const boards = document.getElementById('boards');
-const tpl = document.getElementById('tpl');
-
-FORMATOS.forEach(f => {
-  const slot = document.createElement('section');
-  slot.className = 'slot' + (f.print ? ' print-slot' : '');
-  slot.innerHTML = `<div class="slot-label"><b>${f.nombre}</b><span>${f.medida}</span></div>
-                    <div class="stage"></div>`;
-  const board = tpl.content.firstElementChild.cloneNode(true);
+var boards=document.getElementById('boards'), tpl=document.getElementById('tpl');
+FORMATOS.forEach(function(f){
+  var slot=document.createElement('section');
+  slot.className='slot'+(f.print?' print-slot':'');
+  slot.innerHTML='<div class="slot-label"><b>'+f.nombre+'</b><span>'+f.medida+'</span></div><div class="stage"></div>';
+  var board=tpl.content.firstElementChild.cloneNode(true);
   board.classList.add(f.cls);
-  board.querySelectorAll('.pada').forEach((p, i) => {
-    PADAS[i].forEach(long => {
-      const s = document.createElement('span');
-      s.className = 'syl ' + (long ? 'g' : 'l');
+  board.querySelectorAll('.pada').forEach(function(p,i){
+    PADAS[i].forEach(function(lg){
+      var s=document.createElement('span');
+      s.className='syl '+(lg?'g':'l');
       p.appendChild(s);
     });
   });
@@ -345,72 +333,73 @@ FORMATOS.forEach(f => {
 });
 
 function pinta(){
-  document.querySelectorAll('input[data-field]').forEach(inp => {
-    const val = inp.value;
-    document.querySelectorAll(`[data-out="${inp.dataset.field}"]`)
-      .forEach(el => el.textContent = val);
+  document.querySelectorAll('input[data-field]').forEach(function(inp){
+    document.querySelectorAll('[data-out="'+inp.dataset.field+'"]').forEach(function(el){
+      el.textContent=inp.value;
+    });
   });
 }
-document.querySelectorAll('input[data-field]').forEach(i => i.addEventListener('input', pinta));
+document.querySelectorAll('input[data-field]').forEach(function(i){i.addEventListener('input',pinta)});
 
 function escala(){
-  document.querySelectorAll('.stage').forEach(stage => {
-    const board = stage.firstElementChild;
-    const real = board.classList.contains('a4') ? 794 : 1080;
-    const s = Math.min(1, stage.clientWidth / real);
-    board.style.transform = `scale(${s})`;
-    stage.style.height = (board.offsetHeight * s) + 'px';
+  document.querySelectorAll('.stage').forEach(function(stage){
+    var b=stage.firstElementChild;
+    var real=b.classList.contains('a4')?794:1080;
+    var s=Math.min(1,stage.clientWidth/real);
+    b.style.transform='scale('+s+')';
+    stage.style.height=(b.offsetHeight*s)+'px';
   });
 }
-addEventListener('resize', escala);
+addEventListener('resize',escala);
 
-const btn = document.getElementById('inkToggle');
-btn.addEventListener('click', () => {
-  const on = btn.getAttribute('aria-pressed') === 'true';
-  btn.setAttribute('aria-pressed', String(!on));
-  document.querySelectorAll('.board').forEach(b => {
-    if (on) b.removeAttribute('data-ink'); else b.setAttribute('data-ink','claro');
-  });
-});
+var canal=document.getElementById('f-canal');
+function ponIcono(){
+  var svg=ICONOS[canal.value]||'';
+  document.querySelectorAll('[data-ico]').forEach(function(el){el.innerHTML=svg});
+}
+canal.addEventListener('change',ponIcono);
 
-const logoIn = document.getElementById('f-logo');
-const logoFx = document.getElementById('logoToggle');
-const logoNo = document.getElementById('logoClear');
+var logoIn=document.getElementById('f-logo'),
+    logoFx=document.getElementById('logoToggle'),
+    logoNo=document.getElementById('logoClear'),
+    logoSize=document.getElementById('f-logosize'),
+    logoVal=document.getElementById('logoVal');
 
 function ponLogo(src){
-  document.querySelectorAll('.board').forEach(b => {
-    const img = b.querySelector('[data-logo]');
-    if (src){ img.src = src; b.setAttribute('data-haslogo','si'); }
-    else { img.removeAttribute('src'); b.removeAttribute('data-haslogo'); }
+  document.querySelectorAll('.board').forEach(function(b){
+    var img=b.querySelector('[data-logo]');
+    if(src){img.src=src; b.setAttribute('data-haslogo','si')}
+    else{img.removeAttribute('src'); b.removeAttribute('data-haslogo')}
   });
-  logoNo.hidden = !src;
+  logoNo.hidden=!src;
   requestAnimationFrame(escala);
 }
-logoIn.addEventListener('change', e => {
-  const file = e.target.files && e.target.files[0];
-  if (!file) return;
-  const r = new FileReader();
-  r.onload = () => ponLogo(r.result);
-  r.readAsDataURL(file);
+logoIn.addEventListener('change',function(e){
+  var file=e.target.files&&e.target.files[0]; if(!file) return;
+  var r=new FileReader(); r.onload=function(){ponLogo(r.result)}; r.readAsDataURL(file);
 });
-logoNo.addEventListener('click', () => { logoIn.value=''; ponLogo(null); });
-const logoSize = document.getElementById('f-logosize');
-const logoVal  = document.getElementById('logoVal');
-logoSize.addEventListener('input', () => {
-  const k = logoSize.value;
-  logoVal.textContent = Math.round(k * 100) + '%';
-  document.querySelectorAll('.board').forEach(b => b.style.setProperty('--logo-k', k));
+logoNo.addEventListener('click',function(){logoIn.value=''; ponLogo(null)});
+logoSize.addEventListener('input',function(){
+  logoVal.textContent=Math.round(logoSize.value*100)+'%';
+  document.querySelectorAll('.board').forEach(function(b){b.style.setProperty('--logo-k',logoSize.value)});
 });
-
-logoFx.addEventListener('click', () => {
-  const on = logoFx.getAttribute('aria-pressed') === 'true';
-  logoFx.setAttribute('aria-pressed', String(!on));
-  document.querySelectorAll('.board').forEach(b => {
-    if (on) b.removeAttribute('data-logofx'); else b.setAttribute('data-logofx','aclarar');
+logoFx.addEventListener('click',function(){
+  var on=logoFx.getAttribute('aria-pressed')==='true';
+  logoFx.setAttribute('aria-pressed',String(!on));
+  document.querySelectorAll('.board').forEach(function(b){
+    if(on){b.removeAttribute('data-logofx')}else{b.setAttribute('data-logofx','aclarar')}
+  });
+});
+var ink=document.getElementById('inkToggle');
+ink.addEventListener('click',function(){
+  var on=ink.getAttribute('aria-pressed')==='true';
+  ink.setAttribute('aria-pressed',String(!on));
+  document.querySelectorAll('.board').forEach(function(b){
+    if(on){b.removeAttribute('data-ink')}else{b.setAttribute('data-ink','claro')}
   });
 });
 
-pinta();
-if (document.fonts && document.fonts.ready) document.fonts.ready.then(escala);
+pinta(); ponIcono();
+if(document.fonts&&document.fonts.ready) document.fonts.ready.then(escala);
 escala();
 </script>
