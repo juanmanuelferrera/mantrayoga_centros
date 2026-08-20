@@ -69,6 +69,9 @@ body{
   border:1px solid var(--line); border-radius:3px; padding:9px 11px;
 }
 .field input:hover{border-color:var(--muted)}
+.field input[type=range]{padding:0; border:0; background:transparent; accent-color:var(--accent)}
+.field input[type=file]{padding:7px 9px; font-size:12px}
+#logoVal{color:var(--accent); font-variant-numeric:tabular-nums}
 
 .switches{display:flex; flex-wrap:wrap; gap:8px}
 .switch{
@@ -129,9 +132,13 @@ body{
   text-transform:uppercase; letter-spacing:.2em; padding:.5em .9em;
 }
 .b-note{color:var(--p-dim); line-height:1.35; margin:0}
-.b-logo{display:none; align-items:center; gap:.8em}
-.board[data-haslogo="si"] .b-logo{display:flex}
-.b-logo img{max-height:var(--logo); max-width:52%; width:auto; object-fit:contain; display:block}
+.b-logo{display:none; margin-bottom:.35em}
+.board[data-haslogo="si"] .b-logo{display:block}
+.b-logo img{
+  max-height:calc(var(--logo) * var(--logo-k, 1));
+  max-width:min(78%, calc(var(--logo) * var(--logo-k, 1) * 5));
+  width:auto; object-fit:contain; object-position:left center; display:block;
+}
 .board[data-logofx="aclarar"] .b-logo img{filter:grayscale(1) invert(1) brightness(1.7) contrast(1.1)}
 .b-logo span{
   font-family:"IBM Plex Mono",monospace; color:var(--p-dim);
@@ -155,9 +162,9 @@ body{
 }
 
 /* escalas tipográficas por formato */
-.sq{--t:104px; --s:25px; --tag:13px; --tema:34px; --d:64px; --h:26px; --c:31px; --free:15px; --n:22px; --f:14px; --sw:15px; --sh:9px; --logo:64px}
-.st{--t:126px; --s:31px; --tag:16px; --tema:42px; --d:78px; --h:32px; --c:38px; --free:18px; --n:27px; --f:16px; --sw:19px; --sh:11px; --logo:78px}
-.a4{--t:78px;  --s:19px; --tag:10px; --tema:26px; --d:47px; --h:20px; --c:23px; --free:11px; --n:16px; --f:10px; --sw:11px; --sh:7px; --logo:46px}
+.sq{--t:104px; --s:25px; --tag:13px; --tema:34px; --d:64px; --h:26px; --c:31px; --free:15px; --n:22px; --f:14px; --sw:15px; --sh:9px; --logo:122px}
+.st{--t:126px; --s:31px; --tag:16px; --tema:42px; --d:78px; --h:32px; --c:38px; --free:18px; --n:27px; --f:16px; --sw:19px; --sh:11px; --logo:148px}
+.a4{--t:78px;  --s:19px; --tag:10px; --tema:26px; --d:47px; --h:20px; --c:23px; --free:11px; --n:16px; --f:10px; --sw:11px; --sh:7px; --logo:88px}
 
 .board .b-title{font-size:var(--t)}
 .board .b-sub{font-size:var(--s)}
@@ -243,6 +250,10 @@ body{
         <label for="f-logo">Logo del centro (opcional)</label>
         <input id="f-logo" type="file" accept="image/*">
       </div>
+      <div class="field">
+        <label for="f-logosize">Tamaño del logo <span id="logoVal">100%</span></label>
+        <input id="f-logosize" type="range" min="0.5" max="2" step="0.05" value="1">
+      </div>
     </div>
   </section>
 
@@ -252,8 +263,9 @@ body{
     Los tres carteles miden lo que tienen que medir: <code>1080×1080</code> para el
     feed, <code>1080×1920</code> para stories y A4 para papel. La rejilla de barras
     es un <i>śloka</i>: cuatro pādas de ocho sílabas, largas en tono fuerte y breves
-    en tono flojo. El logo del centro va sobre el filete del pie: con su marca
-    encima, el cartel es suyo y lo publican mucho más. Si su logo es oscuro y lo
+    en tono flojo. El logo del centro va arriba del todo, encima del título: la sala
+    es suya y eso es información principal, no un crédito al pie. Ajusta el
+    tamaño con el control, porque un logo ancho y uno cuadrado no ocupan igual. Si su logo es oscuro y lo
     estás poniendo sobre fondo oscuro, usa <b>Aclarar logo</b>, o pasa el cartel
     a fondo claro.
   </p>
@@ -263,6 +275,7 @@ body{
 <template id="tpl">
   <div class="board">
     <div class="b-top">
+      <div class="b-logo"><img data-logo alt=""></div>
       <div class="b-eyebrow">Taller mensual · Gratuito</div>
       <h2 class="b-title">Mantra<br>Yoga</h2>
       <p class="b-sub">Aprende a cantar los mantras clásicos en sánscrito</p>
@@ -290,7 +303,6 @@ body{
       <div class="b-free">Gratuito</div>
       <p class="b-note">Una hora. No hace falta experiencia ni saber sánscrito.<br>
         Plazas limitadas · Reservas en <span data-out="reserva"></span></p>
-      <div class="b-logo"><span>En</span><img data-logo alt=""></div>
       <div class="b-foot">
         <span data-out="fijo"></span>
         <span>bhaktiyoga.es</span>
@@ -382,6 +394,14 @@ logoIn.addEventListener('change', e => {
   r.readAsDataURL(file);
 });
 logoNo.addEventListener('click', () => { logoIn.value=''; ponLogo(null); });
+const logoSize = document.getElementById('f-logosize');
+const logoVal  = document.getElementById('logoVal');
+logoSize.addEventListener('input', () => {
+  const k = logoSize.value;
+  logoVal.textContent = Math.round(k * 100) + '%';
+  document.querySelectorAll('.board').forEach(b => b.style.setProperty('--logo-k', k));
+});
+
 logoFx.addEventListener('click', () => {
   const on = logoFx.getAttribute('aria-pressed') === 'true';
   logoFx.setAttribute('aria-pressed', String(!on));

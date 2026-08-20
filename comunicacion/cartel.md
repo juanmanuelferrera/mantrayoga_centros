@@ -49,9 +49,15 @@ a los repetidores, así que no la quites.
 
 El productor tiene un campo para subir el logo del centro. **Úsalo siempre.**
 
-Con su marca encima, el cartel deja de ser tuyo y pasa a ser suyo, y un centro
-publica mucho más lo que siente propio. Va sobre el filete del pie, precedido de
-un "En" pequeño, y no compite con nada.
+Va **arriba del todo, encima del título**, y no al pie. La razón no es de
+cortesía: la sala es suya y nosotros no tenemos local propio, así que dónde se
+hace el taller es información principal, no un crédito. Además, con su marca
+arriba el cartel deja de ser tuyo y pasa a ser suyo, y un centro publica mucho
+más lo que siente propio.
+
+Hay un control de tamaño porque los logos no se comportan igual: un wordmark
+ancho necesita menos altura que una marca cuadrada. Ajústalo hasta que pese lo
+mismo que el título sin taparlo.
 
 Pídeselo en la visita, junto con la posición fija: "¿me pasas vuestro logo en
 PNG y os hago el cartel?". Es una petición mínima que además les compromete un
