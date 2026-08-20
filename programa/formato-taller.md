@@ -107,6 +107,35 @@ Que salga de ellos y no de ti cambia por completo cómo se recibe.
 - Un plato o cesta pequeña para el donativo. Discreto, junto a la salida.
 - Una hoja en blanco para los nombres de quien quiera aviso del siguiente.
 
+## Apoyo visual
+
+Cada programa tiene su tema, y el tema se ve además de oírse. **Pero es un
+extra, nunca un requisito.** Si el centro no tiene pantalla y no da para
+láminas, el taller se hace igual y no se nota. Nunca se le pide al centro que
+compre, alquile ni prepare nada: lo único que se le pide es la sala.
+
+**Si el centro tiene pantalla o proyector.** Pregúntalo al cerrar la fecha, no
+el mismo día. Se proyecta:
+
+- El verso en devanagari y en transliteración, grande, durante el bloque de
+  pronunciación. Esto es lo más útil de todo: la gente sigue el texto mientras
+  canta en vez de pelearse con una hoja.
+- Tres o cuatro imágenes del tema del mes, una por cápsula.
+- Nada más. Sin animaciones, sin fondos, sin texto en párrafos.
+
+**Si no hay pantalla.** Láminas impresas en A3, plastificadas, apoyadas donde se
+vean. Tres o cuatro por sesión, no quince. Se pasan de mano en mano durante la
+cápsula correspondiente y se recogen.
+
+**Reglas de la imagen.** Que sea buena y que se vea de qué es. Vale una pintura
+tradicional, una foto del lugar, una página de manuscrito. No valen collages,
+imágenes pixeladas ni montajes con texto encima.
+
+**Si no hay nada de esto, el programa se hace igual.** Sin pantalla y sin
+láminas la sesión funciona: el material es el sonido y la hoja del alumno. Monta
+siempre la sesión para que salga sin imágenes, y si hay pantalla, mejor. Nunca
+al revés.
+
 ## Montaje de la sala
 
 - Círculo o semicírculo. Nunca filas mirando al frente. Esto no es una clase.
