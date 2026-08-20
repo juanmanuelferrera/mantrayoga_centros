@@ -1,5 +1,11 @@
 # Cartel
 
+**Productor de carteles (página web):** https://claude.ai/code/artifact/24fc66da-d47d-49f9-bd61-d96e08a50402
+
+Rellenas seis campos y salen los tres formatos a la vez. Es la forma rápida de
+sacar el cartel cada mes. La fuente está en `cartel/cartel.html`, y hay una
+versión LaTeX en `cartel/cartel.tex` para PDF vectorial.
+
 Se lo mandas al centro el mismo día que dice que sí. Cuanto menos tenga que
 hacer el centro, más lo publica.
 

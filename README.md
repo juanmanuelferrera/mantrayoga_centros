@@ -17,6 +17,14 @@ bhaktiyoga.es).
 | `centros/` | Lista de centros, estado de cada uno y calendario perpetuo |
 | `comunicacion/` | Email, WhatsApp, llamada, objeciones, cartel, Instagram |
 
+## Enlaces
+
+| Qué | Dónde |
+|---|---|
+| Productor de carteles | https://claude.ai/code/artifact/24fc66da-d47d-49f9-bd61-d96e08a50402 |
+| Repositorio | https://github.com/juanmanuelferrera/mantrayoga_centros |
+| Web de la entidad | https://bhaktiyoga.es |
+
 ## Cómo se usa
 
 1. Abre `centros/centros-alicante.csv` y elige los de prioridad A.
