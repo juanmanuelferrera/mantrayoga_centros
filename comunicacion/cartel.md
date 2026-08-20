@@ -1,10 +1,31 @@
 # Cartel
 
-**Productor de carteles (página web):** https://claude.ai/code/artifact/24fc66da-d47d-49f9-bd61-d96e08a50402
+**El productor de carteles es un archivo de este repo:**
+`comunicacion/cartel/cartel.html`. Ábrelo con doble clic en el navegador.
 
-Rellenas seis campos y salen los tres formatos a la vez. Es la forma rápida de
-sacar el cartel cada mes. La fuente está en `cartel/cartel.html`, y hay una
-versión LaTeX en `cartel/cartel.tex` para PDF vectorial.
+Rellenas los campos y salen los tres formatos a la vez. No necesita internet
+(salvo para las tipografías), no depende de ningún servicio y funcionará igual
+dentro de cinco años.
+
+Hay además una copia publicada en
+https://claude.ai/code/artifact/24fc66da-d47d-49f9-bd61-d96e08a50402 para verla
+desde el móvil, pero **los botones de guardar solo funcionan bien en el archivo
+local**: la página publicada bloquea las descargas.
+
+Y hay una versión LaTeX en `cartel/cartel.tex` para PDF vectorial.
+
+## Cómo guardar un cartel
+
+1. Abre `cartel/cartel.html` en el navegador y rellena los campos.
+2. Pulsa **Guardar cuadrado**, **Guardar story** o **Guardar A4**.
+3. En el diálogo de impresión elige **PDF → Guardar como PDF**.
+4. Para redes hace falta PNG: guarda los PDF en una carpeta y ejecuta
+   `comunicacion/cartel/pdf-a-png.sh` dentro de ella. Convierte el cuadrado y el
+   story a 1080 px exactos y el A4 a 150 dpi.
+
+Una página web no puede generar un PNG de esto por sí sola sin librerías
+externas, así que el rodeo por PDF no es pereza: es el único camino que da el
+tamaño exacto.
 
 Se lo mandas al centro el mismo día que dice que sí. Cuanto menos tenga que
 hacer el centro, más lo publica.

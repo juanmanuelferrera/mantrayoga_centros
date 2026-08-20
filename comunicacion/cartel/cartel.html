@@ -4,6 +4,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..900&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 
+<style id="pagesize"></style>
 <style>
 :root{
   --bg:#E8EAE5; --surface:#F5F6F2; --text:#191C1A; --muted:#666B66;
@@ -69,6 +70,8 @@ body{
 }
 .switch:hover{border-color:var(--muted)}
 .switch[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff}
+.switch.save{border-color:var(--accent); color:var(--accent); font-weight:600}
+.switch.save:hover{background:var(--accent); color:#fff}
 
 .boards{display:flex; flex-direction:column; gap:44px}
 .slot{display:flex; flex-direction:column; gap:12px}
@@ -192,18 +195,25 @@ body{
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 
-@page{size:A4; margin:0}
 @media print{
-  .masthead,.panel,.help,.slot-label,.slot:not(.print-slot){display:none!important}
+  .masthead,.panel,.help,.slot-label{display:none!important}
   body{background:#fff}
   .wrap{padding:0; max-width:none; gap:0}
   .stage{overflow:visible}
-  .board.a4{
-    transform:none!important; width:210mm; height:297mm; padding:16mm 15mm 14mm;
+  .board{transform:none!important}
+
+  /* solo se imprime el formato elegido */
+  html[data-print="sq"] .slot:not(.slot-sq),
+  html[data-print="st"] .slot:not(.slot-st),
+  html[data-print="a4"] .slot:not(.slot-a4){display:none!important}
+
+  /* el A4 siempre en claro, aunque en pantalla este oscuro */
+  html[data-print="a4"] .board.a4{
+    width:210mm; height:297mm; padding:16mm 15mm 14mm;
     --p-bg:#F0F0EA; --p-ink:#15181A; --p-dim:#5B6461;
     --p-accent:#A63A2A; --p-mark:#B6BCB7; --p-rule:#CFD4CD;
-    -webkit-print-color-adjust:exact; print-color-adjust:exact;
   }
+  .board{-webkit-print-color-adjust:exact; print-color-adjust:exact}
 }
 </style>
 
@@ -259,6 +269,24 @@ body{
       <div class="field"><label for="f-logosize">Tamaño del logo <span id="logoVal">100%</span></label>
         <input id="f-logosize" type="range" min="0.5" max="2" step="0.05" value="1"></div>
     </div>
+  </section>
+
+  <section class="panel" aria-label="Guardar">
+    <div class="panel-head">
+      <h2>Guardar</h2>
+    </div>
+    <div class="switches">
+      <button class="switch save" data-save="sq">Guardar cuadrado</button>
+      <button class="switch save" data-save="st">Guardar story</button>
+      <button class="switch save" data-save="a4">Guardar A4</button>
+    </div>
+    <p class="help" style="margin:0">
+      Cada botón abre el diálogo de impresión con el tamaño exacto de ese
+      formato. En el diálogo elige <b>PDF → Guardar como PDF</b>. El A4 sale
+      siempre en claro; el cuadrado y el story salen con el fondo que tengas
+      puesto. Para convertir esos PDF en PNG de 1080 px, ejecuta
+      <code>./pdf-a-png.sh</code> en la carpeta donde los guardes.
+    </p>
   </section>
 
   <div class="boards" id="boards"></div>
@@ -353,7 +381,7 @@ var ICONOS={
 var boards=document.getElementById('boards'), tpl=document.getElementById('tpl');
 FORMATOS.forEach(function(f){
   var slot=document.createElement('section');
-  slot.className='slot'+(f.print?' print-slot':'');
+  slot.className='slot slot-'+f.cls;
   slot.innerHTML='<div class="slot-label"><b>'+f.nombre+'</b><span>'+f.medida+'</span></div><div class="stage"></div>';
   var board=tpl.content.firstElementChild.cloneNode(true);
   board.classList.add(f.cls);
@@ -454,6 +482,21 @@ ink.addEventListener('click',function(){
   document.querySelectorAll('.board').forEach(function(b){
     if(on){b.removeAttribute('data-ink')}else{b.setAttribute('data-ink','claro')}
   });
+});
+
+var PAGINA={sq:'11.25in 11.25in', st:'11.25in 20in', a4:'A4'};
+var hojaPagina=document.getElementById('pagesize');
+document.querySelectorAll('.save').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var f=btn.dataset.save;
+    hojaPagina.textContent='@page{size:'+PAGINA[f]+'; margin:0}';
+    document.documentElement.setAttribute('data-print',f);
+    window.print();
+  });
+});
+addEventListener('afterprint',function(){
+  document.documentElement.removeAttribute('data-print');
+  hojaPagina.textContent='';
 });
 
 pinta(); ponIcono();
