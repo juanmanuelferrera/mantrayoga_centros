@@ -19,10 +19,13 @@ bhaktiyoga.es).
 
 ## Cómo se usa
 
-1. Abre `centros/centros-alicante.csv` y elige los diez primeros.
-2. Envía el email de `comunicacion/email-primer-contacto.md` con el dossier.
-3. Cuando un centro dice que sí, mándale el cartel y el texto de Instagram.
-4. Da el taller siguiendo `programa/formato-taller.md` y el tema del mes.
+1. Abre `centros/centros-alicante.csv` y elige los de prioridad A.
+2. Sigue `comunicacion/secuencia-contacto.md`: mandas el material, dejas pasar
+   cinco días y pides una cita de quince minutos sin compromiso.
+3. En la cita cierras un día. Cuando hay fecha, mándale al centro el cartel y el
+   texto de Instagram ya hechos.
+4. Da el taller siguiendo `programa/formato-taller.md` y el tema de
+   `programa/repertorio.md`.
 5. Anota lo que pasó en `docs/metricas.md` y actualiza `centros/seguimiento.md`.
 
 ## Regla de oro

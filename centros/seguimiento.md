@@ -4,17 +4,20 @@ El CSV es la base de datos. Aquí va lo que pasa con cada uno.
 
 ## Estados
 
+Siguen la secuencia de `comunicacion/secuencia-contacto.md`.
+
 | Estado | Qué significa |
 |---|---|
 | `pendiente` | Aún no contactado |
-| `contactado` | Primer email o mensaje enviado, esperando |
-| `seguimiento` | Segundo intento enviado (día 7) |
-| `hablando` | Han contestado, se está cerrando fecha |
+| `enviado` | Paso 1 hecho: material enviado por email (día 0) |
+| `cita pedida` | Paso 2 hecho: se ha pedido la cita (día 5) |
+| `cerrando` | Paso 3 hecho o han contestado; se está pactando la cita |
+| `cita` | Hay cita concertada en su centro |
 | `fecha` | Hay fecha cerrada para el primer taller |
 | `activo` | Taller mensual funcionando |
 | `pausado` | Estuvo activo y ahora no |
 | `no` | Dijeron que no. Reabrir a los 6 meses |
-| `sin respuesta` | Dos intentos sin contestar. Reabrir a los 6 meses |
+| `sin respuesta` | Los tres pasos sin contestar. Reabrir a los 6 meses |
 
 ## Prioridades
 
