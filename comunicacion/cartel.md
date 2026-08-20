@@ -45,6 +45,22 @@ a los repetidores, así que no la quites.
 
 ---
 
+## El logo del centro
+
+El productor tiene un campo para subir el logo del centro. **Úsalo siempre.**
+
+Con su marca encima, el cartel deja de ser tuyo y pasa a ser suyo, y un centro
+publica mucho más lo que siente propio. Va sobre el filete del pie, precedido de
+un "En" pequeño, y no compite con nada.
+
+Pídeselo en la visita, junto con la posición fija: "¿me pasas vuestro logo en
+PNG y os hago el cartel?". Es una petición mínima que además les compromete un
+poco más.
+
+**Si su logo es oscuro y el cartel va en fondo oscuro**, el botón *Aclarar logo*
+lo invierte. Si queda mal, pasa el cartel entero a fondo claro: es preferible un
+cartel claro con su logo bien que uno oscuro con su logo hecho un borrón.
+
 ## Reglas de diseño
 
 - Sobrio. Nada de mandalas, lotos, siluetas en posición de loto al atardecer ni
