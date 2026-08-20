@@ -1,0 +1,95 @@
+% Cartel del taller — Mantra Yoga
+% No se compila directamente: usa ./build.sh
+% Rellena los seis campos de abajo y vuelve a compilar.
+
+% ====================== RELLENA ESTO ======================
+\def\TEMA{El sonido y el pra\d{n}ava}
+\def\DIA{Jueves 15 de octubre}
+\def\HORA{19:00}
+\def\CENTRO{Yoga Espacio Vital}
+\def\RESERVA{info@yogaespaciovital.com}
+% ==========================================================
+
+\ifx\FORMATO\undefined \def\FORMATO{a4} \fi
+
+\documentclass{article}
+\usepackage{fontspec}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{amssymb}
+\usepackage{etoolbox}
+
+\definecolor{tinta}{HTML}{1A1A1A}
+\definecolor{ocre}{HTML}{9C5A28}
+\definecolor{gris}{HTML}{6B6B6B}
+\definecolor{papel}{HTML}{FBFAF8}
+
+\setmainfont{Palatino}
+\newfontfamily\titular{Helvetica Neue}[UprightFont={* Medium}, BoldFont={* Bold}, ItalicFont={* Italic}]
+
+% --- Tamaños según formato ---
+\ifdefstring{\FORMATO}{cuadrado}{
+  \geometry{paperwidth=1080bp, paperheight=1080bp, margin=80bp}
+  \def\SZTIT{86}\def\SZSUB{27}\def\SZTEMA{25}\def\SZFECHA{54}\def\SZCENTRO{33}
+  \def\SZNOTA{23}\def\SZGRATIS{62}\def\SZPIE{18}\def\SZFOOT{15}
+  \def\SZHORA{34}\def\UNIDAD{18bp}
+}{}
+\ifdefstring{\FORMATO}{story}{
+  \geometry{paperwidth=1080bp, paperheight=1920bp, margin=90bp}
+  \def\SZTIT{96}\def\SZSUB{30}\def\SZTEMA{28}\def\SZFECHA{62}\def\SZCENTRO{37}
+  \def\SZNOTA{26}\def\SZGRATIS{72}\def\SZPIE{21}\def\SZFOOT{17}
+  \def\SZHORA{39}\def\UNIDAD{20bp}
+}{}
+\ifdefstring{\FORMATO}{a4}{
+  \geometry{a4paper, margin=22mm}
+  \def\SZTIT{54}\def\SZSUB{17}\def\SZTEMA{16}\def\SZFECHA{36}\def\SZCENTRO{21}
+  \def\SZNOTA{15}\def\SZGRATIS{40}\def\SZPIE{12}\def\SZFOOT{9}
+  \def\SZHORA{23}\def\UNIDAD{11bp}
+}{}
+
+\newlength{\U}
+\setlength{\U}{\UNIDAD}
+
+\pagecolor{papel}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\newcommand{\linea}[1]{{\color{ocre}\rule{\textwidth}{#1}}}
+\newcommand{\tx}[3]{{#1\fontsize{#2}{\fpeval{#2*1.15}}\selectfont #3\par}}
+
+\begin{document}
+\color{tinta}
+\centering
+
+\linea{2.5pt}
+\vspace{2.0\U}
+
+\tx{\titular\bfseries}{\SZTIT}{MANTRA YOGA}
+\vspace{1.2\U}
+\tx{\titular\color{gris}}{\SZSUB}{Aprende a cantar los mantras clásicos en sánscrito}
+
+\vspace{\stretch{1}}
+
+\tx{\titular\color{ocre}}{\SZTEMA}{Tema de este mes: \TEMA}
+\vspace{1.3\U}
+\tx{\titular\bfseries}{\SZFECHA}{\DIA}
+\vspace{0.45\U}
+\tx{\titular\bfseries\color{ocre}}{\SZHORA}{\HORA\ h}
+\vspace{0.9\U}
+\tx{}{\SZCENTRO}{\CENTRO}
+
+\vspace{\stretch{1.15}}
+
+\tx{}{\SZNOTA}{Una hora. No hace falta experiencia ni saber sánscrito.}
+\vspace{1.2\U}
+\tx{\titular\bfseries\color{ocre}}{\SZGRATIS}{GRATUITO}
+\vspace{1.0\U}
+\tx{\color{gris}}{\SZPIE}{Plazas limitadas · Reserva en \RESERVA}
+
+\vspace{2.0\U}
+\linea{1pt}
+\vspace{0.9\U}
+\tx{\titular\color{gris}}{\SZFOOT}{Centros de Bhakti yoga · bhaktiyoga.es}
+
+\end{document}

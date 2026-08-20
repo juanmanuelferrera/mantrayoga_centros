@@ -96,9 +96,14 @@ B se escribe para que otra persona pueda cogerlo y darlo.
 
 ## La aritmética
 
-25 centros por un taller al mes son 25 talleres al mes, casi uno diario. Una
-persona no lo sostiene. El tope realista es de 6 a 8 al mes. El plan respeta ese
-número en vez de fingir que no existe.
+**Un programa al día, nunca dos.** Cuatro semanas por siete días dan 28
+posiciones fijas al mes: ese es el techo del sistema y encaja con el objetivo de
+20-30 centros. Cada centro se queda con una posición fija ("el segundo jueves")
+y no se renegocia nunca. Ver `centros/calendario.md`.
+
+El techo de la rejilla no es el tuyo. Veintiocho talleres al mes son casi uno
+diario y una persona no los sostiene: el tope realista es de 6 a 8. La rejilla
+existe para que el crecimiento tenga dónde ir, no para llenarla ya.
 
 ## Métricas
 

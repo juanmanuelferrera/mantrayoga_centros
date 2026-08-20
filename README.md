@@ -14,7 +14,7 @@ bhaktiyoga.es).
 | `docs/` | Estrategia, fases y registro de métricas |
 | `dossier/` | El PDF que se envía a los centros |
 | `programa/` | El guion del taller: formato fijo y los ocho temas |
-| `centros/` | Lista de centros de Alicante y estado de cada uno |
+| `centros/` | Lista de centros, estado de cada uno y calendario perpetuo |
 | `comunicacion/` | Email, WhatsApp, llamada, objeciones, cartel, Instagram |
 
 ## Cómo se usa
@@ -23,8 +23,10 @@ bhaktiyoga.es).
 2. Sigue `comunicacion/secuencia-contacto.md`: mandas el email con el material
    anunciando que te pasarás, y a los cuatro o cinco días te presentas en el
    centro. El email prepara la visita; la visita es la que cierra.
-3. En la visita cierras un día. Cuando hay fecha, mándale al centro el cartel y
-   el texto de Instagram ya hechos.
+3. En la visita cierras una **posición fija** del mes (ver
+   `centros/calendario.md`): el segundo jueves, el primer martes. No una fecha
+   suelta. Cuando está cerrada, mándale al centro el cartel y el texto de
+   Instagram ya hechos.
 4. Da el taller siguiendo `programa/formato-taller.md` y el tema de
    `programa/repertorio.md`.
 5. Anota lo que pasó en `docs/metricas.md` y actualiza `centros/seguimiento.md`.
