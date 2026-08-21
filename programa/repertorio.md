@@ -31,8 +31,8 @@ los que menos exigen de la sala.
 |---|---|---|
 | 1 | **AUM, el praṇava** ✅ | *Bhagavad-gītā* 8.13 · escrito |
 | 2 | **Rāmacandra** ✅ | *Śrīmad-Bhāgavatam* 9.10.53 · escrito |
-| 3 | Govinda en Vrindavan | Brahma-saṁhitā, capítulo 5 |
-| 4 | El origen del mundo | Śrīmad-Bhāgavatam, primer canto |
+| 3 | **Lo completo** ✅ | *Śrī Īśopaniṣad*, invocación · escrito |
+| 4 | **Govinda en Vrindavan** ◐ | *Brahma-saṁhitā* 5.1, 5.29, 5.30 · versos reunidos, guion pendiente |
 | 5 | El sol y el gayatri | El gayatri: qué es, cómo suena, por qué se canta en silencio |
 | 6 | Los rishis y la transmisión oral | Cómo se guardó un texto sin escribirlo |
 | 7 | Narasimha | Los versos de protección; el cuarto canto y el séptimo |
@@ -57,7 +57,12 @@ una sala pública algo que no se hace en una sala pública.
 
 ## Antes de escribir cualquier verso
 
-**Todo verso se verifica en vedabase.cc antes de imprimirse**, con su texto,
+La *Brahma-saṁhitā* no está en vedabase.cc. Sus versos se tomaron de
+vedabase.io con autorización expresa y por una sola vez; están marcados como
+tales en el tema 4 y conviene contrastarlos con una edición impresa antes de
+imprimir la hoja del alumno.
+
+**Cualquier otro verso se verifica en vedabase.cc antes de imprimirse**, con su texto,
 capítulo y número exactos. Nada de citar de memoria. Una transliteración mal
 puesta en una hoja que se llevan treinta personas es un error que circula.
 
@@ -67,7 +72,21 @@ puesta en una hoja que se llevan treinta personas es un error que circula.
 |---|---|---|
 | 1. AUM, el praṇava | `temas/01-aum-el-pranava.md` | `material-alumno/hoja-01-aum.md` |
 | 2. Rāmacandra | `temas/02-ramachandra.md` | `material-alumno/hoja-02-ramachandra.md` |
-| 3 a 10 | pendientes | pendientes |
+| 3. Lo completo | `temas/03-lo-completo.md` | `material-alumno/hoja-03-lo-completo.md` |
+| 4. Govinda en Vrindavan | `temas/04-govinda-en-vrindavan.md` — versos reunidos | pendiente |
+| 5 a 10 | pendientes | pendientes |
+
+## El arco de los tres primeros
+
+No es casual el orden. Cada uno da una llave de cómo funciona la lengua, y cada
+una se apoya en la anterior sin exigirla:
+
+1. **Las palabras tienen raíz** (dhātus)
+2. **Las palabras se pegan** (compuestos)
+3. **Las palabras cambian de final** (terminaciones)
+
+El cuarto añade la cuarta: **el verso tiene medida**, con un metro de catorce
+sílabas frente a las ocho de los tres primeros.
 
 Los dos primeros están completos: verso verificado en vedabase.cc, guion minuto
 a minuto, cápsulas, tabla de pronunciación, imágenes sugeridas y preguntas que
