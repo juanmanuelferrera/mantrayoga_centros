@@ -31,6 +31,24 @@ ve que un verso sánscrito está medido.
 
 ---
 
+## Reparto de los 60 minutos
+
+| Min | Bloque |
+|---|---|
+| 0-5 | Acogida |
+| 5-9 | Presentar el mantra |
+| 9-16 | Cuerpo y voz |
+| 16-20 | **Cápsula 1: los dhātus** |
+| 20-32 | Pronunciación |
+| 32-35 | Cápsula 2: la métrica |
+| 35-45 | Cantar |
+| 45-48 | Cápsula 3: qué dice el verso |
+| 48-53 | Asentamiento |
+| 53-56 | Preguntas |
+| 56-60 | Cierre |
+
+---
+
 ## Presentar el mantra (4 min)
 
 Abre con una pregunta, no con una definición.
@@ -52,6 +70,10 @@ Di entonces las tres cosas del día y nada más:
 3. El verso sale del *Bhagavad-gītā*, capítulo 8, verso 13. Se dice el sitio
    exacto siempre.
 
+Y una frase que justifica todo lo que viene después: estos textos se
+transmitieron durante siglos **sin escribirse**, porque el sonido exacto era el
+texto. Por eso aquí la pronunciación no es un detalle de estilo.
+
 ## Cuerpo y voz (7 min)
 
 - Sentados, isquiones apoyados, columna sin rigidez. Si duele, silla.
@@ -64,18 +86,47 @@ Di entonces las tres cosas del día y nada más:
 
 Ese recorrido es la clase entera resumida en diez segundos.
 
-## Cápsula 1 · Por qué se canta y no se lee (3 min)
+## Cápsula 1 · Los dhātus: las palabras se construyen (4 min)
 
-Los Vedas se transmitieron durante siglos **sin escribirse**. No porque no
-supieran escribir, sino porque el sonido exacto era el texto: si cambias la
-pronunciación, cambias el mantra.
+Es la cápsula más importante del primer taller. Abre con la palabra que ya es
+suya.
 
-Para conservarlo inventaron un sistema de repetición con reglas de recitación
-que permitía detectar un error de una sola sílaba. Familias enteras dedicadas a
-memorizar un texto y pasárselo al hijo, generación tras generación.
+> "¿Alguien sabe de dónde viene la palabra *yoga*?"
 
-Por eso aquí la pronunciación no es un detalle de estilo. Es lo que se
-transmite.
+Nadie. Y la dicen todos los días.
+
+**Un dhātu es una raíz verbal.** En sánscrito casi todas las palabras se montan
+a partir de unas dos mil raíces, añadiéndoles prefijos y terminaciones. Son
+piezas, y se ven.
+
+- **yoga** ← `√yuj`, *uncir, unir*. De ahí *yogī*, y *yukta*, «unido».
+- **mantra** ← `man`, *pensar*, más `-tra`, que marca instrumento. Un
+  instrumento para la mente. El nombre del taller ya lo dice.
+
+Y ahora el golpe, que es lo que hace que esto no sea teoría: **el verso que
+vamos a cantar está hecho de raíces, y cinco de sus palabras se ven por dentro.**
+
+| Palabra del verso | Se desmonta en | Raíz |
+|---|---|---|
+| `ekākṣaram` | `eka` + `a-` + `kṣara` | `√kṣar`, *desgastarse, fluir hasta perderse*. Con la `a-` delante: lo que **no** se desgasta |
+| `anusmaran` | `anu-` + `smaran` | `√smṛ`, *recordar*. De ahí *smṛti* |
+| `prayāti` | `pra-` + `yāti` | `√yā`, *ir*. Con `pra-`: ir hacia adelante |
+| `tyajan` | — | `√tyaj`, *soltar, dejar*. De ahí *tyāga*, renuncia |
+| `gatim` | — | `√gam`, *ir*. `gati` es «el ir», y por eso el destino |
+
+Fíjate en lo que pasa en la sala cuando lo ves seguido: `prayāti` y `yāti` son
+la misma raíz, y `gatim` viene de otra que también significa ir. El verso habla
+tres veces de moverse, en un espacio de dos líneas.
+
+**Cierra la cápsula así:**
+
+> "En castellano, para saber de dónde viene una palabra hay que estudiar latín.
+> En sánscrito se ve. Y cuando os aprendéis una raíz, os habéis aprendido veinte
+> palabras de golpe."
+
+**Lo que no se hace aquí:** gramática. Nada de conjugaciones, ni de casos, ni de
+sandhi. Solo la idea de que las palabras están hechas de piezas y se pueden
+abrir.
 
 ## Pronunciación (12 min)
 
@@ -118,7 +169,7 @@ Aquí cae solo la idea que llevan a casa: **un verso sánscrito está medido**. 
 es prosa partida en líneas. Por eso se puede cantar sin saber música: el ritmo
 ya está dentro.
 
-## Cantar (11 min)
+## Cantar (10 min)
 
 - Melodía de dos notas, la más simple que sepas. Hoy interesa la medida, no la
   música.
@@ -133,9 +184,11 @@ ya está dentro.
 
 Ahora que lo han cantado veinte veces, tiene sentido explicarlo. Antes no.
 
-`ekākṣaram` es *de una sola sílaba*, y también *imperecedero*: `a-kṣara` es lo
-que no se desgasta. La misma palabra dice las dos cosas, y esa doble lectura es
-el verso entero.
+Ya tienen las piezas de la cápsula 1, así que aquí solo hay que juntarlas.
+
+`ekākṣaram` es *de una sola sílaba* y a la vez *imperecedero*, porque `akṣara`
+es lo que no se desgasta. La misma palabra dice las dos cosas: una sílaba que no
+se gasta. Esa doble lectura es el verso entero.
 
 Lo que describe es una práctica concreta, no una idea: pronunciar el sonido y
 recordar a la vez. Sonido y atención juntos. Eso es mantra yoga.
@@ -159,11 +212,24 @@ Hoja del mes, fecha del siguiente, lista de nombres, gracias al centro.
 
 ---
 
+## Cápsula 4 · Solo en la versión de 90 minutos
+
+**Cómo se guardó un texto sin escribirlo.** Los Vedas se transmitieron durante
+siglos de forma oral, no por no saber escribir, sino porque el sonido exacto era
+el texto. Para conservarlo se usaban métodos de recitación que repetían las
+palabras en órdenes cruzados, de manera que un error de una sola sílaba se
+detectaba solo. Familias enteras dedicadas a memorizar un texto y pasárselo al
+hijo, generación tras generación.
+
+Enlaza de vuelta con los dhātus: una lengua que se guarda de oído necesita ser
+regular, y por eso se puede desmontar en piezas.
+
 ## Imágenes (si hay pantalla)
 
 Tres, una por cápsula. Si no hay pantalla, no pasa nada.
 
-1. Una página de manuscrito sánscrito en devanagari, real, de archivo.
+1. La tabla de raíces de la cápsula 1: la palabra del verso a un lado, la raíz
+   al otro. Es la que más se mira.
 2. El verso en devanagari y transliteración, grande. Esta es la única
    imprescindible, y va durante todo el bloque de pronunciación.
 3. Un esquema de las tres bocas: A abierta, U redondeada, M cerrada.
@@ -180,6 +246,14 @@ Está bien. Lo que hemos hecho hoy es lo mismo, con más atención a cómo suena
 **"¿Esto es religioso?"**
 Viene de una tradición religiosa, igual que el yoga que hacéis aquí. No hace
 falta creer nada para cantar y no se pide nada.
+
+**"¿Cuántas raíces hay?"**
+Unas dos mil, y con muy pocas ya reconoces media frase. Las listas se llaman
+*dhātupāṭha* y llevan más de dos mil años recopiladas.
+
+**"¿Entonces puedo aprender sánscrito?"**
+Puedes, y no hace falta para lo que hacemos aquí. Esto es para que veas cómo
+está hecho lo que cantas, no para traducirlo.
 
 **"¿Qué significa exactamente?"**
 Está en la hoja, con la fuente. Si quieres el texto completo con comentario,

@@ -1,6 +1,10 @@
 # Hoja del mes · Tema 1 · AUM, el praṇava
 
-A5, doble cara, blanco y negro. Imprime 30. Se reparte al final.
+A5, blanco y negro. Imprime 30. Se reparte al final.
+
+**Este mes son tres caras**, porque la tabla de raíces no cabe con lo demás y es
+lo que más se mira en casa. Opciones: un A4 doblado en dos (cuatro caras, la
+última en blanco), o dos hojas A5 grapadas.
 
 ---
 
@@ -39,7 +43,33 @@ EL METRO
 
 ---
 
-## CARA B
+## CARA B — cara nueva, va antes de la práctica
+
+```
+LAS PIEZAS DEL VERSO
+
+En sánscrito casi todas las palabras se montan sobre una raíz verbal,
+un dhātu, con prefijos y terminaciones. Se ven por dentro.
+
+  yoga        ←  √yuj    uncir, unir
+  mantra      ←  man     pensar,  + -tra  instrumento
+
+Y el verso de hoy:
+
+  ekākṣaram   ←  a- + √kṣar    kṣar es desgastarse, fluir hasta
+                               perderse. Con la a- delante: lo que
+                               no se desgasta
+  anusmaran   ←  anu- + √smṛ   recordar
+  prayāti     ←  pra- + √yā    ir, hacia adelante
+  tyajan      ←  √tyaj         soltar, dejar
+  gatim       ←  √gam          ir. gati es «el ir», y de ahí el destino
+
+Cuando aprendes una raíz, te has aprendido veinte palabras.
+```
+
+---
+
+## CARA B — la práctica
 
 ```
 CÓMO PRACTICAR EN CASA
