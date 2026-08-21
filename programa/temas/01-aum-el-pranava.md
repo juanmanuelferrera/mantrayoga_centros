@@ -49,6 +49,72 @@ ve que un verso sánscrito está medido.
 
 ---
 
+## Cómo se recita AUM
+
+Esta parte viene de **Elena Sierra y Paratattva dāsa**, profesores de sánscrito,
+en respuesta a una consulta directa. Cítalos en la sala: no cuesta nada y
+cambia cómo se recibe lo que dices.
+
+### Son tres letras, no una
+
+Originalmente es **`auṁ`, con diptongo**. Las tres letras son `a` – `u` – `ṁ`.
+
+### Cómo se escribe
+
+En devanagari se usa el signo fosilizado que todo el mundo ha visto. La primera
+parte es la `a`, la segunda es la `u`, y la tercera es el signo de arriba: el
+**candrabindu**, literalmente *el punto sobre la luna*, que representa el sonido
+nasal, llamado **anunāsika**.
+
+Esto es oro para la pantalla: proyectas el signo y señalas las tres partes. La
+sala lleva años viendo ese dibujo sin saber que se lee.
+
+### Las cinco partes
+
+Algunos autores describen `auṁ` en cinco partes:
+
+`a` → `u` → `ṁ` → **reverberación nasal** → **silencio**
+
+El silencio no es el final del mantra. Es la quinta parte.
+
+### Cómo se hace en la sala
+
+Una sola exhalación larga, sin cortes entre partes:
+
+1. `a` con la boca abierta, sonido en el fondo.
+2. La boca se va cerrando y el sonido rueda hacia delante: `u`.
+3. Labios cerrados: `ṁ`. Notar dónde vibra, en la cara.
+4. Dejar que la nasal se apague sola, sin empujarla.
+5. **No abrir los ojos ni moverse.** Ese silencio es parte del mantra.
+
+Hazlo tres veces con ellos, y a la tercera no digas nada al acabar. Que el
+silencio dure de verdad.
+
+## La vocal `a`: lo que casi todo el mundo pronuncia mal
+
+También de Elena y Paratattva, y es la corrección más útil de todo el taller
+para un hispanohablante.
+
+En sánscrito hay vocales breves y largas. La larga `ā` lleva raya horizontal en
+transliteración y **dura el doble**. Pero la diferencia no es solo de duración:
+
+> **La `a` breve es más cerrada y la `ā` larga es más abierta.**
+
+La `a` breve se parece a la **vocal neutra catalana o francesa**, no a la *a*
+abierta del castellano. Mucha gente la pronuncia abierta, y es incorrecto.
+
+En Alicante esto es un regalo: quien hable valenciano tiene esa vocal neutra en
+la boca todos los días. Pídeselo a alguien de la sala y que la diga; se entiende
+en un segundo.
+
+**Por qué importa, dicho corto:** al pronunciarla abierta se cambia el género de
+la palabra. Las masculinas acaban en `a` breve; las femeninas, en `ā` larga.
+
+Y el consejo que dan ellos, que es el que hay que repetir: **escuchad a nativos
+o a gente que pronuncie muy bien, y fijaos.**
+
+---
+
 ## Presentar el mantra (4 min)
 
 Abre con una pregunta, no con una definición.
@@ -63,8 +129,8 @@ Casi nadie. Ahí tienes la sala.
 
 Di entonces las tres cosas del día y nada más:
 
-1. Om se escribe con tres sonidos, **a-u-m**, y por eso a veces se transcribe
-   AUM. No es una vocal larga: son tres posiciones de la boca seguidas.
+1. Originalmente es **`auṁ`, con diptongo**: tres letras, `a`-`u`-`ṁ`. No es
+   una vocal larga, son tres posiciones de la boca seguidas.
 2. Hoy no vamos a cantar Om suelto. Vamos a cantarlo dentro de un verso, que es
    como aparece en los textos.
 3. El verso sale del *Bhagavad-gītā*, capítulo 8, verso 13. Se dice el sitio
@@ -81,10 +147,12 @@ texto. Por eso aquí la pronunciación no es un detalle de estilo.
 - **La boca de la A:** abierta, sonido en el fondo. `aaa` sostenida, tres veces.
 - **La boca de la U:** labios redondeados, el sonido rueda hacia delante. `uuu`.
 - **La boca de la M:** labios cerrados, vibración en la cara. `mmm`.
-- Y las tres seguidas, en una sola exhalación larga: `a-u-m`. Que noten cómo el
+- Y las tres seguidas, en una sola exhalación larga: `a-u-ṁ`. Que noten cómo el
   sonido viaja de la garganta a los labios.
+- **La cuarta y la quinta:** deja que la nasal se apague sola y no rompas el
+  silencio de después.
 
-Ese recorrido es la clase entera resumida en diez segundos.
+Ese recorrido es la clase entera resumida en quince segundos.
 
 ## Cápsula 1 · Los dhātus: las palabras se construyen (4 min)
 
@@ -136,11 +204,14 @@ Este es el bloque grande. No lo recortes.
 
 | Se escribe | Se dice |
 |---|---|
-| `oṁ` | *om*, con la boca cerrándose al final. No *óm* seco |
-| `ā` | *a* larga, dura el doble que la corta |
-| `ṁ` | resonancia nasal, no una *m* golpeada |
+| `a` breve | **cerrada**, como la vocal neutra catalana. No la *a* abierta castellana |
+| `ā` larga | **abierta** y del doble de duración |
+| `oṁ` / `auṁ` | tres partes seguidas, `a`-`u`-`ṁ`, en una exhalación |
+| `ṁ` | resonancia nasal (*anunāsika*), no una *m* golpeada |
 | `ṣ`, `ś` | las dos suenan como *sh* inglesa; hoy no distingas más |
 | `ai` | *ai*, en una sola sílaba |
+
+Las dos primeras filas son las que hay que machacar. El resto llega solo.
 
 **Luego línea a línea.** Tú dices media línea, ellos repiten. Sin melodía
 todavía, solo hablado y despacio:
@@ -234,11 +305,28 @@ Tres, una por cápsula. Si no hay pantalla, no pasa nada.
    imprescindible, y va durante todo el bloque de pronunciación.
 3. Un esquema de las tres bocas: A abierta, U redondeada, M cerrada.
 
+## Fuente de la parte de pronunciación
+
+Elena Sierra y Paratattva dāsa, profesores de sánscrito, en un correo de
+respuesta a una consulta nuestra. La nota original está en Kavya:
+`Predicación/email-explicando-aum-om-elena-sierra-2de1380e.md`.
+
+Ahí explican también el signo del `auṁ` en vídeo, a partir del minuto 1:12:
+https://www.youtube.com/watch?v=snK2xmwp5jY
+
+Se ofrecieron a resolver dudas y a explicarlo con más detalle en clase. Merece
+la pena tirar de ese hilo antes de escribir los temas siguientes.
+
 ## Preguntas que van a salir
 
 **"¿Om o Aum?"**
-Es el mismo sonido. `oṁ` es la escritura; `a-u-m` son las tres posiciones de la
-boca al pronunciarlo. Quien escribe AUM está describiendo cómo se hace.
+Originalmente es `auṁ`, con diptongo: tres letras, `a`-`u`-`ṁ`. `oṁ` es la
+forma corriente de escribirlo. Quien escribe AUM está describiendo lo que de
+hecho se pronuncia.
+
+**"¿Y el dibujo del Om qué es?"**
+Un signo fosilizado que se lee por partes: la `a`, la `u`, y arriba el
+*candrabindu*, «el punto sobre la luna», que marca el sonido nasal.
 
 **"En mi clase cantamos Om tres veces. ¿Está bien?"**
 Está bien. Lo que hemos hecho hoy es lo mismo, con más atención a cómo suena.

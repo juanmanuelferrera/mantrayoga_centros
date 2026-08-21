@@ -34,7 +34,8 @@ LAS OCHO PALABRAS
 
 
 CÓMO SE PRONUNCIA
-  ā   →  a larga: dura el doble que la corta
+  a   →  breve y CERRADA, como la vocal neutra catalana
+  ā   →  larga y ABIERTA, dura el doble. En rāma se oyen las dos
   ṛ   →  brevísima: mṛtyuḥ suena casi mri-tiuj
   ḥ   →  soplo corto que repite la vocal anterior, no una jota
   ś ṣ →  las dos, como la sh inglesa

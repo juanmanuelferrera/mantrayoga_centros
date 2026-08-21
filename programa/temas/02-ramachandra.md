@@ -69,7 +69,11 @@ que todos traen puesto al entrar en la sala.
 - `sss` sostenida lo más larga posible, tres veces. Mide el aire.
 - `aaa` abierta, tres veces, cada uno en su tono.
 - La **ā larga** de `rāma` aislada: *raaa-ma*. Diez veces, alternando la corta y
-  la larga para que oigan la diferencia.
+  la larga.
+- **Y la diferencia que casi nadie hace:** la `a` breve es más **cerrada**, como
+  la vocal neutra catalana; la `ā` larga es más **abierta**. En `rāma` se oyen
+  las dos seguidas, así que es la palabra perfecta para practicarlo. Ver el tema
+  1 para el detalle y la fuente.
 
 ## Cápsula 1 · El nombre y lo nombrado (3 min)
 
@@ -105,6 +109,8 @@ las cuatro.
 
 | Se escribe | Se dice |
 |---|---|
+| `a` breve | **cerrada**, como la vocal neutra catalana, no la *a* abierta castellana |
+| `ā` larga | **abierta** y del doble de duración |
 | `mṛtyuḥ` | *mrit-iuj*, la `ṛ` es brevísima, casi *mri* |
 | `nāsīd` | *naa-siid*, las dos vocales largas |
 | `rāme` | *raa-me* |

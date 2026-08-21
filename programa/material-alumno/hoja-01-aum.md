@@ -29,12 +29,33 @@ DE DÓNDE SALE
   Bhagavad-gītā 8.13
 
 
-CÓMO SE PRONUNCIA
-  oṁ  →  om, cerrando los labios al final (a-u-m)
-  ā   →  a larga: dura el doble que la corta
-  ṁ   →  resonancia nasal, no una m golpeada
-  ṣ ś →  las dos, como la sh inglesa
-  ai  →  ai, en una sola sílaba
+CÓMO SE RECITA AUM
+
+  Originalmente es auṁ, con diptongo: tres letras, a - u - ṁ.
+  El dibujo que todos conocemos se lee por partes: la a, la u, y
+  arriba el candrabindu, «el punto sobre la luna», que marca el
+  sonido nasal (anunāsika).
+
+  Algunos autores lo describen en cinco partes:
+
+      a  →  u  →  ṁ  →  reverberación nasal  →  silencio
+
+  El silencio no es el final del mantra. Es la quinta parte.
+
+  Todo en una sola exhalación, sin cortes. La nasal se apaga sola.
+
+
+LA VOCAL QUE CASI TODOS PRONUNCIAMOS MAL
+
+  a  breve  →  CERRADA, como la vocal neutra catalana o francesa.
+                No la a abierta del castellano.
+  ā  larga  →  ABIERTA, y dura el doble.
+
+  Es la diferencia que más cambia cómo suena todo lo demás.
+
+  ṁ    →  resonancia nasal, no una m golpeada
+  ṣ ś  →  las dos, como la sh inglesa
+  ai   →  ai, en una sola sílaba
 
 
 EL METRO
@@ -101,6 +122,9 @@ momento de morir. Del mismo libro, 7.8: praṇavaḥ sarva-vedeṣu, «yo soy
 el praṇava en todos los Vedas».
 
 Texto completo, con sánscrito y palabra por palabra: vedabase.cc
+
+La explicación de cómo se recita auṁ y de la vocal a es de Elena Sierra
+y Paratattva dāsa, profesores de sánscrito.
 
 
 PRÓXIMO TALLER
