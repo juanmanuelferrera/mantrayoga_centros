@@ -29,8 +29,8 @@ los que menos exigen de la sala.
 
 | # | Tema | De dónde salen los mantras |
 |---|---|---|
-| 1 | El sonido y el praṇava | Om. Yoga-sutra 1.27-1.28 como anclaje |
-| 2 | Ramachandra | Ramayana; el ciclo de Rama en el Bhagavatam |
+| 1 | **AUM, el praṇava** ✅ | *Bhagavad-gītā* 8.13 · escrito |
+| 2 | **Rāmacandra** ✅ | *Śrīmad-Bhāgavatam* 9.10.53 · escrito |
 | 3 | Govinda en Vrindavan | Brahma-saṁhitā, capítulo 5 |
 | 4 | El origen del mundo | Śrīmad-Bhāgavatam, primer canto |
 | 5 | El sol y el gayatri | El gayatri: qué es, cómo suena, por qué se canta en silencio |
@@ -63,6 +63,14 @@ puesta en una hoja que se llevan treinta personas es un error que circula.
 
 ## Estado
 
-Ningún tema está escrito todavía. Se escriben de uno en uno, cada mes, en
-`temas/`. El primero que hace falta es el 1, y el 2 si quieres estrenar con
-Ramachandra.
+| Tema | Guion | Hoja del alumno |
+|---|---|---|
+| 1. AUM, el praṇava | `temas/01-aum-el-pranava.md` | `material-alumno/hoja-01-aum.md` |
+| 2. Rāmacandra | `temas/02-ramachandra.md` | `material-alumno/hoja-02-ramachandra.md` |
+| 3 a 10 | pendientes | pendientes |
+
+Los dos primeros están completos: verso verificado en vedabase.cc, guion minuto
+a minuto, cápsulas, tabla de pronunciación, imágenes sugeridas y preguntas que
+van a salir. Con estos dos ya se puede abrir un centro y sostenerlo dos meses.
+
+Los ocho restantes se escriben de uno en uno, uno al mes, sobre la marcha.
