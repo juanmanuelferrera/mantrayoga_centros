@@ -32,7 +32,7 @@ sánscrito. Guiada, gratuita para el centro y para quien asiste.
 
 ### Qué te pedimos
 
-La sala, una hora, una vez al mes. Y que lo cuentes a tus alumnos.
+La sala, una hora, una vez al mes. Nada más.
 
 **Del resto me encargo yo:** el cartel, las hojas que se reparten y el material
 de la sesión. A ti no te supone trabajo.

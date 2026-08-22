@@ -30,9 +30,8 @@ para aprender a cantar bien los mantras clásicos en sánscrito, con su
 pronunciación y su sentido. Cada mes un tema distinto.
 
 Es gratuito para el centro y para quien venga. No se vende ni se publicita nada.
-Solo necesito la sala una hora al mes, y que lo contéis a vuestros alumnos. Yo me
-encargo del cartel y de las hojas que se reparten, así que a vosotros no os
-supone trabajo.
+Solo necesito la sala una hora al mes. Yo me encargo del cartel y de las hojas
+que se reparten, así que a vosotros no os supone trabajo.
 
 No te pido nada ahora. Me pasaré un día de estos a saludar y te dejo una hoja
 con el detalle; si pillo buen momento, te lo cuento en cinco minutos. Si
