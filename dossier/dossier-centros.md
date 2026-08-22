@@ -53,8 +53,8 @@ Sesenta minutos, en círculo, en el suelo.
 | **11 min** | Repartidos en cápsulas cortas de cultura védica, entre bloque y bloque |
 | **4 min** | Preguntas, cierre y práctica para casa |
 
-Cada mes se trabaja un tema distinto y de él salen los mantras: Ramachandra, el
-origen del mundo, el metro védico, el gayatri. Cada sesión se entiende sola, así
+Cada mes se trabaja un tema distinto y de él salen los mantras: el sonido de
+AUM, Rāmacandra, la invocación del Īśopaniṣad. Cada sesión se entiende sola, así
 que quien llega nuevo no se pierde y quien repite no repite.
 
 No hace falta experiencia, ni saber cantar, ni saber sánscrito. Quien no quiere
