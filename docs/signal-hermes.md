@@ -38,18 +38,21 @@ curl -s -X POST http://127.0.0.1:8080/api/v1/rpc \
 Para listar grupos, el mismo `curl` con `"method":"listGroups"` y solo
 `account` en los parámetros.
 
-## Fechas de visita: HyperFiler (gtd+h)
+## Fechas de visita: GTD+H
 
-Las visitas con fecha van al calendario de **HyperFiler**, que es el sistema GTD.
-Hay servidor MCP, así que se crean directamente:
+Las visitas con fecha van al **GTD+H**, que es el sistema de tareas de Juan
+Manuel. Cuando dice «ponlo en Signal», se refiere a esto.
 
-- `hf_create_task` con `title`, `due_date` (YYYY-MM-DD), `due_time` y `notes`.
-- `hf_list_tasks` para consultarlas, con filtros de estado, plantilla o fecha.
+**Archivo:** `~/Library/CloudStorage/Dropbox/Kavya/Horario/gtd-r-308dac3a.md`,
+sección `## CALENDAR`.
 
-En las notas de la tarea va lo imprescindible para la visita y la ruta de la
-ficha completa, para poder tirar del hilo desde el móvil.
+**Formato:** `- [ ] texto — mar 25 - 17:35`. Día abreviado en español, fecha al
+final, hora detrás con guion.
 
-**Nunca en Google Calendar.**
+Las reglas completas están en el skill de Hermes `gtph-jaganat`. Léelo antes de
+editar el archivo, y edita de forma atómica: leer una vez, escribir una vez.
+
+**Ni HyperFiler ni Google Calendar.** Son otra cosa.
 
 ## Regla
 
