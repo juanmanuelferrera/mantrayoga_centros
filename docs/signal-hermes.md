@@ -49,8 +49,13 @@ Manuel. Cuando dice «ponlo en Signal», se refiere a esto.
 **Archivo:** `~/Library/CloudStorage/Dropbox/Kavya/Horario/gtd-r-308dac3a.md`,
 sección `## CALENDAR`.
 
-**Formato:** `- [ ] texto — mar 25 - 17:35`. Día abreviado en español, fecha al
-final, hora detrás con guion.
+**Formato:** `- [ ] texto — mar 25 - 17:35`. Día abreviado en español, fecha
+después del título, hora detrás con guion.
+
+**Si la fecha no es de este mes, hay que poner el mes.** Es la convención del
+propio archivo: `— sep 15`, `— mié 7 oct`, `— dic 19`. Sin él, una entrada como
+`— mar 1` se lee como «martes 1» del mes en curso y no aparece en ningún sitio.
+Pasó el 22-ago con la cita de Prana del 1 de septiembre.
 
 Las reglas completas están en el skill de Hermes `gtph-jaganat`. Léelo antes de
 editar el archivo, y edita de forma atómica: leer una vez, escribir una vez.
