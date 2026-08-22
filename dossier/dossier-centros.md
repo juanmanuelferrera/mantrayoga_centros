@@ -34,6 +34,9 @@ sánscrito. Guiada, gratuita para el centro y para quien asiste.
 
 La sala, una hora, una vez al mes. Y que lo cuentes a tus alumnos.
 
+**Del resto me encargo yo:** el cartel, las hojas que se reparten y el material
+de la sesión. A ti no te supone trabajo.
+
 Nada más. No hay alquiler, no hay porcentaje, no hay exclusividad y no hay
 permanencia. **No se vende ni se publicita nada.** Si después del primero no te
 convence, no hay un segundo.

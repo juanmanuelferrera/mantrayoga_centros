@@ -1,22 +1,22 @@
 # Centro de Yoga Oasis
 
-**Alicante** · prioridad B · estado `pendiente`
+**Alicante** · prioridad A · estado `preparado`
 
 | | |
 |---|---|
-| Contacto | — |
-| Dirección | C/ Pintor Cabrera 22, esc B, 4D, 03003 |
-| Teléfono | 610 89 88 25 |
-| Email | info@yogaoasis.es |
+| Contacto | sin nombre publicado. Babita es la maestra que da la meditacion mensual |
+| Dirección | C/ Pintor Cabrera 22, esc. B, 4-D, 03003 Alicante |
+| Teléfono | 657 896 912 (movil) / 966 351 640 (fijo) |
+| Email | — |
 | Web | yogaoasis.es |
 | Instagram | linktr.ee/yogaoasisalc |
-| Estilo | Yoga |
+| Estilo | Kundalini, yoga para ninos, Sat Nam Rasayan, bano de gong, terapias |
 
-**Prioridad B.** B — centro generalista, receptivo, sin encaje obvio pero sin barrera.
+**Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.
 
 ## Notas de este centro
 
-Centro pequeno y activo en redes.
+Web yogaoasis.es verificada 22-ago. EL MEJOR ENCAJE HASTA AHORA, por tres motivos: 1) YA HACEN MEDITACION CON BABITA UN VIERNES AL MES, o sea que el formato de una sesion mensual con alguien de fuera ya existe en su casa y no hay que explicarlo; 2) dan KUNDALINI, donde ya se cantan mantras en clase; 3) hacen BANO DE GONG, asi que el trabajo con sonido no les es ajeno. Ademas imparten formaciones de profesores de kundalini y de yoga para ninos: puerta grande. El email del directorio (info@yogaoasis.es) NO aparece en su web; se va por WhatsApp al movil 657 896 912. No publican horario general.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 

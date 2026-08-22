@@ -1,6 +1,6 @@
 # Zona Phi Yoga
 
-**Alicante** · prioridad B · estado `pendiente`
+**Alicante** · prioridad B · estado `verificar si existe`
 
 | | |
 |---|---|
@@ -8,7 +8,7 @@
 | Dirección | Avinguda Goleta 11 |
 | Teléfono | 690 84 70 48 / 605 052 301 |
 | Email | info@zonaphi.com |
-| Web | zonaphi.com |
+| Web | — |
 | Instagram | — |
 | Estilo | Yoga, relajacion, disciplinas complementarias |
 
@@ -16,7 +16,7 @@
 
 ## Notas de este centro
 
-Referente en la ciudad. Si entra aqui, abre otras puertas.
+OJO: su dominio zonaphi.com YA NO ES SUYO, redirige a v-campexpo.com, una web de otro sector. Suele significar que cerraron o perdieron el dominio. Antes de gastar tiempo con ellos, comprobar si el centro sigue abierto: pasar por Avinguda Goleta 11 o mirar si tienen redes activas. Los telefonos que teniamos, 690 84 70 48 y 605 052 301, son de directorio y probablemente ya no valgan.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 
