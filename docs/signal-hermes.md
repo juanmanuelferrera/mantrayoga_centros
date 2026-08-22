@@ -38,6 +38,19 @@ curl -s -X POST http://127.0.0.1:8080/api/v1/rpc \
 Para listar grupos, el mismo `curl` con `"method":"listGroups"` y solo
 `account` en los parámetros.
 
+## Fechas de visita: HyperFiler (gtd+h)
+
+Las visitas con fecha van al calendario de **HyperFiler**, que es el sistema GTD.
+Hay servidor MCP, así que se crean directamente:
+
+- `hf_create_task` con `title`, `due_date` (YYYY-MM-DD), `due_time` y `notes`.
+- `hf_list_tasks` para consultarlas, con filtros de estado, plantilla o fecha.
+
+En las notas de la tarea va lo imprescindible para la visita y la ruta de la
+ficha completa, para poder tirar del hilo desde el móvil.
+
+**Nunca en Google Calendar.**
+
 ## Regla
 
 Nada se manda al grupo sin que Juan Manuel lo confirme antes. Igual que con los

@@ -41,6 +41,7 @@ alguien. Si no está escrito, a los tres centros ya no te acuerdas.
 
 | Fecha | Centro | Qué pasó | Siguiente paso |
 |---|---|---|---|
+| 22-ago-26 | Lloc de Yoga Alicante | Fecha puesta en HyperFiler: **martes 25-ago a las 17:35** | Ir |
 | 22-ago-26 | Lloc de Yoga Alicante | Tarea de la visita enviada al grupo Personal de Signal | Visitar martes o miércoles a las 17:35 |
 | 22-ago-26 | Lloc de Yoga Alicante | Decidido entrar **sin escribir antes**. No tienen email público. Horario localizado: solo lunes a jueves, 17:30-21:30 | Visita en frío, martes o miércoles a las 17:35. Ficha en `proxima-visita.md` |
 | 22-ago-26 | Yoga Espacio Vital | **Confirmado enviado** por Juan Manuel | Visitar entre el 26 y el 29 de agosto |
