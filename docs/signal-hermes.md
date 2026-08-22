@@ -52,7 +52,7 @@ final, hora detrás con guion.
 Las reglas completas están en el skill de Hermes `gtph-jaganat`. Léelo antes de
 editar el archivo, y edita de forma atómica: leer una vez, escribir una vez.
 
-**Ni HyperFiler ni Google Calendar.** Son otra cosa.
+**Nunca HyperFiler** (ni sus herramientas MCP) **ni Google Calendar.**
 
 ## Regla
 
