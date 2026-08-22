@@ -1,21 +1,21 @@
 # Prana Escuela de Yoga
 
-**Alicante** · prioridad B · estado `pendiente`
+**Alicante** · prioridad A · estado `preparado`
 
 | | |
 |---|---|
 | Dirección | C/ Segura 21, bajo dcha, 03004 |
-| Teléfono | 658 36 28 26 |
-| Email | info@pranaescueladeyoga.com |
+| Teléfono | 639 52 09 52 |
+| Email | — |
 | Web | pranaescueladeyoga.com |
 | Instagram | — |
-| Estilo | Escuela de yoga |
+| Estilo | Hatha, Ashtanga, meditacion, yoga terapeutico |
 
-**Prioridad B.** B — centro generalista, receptivo, sin encaje obvio pero sin barrera.
+**Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.
 
 ## Notas de este centro
 
-Escuela con formacion. Puede interesarle contenido extra.
+VERIFICADO en su web 22-ago: el telefono es el 639, no el 658 del directorio, y NO publican email. Profesores: Fran, Pablo y Esther. Pablo da martes y jueves a las 8:00 y a las 20:30, asi que la visita es martes o jueves sobre las 20:10. Se contacta por WhatsApp al movil de su web. Ya dan meditacion, 4,9/5 con 72 resenas. Escuela con formacion, puerta a las formaciones de profesores.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 

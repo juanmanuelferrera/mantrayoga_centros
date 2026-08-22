@@ -41,6 +41,7 @@ alguien. Si no está escrito, a los tres centros ya no te acuerdas.
 
 | Fecha | Centro | Qué pasó | Siguiente paso |
 |---|---|---|---|
+| 22-ago-26 | Prana Escuela de Yoga | Datos verificados en su web: teléfono 639 52 09 52 (el del directorio era otro) y **no publican email**. Profesores: Fran, Pablo y Esther. Sube a prioridad A | WhatsApp preparado al 639 52 09 52 |
 | 22-ago-26 | Natasha (contacto, no centro) | WhatsApp preparado con el dossier. Le vendió un armonio Nitai desde India y Juan Manuel la asesoró: se entra por ahí | Enviar. Si conoce a alguien que lleve centro, esa pista va antes que cualquier visita en frío |
 | 22-ago-26 | Lloc de Yoga Alicante | Fecha en el CALENDAR del GTD+H: **martes 25-ago, 17:35** | Ir |
 | 22-ago-26 | Lloc de Yoga Alicante | Tarea de la visita enviada al grupo Personal de Signal | Visitar martes o miércoles a las 17:35 |

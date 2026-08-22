@@ -120,6 +120,16 @@ for f in os.listdir(DIR):
         os.remove(os.path.join(DIR, f))
 
 filas = list(csv.DictReader(io.open(CSV, encoding='utf-8'), delimiter=';'))
+
+# Validación: un punto y coma suelto en las notas parte la fila y descuadra
+# todas las columnas. Pasó con Prana el 22-ago. Mejor reventar aquí que generar
+# 47 fichas con los campos corridos.
+for r in filas:
+    if None in r or r.get('prioridad') not in ('A', 'B', 'C'):
+        raise SystemExit(
+            'CSV mal formado en la fila «%s»: prioridad=%r.\n'
+            'Suele ser un ; dentro de un campo. Entrecomilla el campo o quita el ;'
+            % (r.get('nombre'), r.get('prioridad')))
 indice = ['# Fichas de centros', '',
           'Una ficha por centro, generadas desde `centros-alicante.csv`.', '',
           'Para consultarlas desde Signal, pídele a Hermes la ficha por el nombre '
