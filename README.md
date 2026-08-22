@@ -17,6 +17,7 @@ bhaktiyoga.es).
 | `centros/` | Lista de centros, ficha de cada uno, calendario perpetuo y bitácora |
 | `centros/fichas/` | **Una ficha por centro**, generada desde el CSV. Consultable desde Signal con Hermes |
 | `comunicacion/` | Email, WhatsApp, llamada, objeciones, cartel, Instagram |
+| `comunicacion/personas-conocidas.md` | Mensajes para gente que ya conoces, que se escribe distinto |
 
 ## Enlaces
 
