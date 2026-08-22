@@ -1,24 +1,22 @@
 # Sala Om Yoga
 
-**Elche** · prioridad A · estado `pendiente`
+**Elche** · prioridad A · estado `preparado`
 
 | | |
 |---|---|
-| Contacto | — |
-| Dirección | C/ Nazario Gonzalez Monteagudo 12 |
-| Teléfono | — |
-| Email | — |
+| Contacto | Maria (probable: su correo es Mariasalaom@gmail.com) |
+| Dirección | C/ Nazario Gonzalez Monteagudo 12, Elche |
+| Teléfono | 695 58 08 74 |
+| Email | Mariasalaom@gmail.com |
 | Web | — |
 | Instagram | — |
-| Estilo | Yoga tradicional |
-
-> Sin teléfono, email ni web localizados. La vía es Instagram, o presentarse directamente.
+| Estilo | Yoga y pilates |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.
 
 ## Notas de este centro
 
-El nombre ya dice por donde van.
+Sin web propia; los datos salen de directorios (yellow.place, confines) y estan SIN VERIFICAR, aunque el correo Mariasalaom@gmail.com cuadra solo y apunta a que lo lleva Maria. Abren lunes a viernes de 9:00 a 22:00, cerrado fines de semana. 5/5. GANCHO: el nombre de la sala ES UN MANTRA, igual que en Om Tare, y ademas es justo el del tema 1 del repertorio. Tienen Facebook (salaomelche) pero no lo usamos. Elche: agrupar la visita con Yoga Prana y Ama y el resto de Elche.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 
