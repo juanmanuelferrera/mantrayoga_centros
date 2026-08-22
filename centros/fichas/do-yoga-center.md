@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Reina Victoria 140A, 03201 |
 | Teléfono | 669 16 24 80 |
 | Email | — |

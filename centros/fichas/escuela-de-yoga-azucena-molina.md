@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Polop 24, 03013 |
 | Teléfono | 696 20 88 83 / 655 123 993 |
 | Email | info@azucenamolinayoga.es |

@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Vicente Perez Bellot 19 |
 | Teléfono | — |
 | Email | — |

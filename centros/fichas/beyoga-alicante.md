@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | Carrer Poeta Campos Vasallo 38 |
 | Teléfono | — |
 | Email | — |

@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Pintor Cabrera 22, esc B, 4D, 03003 |
 | Teléfono | 610 89 88 25 |
 | Email | info@yogaoasis.es |

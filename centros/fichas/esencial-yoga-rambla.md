@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | Rambla Mendez Nunez 40, 03001 |
 | Teléfono | 965 21 54 74 / 722 755 055 |
 | Email | info@esencialyoga.es |

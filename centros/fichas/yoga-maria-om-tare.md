@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Doctor Recasens 56, 03009 |
 | Teléfono | 657 27 99 55 |
 | Email | yogamaria.omtare@gmail.com |

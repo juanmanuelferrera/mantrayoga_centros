@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | Zona Paseo Maritimo |
 | Teléfono | — |
 | Email | — |

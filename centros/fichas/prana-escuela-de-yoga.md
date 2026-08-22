@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | Jose Manuel Lorente (director). Profesores: Fran, Pablo, Esther |
 | Dirección | C/ Segura 21, bajo dcha, 03004 |
 | Teléfono | 639 52 09 52 |
 | Email | — |

@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Maravall 3, local 1B |
 | Teléfono | 669 43 91 86 |
 | Email | — |

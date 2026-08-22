@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | Av. de Europa 8, 03503 |
 | Teléfono | — |
 | Email | — |

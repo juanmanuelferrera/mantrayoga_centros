@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ del Marques de Comillas 27, 03501 |
 | Teléfono | — |
 | Email | — |

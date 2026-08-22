@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Dr. Sapena 26, 03204 |
 | Teléfono | 661 380 283 |
 | Email | — |

@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Martinez Oriola 2, 03501 |
 | Teléfono | — |
 | Email | — |

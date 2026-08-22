@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | Av. de la Universitat d Elx 15 |
 | Teléfono | — |
 | Email | — |

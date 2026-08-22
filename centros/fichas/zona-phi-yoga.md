@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | Avinguda Goleta 11 |
 | Teléfono | 690 84 70 48 / 605 052 301 |
 | Email | info@zonaphi.com |

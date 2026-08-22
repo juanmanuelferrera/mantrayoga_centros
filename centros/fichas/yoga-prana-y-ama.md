@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Josep Maria Buck 14, 3 Dcha |
 | Teléfono | — |
 | Email | — |

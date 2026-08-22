@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | sin localizar: preguntar en la visita |
 | Dirección | Carrer del Regidor Lorenzo Llaneras 2, entresuelo, 03005 Alacant |
 | Teléfono | 652 87 00 67 |
 | Email | — |

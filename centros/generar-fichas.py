@@ -86,6 +86,7 @@ def ficha(r):
     L.append('')
     L.append('| | |')
     L.append('|---|---|')
+    L.append('| Contacto | %s |' % (r.get('contacto') or '—'))
     L.append('| Dirección | %s |' % (r['direccion'] or '—'))
     L.append('| Teléfono | %s |' % (r['telefono'] or '—'))
     L.append('| Email | %s |' % (r['email'] or '—'))

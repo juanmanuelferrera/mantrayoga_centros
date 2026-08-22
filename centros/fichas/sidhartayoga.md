@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | Av. de la Llibertat 75 |
 | Teléfono | — |
 | Email | — |

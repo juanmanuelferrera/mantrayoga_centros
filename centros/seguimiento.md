@@ -42,7 +42,7 @@ alguien. Si no está escrito, a los tres centros ya no te acuerdas.
 | Fecha | Centro | Qué pasó | Siguiente paso |
 |---|---|---|---|
 | 22-ago-26 | Prana Escuela de Yoga | **CONTESTA EL DIRECTOR, José Manuel Lorente**, el mismo día: le parece muy interesante y quiere hablarlo. Cerrados por vacaciones, vive en Jijona; estará por la escuela la primera semana de septiembre | Escribirle el **martes 1 de septiembre** para concretar día. Visita del jue 27 anulada: están cerrados |
-| 22-ago-26 | Prana Escuela de Yoga | Visita en el CALENDAR del GTD+H: **jueves 27, 20:10** | Ir |
+| 22-ago-26 | Prana Escuela de Yoga | ~~Visita en el CALENDAR: jueves 27, 20:10~~ **ANULADA**: están cerrados por vacaciones | — |
 | 22-ago-26 | Prana Escuela de Yoga | **WhatsApp enviado** al 639 52 09 52 | Visitar martes o jueves sobre las 20:10, antes de la clase de Pablo. Preguntar por Fran, Pablo o Esther |
 | 22-ago-26 | Prana Escuela de Yoga | Datos verificados en su web: teléfono 639 52 09 52 (el del directorio era otro) y **no publican email**. Profesores: Fran, Pablo y Esther. Sube a prioridad A | WhatsApp preparado al 639 52 09 52 |
 | 22-ago-26 | Natasha (contacto, no centro) | WhatsApp preparado con el dossier. Le vendió un armonio Nitai desde India y Juan Manuel la asesoró: se entra por ahí | Enviar. Si conoce a alguien que lleve centro, esa pista va antes que cualquier visita en frío |

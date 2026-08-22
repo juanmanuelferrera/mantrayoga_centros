@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | Plaza de la Misericordia 9, 03004 |
 | Teléfono | 647 83 34 70 |
 | Email | yogaespaciovital@gmail.com |

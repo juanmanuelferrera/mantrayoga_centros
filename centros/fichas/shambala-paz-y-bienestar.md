@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C. de Negocios l Aljub, C/ Jacarilla 1 |
 | Teléfono | — |
 | Email | — |

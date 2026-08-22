@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Medico Pascual Perez 25, 1, 03001 |
 | Teléfono | 96 521 60 87 |
 | Email | — |

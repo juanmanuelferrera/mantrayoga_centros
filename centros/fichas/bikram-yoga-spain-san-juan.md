@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | Zona Playa de San Juan |
 | Teléfono | — |
 | Email | — |

@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | — |
 | Teléfono | — |
 | Email | — |

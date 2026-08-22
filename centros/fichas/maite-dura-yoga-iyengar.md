@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Hilarion Eslava 12 |
 | Teléfono | — |
 | Email | — |

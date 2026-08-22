@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Mariano Luina 42 |
 | Teléfono | — |
 | Email | — |

@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Plus Ultra 17, 03012 |
 | Teléfono | 965 910 920 / 616 427 081 |
 | Email | — |

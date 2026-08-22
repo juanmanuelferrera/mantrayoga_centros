@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Jaime I 28, entresuelo D, 03550 |
 | Teléfono | 609 844 971 |
 | Email | — |

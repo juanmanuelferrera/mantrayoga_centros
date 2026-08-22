@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Metge Diego Navarro 2, bajo |
 | Teléfono | — |
 | Email | — |

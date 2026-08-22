@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Italia 10, pasaje, 03003 |
 | Teléfono | 634 52 56 56 |
 | Email | — |

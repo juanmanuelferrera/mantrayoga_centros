@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Antonio Pascual Quiles 57, 03201 |
 | Teléfono | 618 08 66 28 |
 | Email | — |

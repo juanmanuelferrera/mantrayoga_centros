@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | Avinguda de Novelda 28, 03206 |
 | Teléfono | 600 87 84 60 |
 | Email | — |

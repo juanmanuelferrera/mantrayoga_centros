@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Nazario Gonzalez Monteagudo 12 |
 | Teléfono | — |
 | Email | — |

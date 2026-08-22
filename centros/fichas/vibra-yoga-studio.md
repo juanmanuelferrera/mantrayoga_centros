@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | Av. Juan Sanchis Candela 22 |
 | Teléfono | — |
 | Email | — |

@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Benito Perez Galdos 12 |
 | Teléfono | — |
 | Email | — |

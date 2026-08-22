@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Cristobal Sanz 27, bajo, 03201 |
 | Teléfono | 668 82 16 01 |
 | Email | — |

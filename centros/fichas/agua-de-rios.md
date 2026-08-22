@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Castanos 42, 03001 |
 | Teléfono | 608 108 000 |
 | Email | — |

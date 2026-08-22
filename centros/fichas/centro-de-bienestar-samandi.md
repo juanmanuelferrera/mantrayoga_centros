@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Colombia 11, pta 24, 03010 |
 | Teléfono | 96 610 58 77 |
 | Email | — |

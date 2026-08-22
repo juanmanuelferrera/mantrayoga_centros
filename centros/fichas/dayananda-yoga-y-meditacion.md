@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Castanos 37, 5G, 03001 |
 | Teléfono | 682 75 66 33 |
 | Email | — |

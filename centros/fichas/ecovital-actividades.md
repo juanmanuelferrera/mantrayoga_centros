@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ San Juan Bosco 7, 03005 |
 | Teléfono | 965 925 993 / 670 912 927 |
 | Email | — |

@@ -4,6 +4,7 @@
 
 | | |
 |---|---|
+| Contacto | — |
 | Dirección | C/ Federico Garcia Lorca 2, 2 Izq |
 | Teléfono | — |
 | Email | — |
