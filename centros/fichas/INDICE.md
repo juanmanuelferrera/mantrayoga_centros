@@ -11,7 +11,7 @@ Para consultarlas desde Signal, pídele a Hermes la ficha por el nombre del cent
 | Lloc de Yoga Alicante | Alicante | A | `visita directa` | `fichas/lloc-de-yoga-alicante.md` |
 | Prana Escuela de Yoga | Alicante | A | `cerrando` | `fichas/prana-escuela-de-yoga.md` |
 | Yoga Espacio Vital | Alicante | A | `enviado` | `fichas/yoga-espacio-vital.md` |
-| Sadhana Yoga Bienestar | El Campello | A | `preparado` | `fichas/sadhana-yoga-bienestar.md` |
+| Sadhana Yoga Bienestar | El Campello | A | `enviado` | `fichas/sadhana-yoga-bienestar.md` |
 | Asociacion Atenea Elche | Elche | A | `pendiente` | `fichas/asociacion-atenea-elche.md` |
 | Espigol salut natural | Elche | A | `pendiente` | `fichas/espigol-salut-natural.md` |
 | Sala Om Yoga | Elche | A | `pendiente` | `fichas/sala-om-yoga.md` |
