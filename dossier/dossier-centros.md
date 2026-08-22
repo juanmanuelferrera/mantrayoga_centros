@@ -138,7 +138,16 @@ de un desconocido casi no se abre, y el correo del paso 1 se sostiene solo.
 Llévalo impreso, con el nombre de la persona escrito a mano en la esquina antes
 de entrar, y déjalo allí aunque no esté quien decide.
 
-Se manda en PDF solo cuando alguien lo pide.
+**Se manda en PDF en dos casos:** cuando alguien lo pide, y cuando dicen que van
+a valorar la propuesta internamente.
+
+Ese segundo caso es el importante. Cuando un centro dice «lo comento con mis
+socios», tu propuesta va a viajar por una conversación en la que tú no estás. El
+dossier es lo único que puede hablar por ti ahí dentro, así que mándalo: es
+justo para lo que sirve.
+
+Pásalo con una frase que lo enmarque, no a secas: «os paso la hoja que dejo en
+los centros, por si os sirve para valorarlo entre vosotras».
 
 ## Notas de producción
 
