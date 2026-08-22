@@ -1,6 +1,6 @@
 # Prana Escuela de Yoga
 
-**Alicante** · prioridad A · estado `enviado`
+**Alicante** · prioridad A · estado `cerrando`
 
 | | |
 |---|---|
@@ -15,7 +15,7 @@
 
 ## Notas de este centro
 
-VERIFICADO en su web 22-ago: el telefono es el 639, no el 658 del directorio, y NO publican email. Profesores: Fran, Pablo y Esther. Pablo da martes y jueves a las 8:00 y a las 20:30, asi que la visita es martes o jueves sobre las 20:10. Se contacta por WhatsApp al movil de su web. Ya dan meditacion, 4,9/5 con 72 resenas. Escuela con formacion, puerta a las formaciones de profesores.
+CONTACTO: Jose Manuel Lorente, DIRECTOR. Contesto el mismo dia por WhatsApp: le parece muy interesante y quiere hablarlo. Vive en Jijona y en agosto cierran por vacaciones; estara por la escuela la PRIMERA SEMANA DE SEPTIEMBRE y pidio que le avisemos esa semana. Telefono verificado en su web, 639 52 09 52 (el del directorio era otro). Profesores: Fran, Pablo y Esther. Pablo da martes y jueves a las 8:00 y 20:30. Ya dan meditacion y yoga terapeutico, 4,9/5 con 72 resenas. Escuela con formacion: ofrecer tambien una sesion dentro del curso de profesores.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 
