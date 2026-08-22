@@ -147,14 +147,49 @@ al revés.
 
 ## Cómo abrir (primeros 5 minutos)
 
-Cuatro cosas y nada más:
+Cinco cosas y nada más:
 
 1. Quién eres y desde cuándo practicas.
 2. Que dura una hora exacta y se acaba a las X.
 3. Que hoy se llevan un verso concreto, bien pronunciado y entendido.
 4. Que no hace falta saber sánscrito ni saber cantar. Se repite y ya.
+5. Que esto no es una clase con temario.
 
-La cuarta es la más importante. Quita el miedo de la sala.
+La cuarta quita el miedo de la sala. La quinta cambia cómo escuchan.
+
+### La frase que abre la puerta
+
+> "Traigo un mantra y una hora. El mantra os lo lleváis seguro; lo demás, lo que
+> salga. Si en cualquier momento queréis preguntar algo, o tirar por otro lado,
+> paramos y hablamos. Esto no es una clase con temario."
+
+**Por qué funciona.** Dicha al principio, la gente deja de comportarse como
+alumna. Y a ti te da permiso para responder a lo que aparezca sin sentir que te
+estás saliendo del guion, porque acabas de decir que no hay guion.
+
+Dos variantes, según cómo veas la sala:
+
+> "Yo traigo el mantra. Lo que hagamos con la hora lo decidimos entre todos."
+
+> "Si algo os llama la atención, cortadme. Aquí lo que sobra es que yo hable
+> seguido una hora."
+
+### Pero el guion sigue existiendo
+
+Decir que no hay temario no significa que no lo haya: significa que la sala no
+tiene que notarlo. Tres reglas que no se rompen aunque la conversación se abra:
+
+1. **La pronunciación no se sacrifica.** Es el bloque que hace que vuelvan. Si
+   una conversación se alarga, se recorta una cápsula, nunca la pronunciación.
+2. **Se acaba a la hora.** Que la sesión sea abierta no la hace elástica. El
+   centro tiene otra clase detrás.
+3. **Si una pregunta da para media hora, no se contesta entera.** Se contesta en
+   dos minutos y se dice: "esto da para un taller entero, y a lo mejor lo
+   hacemos". Eso además siembra el mes siguiente.
+
+**Lo que se llevan.** El mantra, seguro, porque va en la hoja. Lo demás depende
+de lo que haya salido esa tarde, y no pasa nada: por eso el taller es el mismo
+cada mes en la estructura y distinto cada mes en lo que ocurre.
 
 ## Cómo cerrar (últimos 4 minutos)
 
