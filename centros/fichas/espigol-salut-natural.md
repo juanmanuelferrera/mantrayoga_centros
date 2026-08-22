@@ -9,14 +9,14 @@
 | Teléfono | WhatsApp 692 155 685 / fijo 965 446 674 |
 | Email | info@espigol.es |
 | Web | espigol.es |
-| Instagram | — |
+| Instagram | Facebook: facebook.com/espigol.natural |
 | Estilo | Yoga, meditacion, mindfulness, terapias naturales, constelaciones, reiki |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.
 
 ## Notas de este centro
 
-Tienen NUMERO DE WHATSAPP DECLARADO: 692 155 685, ademas del fijo y del email. VERIFICADO en espigol.es 22-ago: el WhatsApp y el correo son suyos. Dan yoga, MEDITACION y mindfulness, y organizan CLASES Y TALLERES: encaja en lo que ya hacen. HORARIO: lun-vie 9-14 y 17-20, sabados 9:30-13; EN AGOSTO solo mananas de 9:30 a 13:00, asi que ahora hay que ir por la manana. CONFIRMADO: su lema en la portada es "Desde 1980". Juan Manuel empieza a cantar en 1981, asi que el mensaje abre por ahi: empezaron casi a la vez. Es el gancho mas personal de toda la lista y no lo puede usar nadie mas.
+Tienen NUMERO DE WHATSAPP DECLARADO: 692 155 685, ademas del fijo y del email. VERIFICADO en espigol.es 22-ago: el WhatsApp y el correo son suyos. Dan yoga, MEDITACION y mindfulness, y organizan CLASES Y TALLERES: encaja en lo que ya hacen. HORARIO: lun-vie 9-14 y 17-20, sabados 9:30-13; EN AGOSTO solo mananas de 9:30 a 13:00, asi que ahora hay que ir por la manana. CONFIRMADO: su lema en la portada es "Desde 1980". Juan Manuel empieza a cantar en 1981, asi que el mensaje abre por ahi: empezaron casi a la vez. Es el gancho mas personal de toda la lista y no lo puede usar nadie mas. Tienen Facebook en facebook.com/espigol.natural, util solo como fuente para ver si estan activos y que talleres programan. NO es canal de contacto: Juan Manuel no usa Facebook.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 
