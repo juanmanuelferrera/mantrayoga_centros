@@ -1,24 +1,22 @@
 # YOGA PRANA Y AMA
 
-**Elche** · prioridad A · estado `pendiente`
+**Elche** · prioridad A · estado `preparado`
 
 | | |
 |---|---|
-| Contacto | — |
-| Dirección | C/ Josep Maria Buck 14, 3 Dcha |
-| Teléfono | — |
+| Contacto | Harpal Singh (profesor de kundalini) |
+| Dirección | Carrer Gabriel y Galan 14, 5o, 03202 Elche |
+| Teléfono | 610 083 402 |
 | Email | — |
-| Web | — |
+| Web | yogapranayama.org |
 | Instagram | — |
-| Estilo | Kundalini Yoga |
-
-> Sin teléfono, email ni web localizados. La vía es Instagram, o presentarse directamente.
+| Estilo | Kundalini, SONOTERAPIA, sadhana matutina, numerologia tantrica |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.
 
 ## Notas de este centro
 
-Kundalini. Ya cantan mantras en clase. Encaje directo.
+VERIFICADO en yogapranayama.org 22-ago. Telefono de reservas 610 083 402. OJO: la direccion del directorio estaba mal (decia Josep Maria Buck 14); la suya es Gabriel y Galan 14, 5o. EL MEJOR ENCAJE DE TODA LA LISTA: hacen KUNDALINI (ya cantan mantras), SONOTERAPIA (el trabajo con sonido ya es su terreno) y SADHANA MATUTINA. Ademas dan clase de iniciacion y numerologia tantrica, o sea que programan formatos sueltos con normalidad. El profesor de kundalini es Harpal Singh. Elche esta a unos 25 min: la visita es viaje aparte, agrupar con los otros cuatro de Elche.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 
