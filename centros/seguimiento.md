@@ -39,6 +39,8 @@ alguien. Si no está escrito, a los tres centros ya no te acuerdas.
 
 | Fecha | Centro | Qué pasó | Siguiente paso |
 |---|---|---|---|
+| 22-ago-26 | Lloc de Yoga Alicante | DM de Instagram enviado. Sin email localizado. Entrada por el kundalini: sus alumnos ya cantan mantras | Visitar entre el 26 y el 29. Dirección y teléfono sin verificar |
+| 22-ago-26 | Yoga Espacio Vital | **Confirmado enviado** por Juan Manuel | Visitar entre el 26 y el 29 de agosto |
 | 22-ago-26 | Yoga Espacio Vital | Email del paso 1 enviado a yogaespaciovital@gmail.com. Sin adjunto, con nombre de contacto genérico porque no publican ninguno | Visitar entre el 26 y el 29 de agosto |
 | 22-ago-26 | Yoga Espacio Vital | Datos verificados en su web: el directorio daba mal el email (info@…) y el teléfono (617…). Los correctos son yogaespaciovital@gmail.com y 647 83 34 70 | — |
 
