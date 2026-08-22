@@ -9,7 +9,8 @@ Siguen la secuencia de `comunicacion/secuencia-contacto.md`.
 | Estado | Qué significa |
 |---|---|
 | `pendiente` | Aún no contactado |
-| `enviado` | Paso 1: email con el material enviado (día 0) |
+| `preparado` | Texto listo y datos comprobados, pero **sin enviar todavía** |
+| `enviado` | Paso 1: email o mensaje enviado de verdad (día 0) |
 | `visitado` | Paso 2: te pasaste por el centro |
 | `revisita` | Fuiste y no estaba quien decide. Hay que volver en otra franja |
 | `cerrando` | Han mostrado interés; se está pactando el día |
@@ -39,10 +40,16 @@ alguien. Si no está escrito, a los tres centros ya no te acuerdas.
 
 | Fecha | Centro | Qué pasó | Siguiente paso |
 |---|---|---|---|
-| 22-ago-26 | Lloc de Yoga Alicante | DM de Instagram enviado. Sin email localizado. Entrada por el kundalini: sus alumnos ya cantan mantras | Visitar entre el 26 y el 29. Dirección y teléfono sin verificar |
+| 22-ago-26 | Lloc de Yoga Alicante | Texto del DM **preparado, sin enviar**. Sin email localizado. Entrada por el kundalini: sus alumnos ya cantan mantras | Enviar el DM a @lloc_de_yoga_alicante |
 | 22-ago-26 | Yoga Espacio Vital | **Confirmado enviado** por Juan Manuel | Visitar entre el 26 y el 29 de agosto |
 | 22-ago-26 | Yoga Espacio Vital | Email del paso 1 enviado a yogaespaciovital@gmail.com. Sin adjunto, con nombre de contacto genérico porque no publican ninguno | Visitar entre el 26 y el 29 de agosto |
 | 22-ago-26 | Yoga Espacio Vital | Datos verificados en su web: el directorio daba mal el email (info@…) y el teléfono (617…). Los correctos son yogaespaciovital@gmail.com y 647 83 34 70 | — |
+
+### Regla de la bitácora
+
+Un centro pasa a `enviado` **solo cuando Juan Manuel confirma que lo ha
+mandado**, nunca al preparar el texto. Mientras tanto se queda en `preparado`.
+La cuenta de enviados tiene que ser real o no sirve de nada.
 
 ### Lo que hemos aprendido hasta ahora
 
