@@ -1,6 +1,6 @@
 # Centro de Yoga Oasis
 
-**Alicante** · prioridad A · estado `preparado`
+**Alicante** · prioridad A · estado `enviado`
 
 | | |
 |---|---|

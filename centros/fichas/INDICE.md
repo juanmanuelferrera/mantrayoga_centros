@@ -6,7 +6,7 @@ Para consultarlas desde Signal, pídele a Hermes la ficha por el nombre del cent
 
 | Centro | Localidad | Prioridad | Estado | Ficha |
 |---|---|---|---|---|
-| Centro de Yoga Oasis | Alicante | A | `preparado` | `fichas/centro-de-yoga-oasis.md` |
+| Centro de Yoga Oasis | Alicante | A | `enviado` | `fichas/centro-de-yoga-oasis.md` |
 | Centro de bienestar SAMANDI | Alicante | A | `pendiente` | `fichas/centro-de-bienestar-samandi.md` |
 | Dayananda Yoga y meditacion | Alicante | A | `pendiente` | `fichas/dayananda-yoga-y-meditacion.md` |
 | Lloc de Yoga Alicante | Alicante | A | `visita directa` | `fichas/lloc-de-yoga-alicante.md` |
