@@ -54,6 +54,36 @@ Directo al grano, porque aquí la presentación vale oro.
 
 ---
 
+## Si la persona lleva un centro o da clases en uno
+
+Aquí sí va el dossier. Es la mejor situación que se puede dar: te ahorras el
+correo en frío, la visita en frío y el filtro de recepción.
+
+> Hola [nombre], ¿qué tal?
+>
+> Te escribo por algo que quizá os encaje.
+>
+> Estoy llevando un taller de mantra yoga a centros de yoga de Alicante: una
+> hora, para aprender a cantar bien los mantras clásicos en sánscrito, con su
+> pronunciación y lo que dicen. Cada mes un tema distinto.
+>
+> Es gratis para el centro y para quien venga. Solo hace falta la sala una hora
+> al mes.
+>
+> Te paso la hoja con el detalle, échale un ojo cuando puedas y me dices qué te
+> parece. Y si prefieres que te lo cuente en persona, me acerco el día que me
+> digas.
+
+**Con el dossier adjunto.** Aquí sí se abre: viene de alguien conocido.
+
+**Fíjate en lo que no lleva:** no dice «no os pido nada ahora» ni anuncia una
+visita sorpresa. Eso era para compensar una entrada en frío, y aquí no hay
+entrada en frío que compensar. Se ofrece ir, y decide la otra persona.
+
+**Y no lo persigas.** Con un conocido, el seguimiento es peor que la espera. Si
+en una semana no dice nada, lo sacas en la siguiente conversación que tengáis
+por cualquier otro motivo.
+
 ## Cuando ya haya fecha
 
 El mensaje cambia entero: ya no pides nada, invitas.
@@ -72,8 +102,10 @@ vas a tener al principio.
 
 ## Reglas
 
-- **Nunca mandes el dossier a un conocido.** Es material para vender una sala,
-  y a un amigo le suena a que le estás colocando algo.
+- **El dossier depende de quién sea.** Si esa persona decide sobre una sala
+  —lleva un centro o da clases en uno— mándaselo: está escrito exactamente para
+  eso. Si es un amigo que podría venir como alumno, no: le sonará a que le estás
+  colocando algo.
 - **No lo mandes a un grupo.** Uno a uno, con su nombre. Un mensaje reenviado se
   nota a la legua y no lo contesta nadie.
 - **Una sola petición pequeña.** «¿Te aviso?» es fácil de contestar; «¿vienes?»
