@@ -9,7 +9,7 @@
 | Teléfono | 634 52 56 56 |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Pilates fusion, yoga integral y terapeutico |
 
 **Prioridad C.** C — perfil fitness o encaje dudoso. Al final de la cola.

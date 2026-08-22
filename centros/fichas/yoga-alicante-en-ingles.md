@@ -9,10 +9,10 @@
 | Teléfono | — |
 | Email | — |
 | Web | — |
-| Instagram | @yogalicante |
+| Redes | @yogalicante |
 | Estilo | Clases en ingles, interior y exterior |
 
-> Sin teléfono, email ni web localizados. La vía es Instagram, o presentarse directamente.
+> Sin teléfono, email ni web localizados. La vía son sus redes, o presentarse directamente.
 
 **Prioridad C.** C — perfil fitness o encaje dudoso. Al final de la cola.
 

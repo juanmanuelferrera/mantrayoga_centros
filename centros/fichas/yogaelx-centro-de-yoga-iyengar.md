@@ -9,7 +9,7 @@
 | Teléfono | 668 82 16 01 |
 | Email | — |
 | Web | yogaelx.com |
-| Instagram | — |
+| Redes | — |
 | Estilo | Iyengar |
 
 **Prioridad C.** C — perfil fitness o encaje dudoso. Al final de la cola.

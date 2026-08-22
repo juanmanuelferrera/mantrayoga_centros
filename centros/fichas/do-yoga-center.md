@@ -9,7 +9,7 @@
 | Teléfono | 669 16 24 80 |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Yoga tradicional y terapeutico |
 
 **Prioridad B.** B — centro generalista, receptivo, sin encaje obvio pero sin barrera.

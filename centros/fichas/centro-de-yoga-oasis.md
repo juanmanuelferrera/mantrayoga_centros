@@ -9,7 +9,7 @@
 | Teléfono | 657 896 912 (movil) / 966 351 640 (fijo) |
 | Email | — |
 | Web | yogaoasis.es |
-| Instagram | linktr.ee/yogaoasisalc |
+| Redes | linktr.ee/yogaoasisalc |
 | Estilo | Kundalini, yoga para ninos, Sat Nam Rasayan, bano de gong, terapias |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.

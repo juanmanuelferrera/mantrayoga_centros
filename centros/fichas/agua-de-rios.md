@@ -9,7 +9,7 @@
 | Teléfono | 608 108 000 |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Yoga, chi kung, masaje terapeutico |
 
 **Prioridad C.** C — perfil fitness o encaje dudoso. Al final de la cola.

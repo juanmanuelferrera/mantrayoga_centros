@@ -9,7 +9,7 @@
 | Teléfono | 695 58 08 74 |
 | Email | Mariasalaom@gmail.com |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Yoga y pilates |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.

@@ -9,7 +9,7 @@
 | Teléfono | 610 083 402 |
 | Email | — |
 | Web | yogapranayama.org |
-| Instagram | — |
+| Redes | — |
 | Estilo | Kundalini, SONOTERAPIA, sadhana matutina, numerologia tantrica |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.

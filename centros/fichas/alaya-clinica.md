@@ -9,7 +9,7 @@
 | Teléfono | 96 521 60 87 |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Viniyoga, Sivananda, Tai Chi, Pilates |
 
 **Prioridad B.** B — centro generalista, receptivo, sin encaje obvio pero sin barrera.

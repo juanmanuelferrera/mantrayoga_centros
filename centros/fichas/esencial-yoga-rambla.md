@@ -9,7 +9,7 @@
 | Teléfono | 965 21 54 74 / 722 755 055 |
 | Email | info@esencialyoga.es |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Hatha, colectivo e individual |
 
 **Prioridad B.** B — centro generalista, receptivo, sin encaje obvio pero sin barrera.

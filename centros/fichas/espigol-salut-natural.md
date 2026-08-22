@@ -9,7 +9,7 @@
 | Teléfono | WhatsApp 692 155 685 / fijo 965 446 674 |
 | Email | info@espigol.es |
 | Web | espigol.es |
-| Instagram | Facebook: facebook.com/espigol.natural |
+| Redes | Facebook: facebook.com/espigol.natural |
 | Estilo | Yoga, meditacion, mindfulness, terapias naturales, constelaciones, reiki |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.

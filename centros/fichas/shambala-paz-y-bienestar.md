@@ -9,10 +9,10 @@
 | Teléfono | — |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Yoga y bienestar |
 
-> Sin teléfono, email ni web localizados. La vía es Instagram, o presentarse directamente.
+> Sin teléfono, email ni web localizados. La vía son sus redes, o presentarse directamente.
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.
 

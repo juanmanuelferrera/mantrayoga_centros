@@ -9,7 +9,7 @@
 | Teléfono | 655 123 993 |
 | Email | info@azucenamolinayoga.es |
 | Web | azucenamolinayoga.es |
-| Instagram | — |
+| Redes | — |
 | Estilo | Iyengar, Kundalini, meditacion y relajacion, craneosacral, intensivos |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.

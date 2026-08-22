@@ -9,7 +9,7 @@
 | Teléfono | 600 87 84 60 |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Hatha Yoga |
 
 **Prioridad B.** B — centro generalista, receptivo, sin encaje obvio pero sin barrera.

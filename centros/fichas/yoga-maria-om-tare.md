@@ -9,7 +9,7 @@
 | Teléfono | 657 27 99 55 |
 | Email | yogamaria.omtare@gmail.com |
 | Web | omtare.es |
-| Instagram | — |
+| Redes | — |
 | Estilo | Hatha, Yoga y meditacion, restaurativo, adaptado, diversidad funcional |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.

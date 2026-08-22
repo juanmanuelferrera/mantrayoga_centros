@@ -9,7 +9,7 @@
 | Teléfono | 639 52 09 52 |
 | Email | — |
 | Web | pranaescueladeyoga.com |
-| Instagram | — |
+| Redes | — |
 | Estilo | Hatha, Ashtanga, meditacion, yoga terapeutico |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.

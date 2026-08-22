@@ -9,7 +9,7 @@
 | Teléfono | 614 19 50 33 |
 | Email | — |
 | Web | sadhanayoga.net |
-| Instagram | @sadhana_yogabienestar |
+| Redes | @sadhana_yogabienestar |
 | Estilo | Yoga y bienestar integral |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.

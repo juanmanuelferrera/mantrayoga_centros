@@ -9,7 +9,7 @@
 | Teléfono | 682 75 66 33 |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Yin, Vinyasa, meditacion, ayurveda |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.

@@ -9,7 +9,7 @@
 | Teléfono | 690 84 70 48 / 605 052 301 |
 | Email | info@zonaphi.com |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Yoga, relajacion, disciplinas complementarias |
 
 **Prioridad B.** B — centro generalista, receptivo, sin encaje obvio pero sin barrera.

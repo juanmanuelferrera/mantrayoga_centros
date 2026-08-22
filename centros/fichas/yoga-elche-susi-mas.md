@@ -9,7 +9,7 @@
 | Teléfono | 618 08 66 28 |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Prenatal y postnatal |
 
 **Prioridad C.** C — perfil fitness o encaje dudoso. Al final de la cola.

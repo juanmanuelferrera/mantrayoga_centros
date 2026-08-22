@@ -9,7 +9,7 @@
 | Teléfono | 96 610 58 77 |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Hatha, Ashtanga, Mindfulness, Meditacion |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.

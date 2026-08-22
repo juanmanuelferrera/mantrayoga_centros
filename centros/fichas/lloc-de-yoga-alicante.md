@@ -9,7 +9,7 @@
 | Teléfono | 652 87 00 67 |
 | Email | — |
 | Web | — |
-| Instagram | @lloc_de_yoga_alicante |
+| Redes | @lloc_de_yoga_alicante |
 | Estilo | Kundalini, hatha, vinyasa, yoga aereo |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.

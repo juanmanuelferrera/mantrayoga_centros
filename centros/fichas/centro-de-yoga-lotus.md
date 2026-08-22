@@ -9,7 +9,7 @@
 | Teléfono | 669 43 91 86 |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Yoga |
 
 **Prioridad B.** B — centro generalista, receptivo, sin encaje obvio pero sin barrera.

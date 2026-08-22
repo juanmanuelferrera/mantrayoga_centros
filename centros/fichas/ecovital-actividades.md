@@ -9,7 +9,7 @@
 | Teléfono | 965 925 993 / 670 912 927 |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Yoga integral, chi kung, meditacion |
 
 **Prioridad B.** B — centro generalista, receptivo, sin encaje obvio pero sin barrera.

@@ -9,7 +9,7 @@
 | Teléfono | 647 83 34 70 |
 | Email | yogaespaciovital@gmail.com |
 | Web | yogaespaciovital.com |
-| Instagram | @yogaespaciovitalalicante |
+| Redes | @yogaespaciovitalalicante |
 | Estilo | Varios estilos, meditacion, talleres |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.

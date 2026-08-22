@@ -9,7 +9,7 @@
 | Teléfono | 965 910 920 / 616 427 081 |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Yoga, Pilates, Reiki, Tai-chi |
 
 **Prioridad C.** C — perfil fitness o encaje dudoso. Al final de la cola.

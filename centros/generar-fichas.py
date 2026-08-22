@@ -91,11 +91,11 @@ def ficha(r):
     L.append('| Teléfono | %s |' % (r['telefono'] or '—'))
     L.append('| Email | %s |' % (r['email'] or '—'))
     L.append('| Web | %s |' % (r['web'] or '—'))
-    L.append('| Instagram | %s |' % (r['instagram'] or '—'))
+    L.append('| Redes | %s |' % (r['redes'] or '—'))
     L.append('| Estilo | %s |' % (r['estilo'] or '—'))
     L.append('')
     if not r['telefono'] and not r['email'] and not r['web']:
-        L.append('> Sin teléfono, email ni web localizados. La vía es Instagram, '
+        L.append('> Sin teléfono, email ni web localizados. La vía son sus redes, '
                  'o presentarse directamente.')
         L.append('')
     L.append('**Prioridad %s.** %s' % (r['prioridad'], PRIORIDAD.get(r['prioridad'], '')))

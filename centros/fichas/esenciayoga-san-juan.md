@@ -9,7 +9,7 @@
 | Teléfono | 609 844 971 |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Kundalini, meditacion, relajacion |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.

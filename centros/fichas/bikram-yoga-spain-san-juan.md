@@ -9,7 +9,7 @@
 | Teléfono | — |
 | Email | — |
 | Web | bikramyogaspain.es |
-| Instagram | — |
+| Redes | — |
 | Estilo | Bikram, Vinyasa, Pilates, Hipopresivos |
 
 **Prioridad C.** C — perfil fitness o encaje dudoso. Al final de la cola.

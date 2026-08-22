@@ -9,10 +9,10 @@
 | Teléfono | — |
 | Email | — |
 | Web | — |
-| Instagram | — |
+| Redes | — |
 | Estilo | Yoga, varios niveles |
 
-> Sin teléfono, email ni web localizados. La vía es Instagram, o presentarse directamente.
+> Sin teléfono, email ni web localizados. La vía son sus redes, o presentarse directamente.
 
 **Prioridad B.** B — centro generalista, receptivo, sin encaje obvio pero sin barrera.
 

@@ -9,7 +9,7 @@
 | Teléfono | 661 380 283 |
 | Email | — |
 | Web | escueladeyoga.com |
-| Instagram | — |
+| Redes | — |
 | Estilo | Escuela con formacion de profesores |
 
 **Prioridad B.** B — centro generalista, receptivo, sin encaje obvio pero sin barrera.
