@@ -45,6 +45,7 @@ alguien. Si no está escrito, a los tres centros ya no te acuerdas.
 | 22-ago-26 | Prana Escuela de Yoga | ~~Visita en el CALENDAR: jueves 27, 20:10~~ **ANULADA**: están cerrados por vacaciones | — |
 | 22-ago-26 | Prana Escuela de Yoga | **WhatsApp enviado** al 639 52 09 52 | Visitar martes o jueves sobre las 20:10, antes de la clase de Pablo. Preguntar por Fran, Pablo o Esther |
 | 22-ago-26 | Prana Escuela de Yoga | Datos verificados en su web: teléfono 639 52 09 52 (el del directorio era otro) y **no publican email**. Profesores: Fran, Pablo y Esther. Sube a prioridad A | WhatsApp preparado al 639 52 09 52 |
+| 22-ago-26 | Sala Om Yoga (Elche) | **WhatsApp enviado** al 695 58 08 74. Primer mensaje que enseña contenido real: que el Om son tres sonidos y el silencio final es parte del mantra | Esperar |
 | 22-ago-26 | Yoga Prana y Ama (Elche) | **WhatsApp enviado** al 610 083 402. Gancho: hacen sonoterapia, o sea que el sonido ya es su terreno | Esperar |
 | 22-ago-26 | Esencial Yoga / Zona Phi / Esenciayoga SJ | Visitas de comprobación agendadas: Esencial Yoga **mié 26, 15:45** dentro del paseo; ruta norte **jue 3 sep, 18:00** | Ir |
 | 22-ago-26 | Lloc de Yoga Alicante | Visita movida de las 17:35 a las **19:15**: chocaba con la cena de las 17:45 | Ir el martes 25 |
