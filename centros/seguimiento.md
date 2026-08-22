@@ -33,11 +33,25 @@ tienes agenda, quedas mal.
 
 ## Bitácora
 
-Una línea por movimiento. Lo último arriba.
+Una línea por movimiento. Lo último arriba. **Aquí se anota todo**: lo que se
+manda, lo que contestan, lo que se ve al pasar por delante y lo que te cuenta
+alguien. Si no está escrito, a los tres centros ya no te acuerdas.
 
 | Fecha | Centro | Qué pasó | Siguiente paso |
 |---|---|---|---|
-| | | | |
+| 22-ago-26 | Yoga Espacio Vital | Email del paso 1 enviado a yogaespaciovital@gmail.com. Sin adjunto, con nombre de contacto genérico porque no publican ninguno | Visitar entre el 26 y el 29 de agosto |
+| 22-ago-26 | Yoga Espacio Vital | Datos verificados en su web: el directorio daba mal el email (info@…) y el teléfono (617…). Los correctos son yogaespaciovital@gmail.com y 647 83 34 70 | — |
+
+### Lo que hemos aprendido hasta ahora
+
+- **Los datos de los directorios fallan.** El primer centro que comprobamos
+  tenía mal el email y el teléfono. Comprueba siempre en su web antes de
+  escribir; si no, el primer contacto se pierde sin que te enteres.
+- **Casi ningún centro publica el nombre de quien lo lleva.** Se saluda con un
+  «Hola, buenas» y se pregunta el nombre en la visita.
+- **Muchos no publican horario de clases.** Como el horario es lo que decide
+  cuándo presentarse, cuando no esté hay que mirarlo en su Instagram o llamar
+  y preguntar solo eso, sin contar nada más.
 
 ## Aviso sobre los datos del CSV
 
