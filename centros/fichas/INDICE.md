@@ -10,7 +10,7 @@ Para consultarlas desde Signal, pídele a Hermes la ficha por el nombre del cent
 | Dayananda Yoga y meditacion | Alicante | A | `pendiente` | `fichas/dayananda-yoga-y-meditacion.md` |
 | Lloc de Yoga Alicante | Alicante | A | `visita directa` | `fichas/lloc-de-yoga-alicante.md` |
 | Prana Escuela de Yoga | Alicante | A | `cerrando` | `fichas/prana-escuela-de-yoga.md` |
-| Sadhana Yoga Bienestar | Alicante | A | `pendiente` | `fichas/sadhana-yoga-bienestar.md` |
+| Sadhana Yoga Bienestar | Alicante | A | `visita directa` | `fichas/sadhana-yoga-bienestar.md` |
 | Yoga Espacio Vital | Alicante | A | `enviado` | `fichas/yoga-espacio-vital.md` |
 | Asociacion Atenea Elche | Elche | A | `pendiente` | `fichas/asociacion-atenea-elche.md` |
 | Espigol salut natural | Elche | A | `pendiente` | `fichas/espigol-salut-natural.md` |

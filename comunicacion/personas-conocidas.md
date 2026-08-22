@@ -54,6 +54,26 @@ Directo al grano, porque aquí la presentación vale oro.
 
 ---
 
+## Si puede juntar gente ella misma
+
+Esto lo abrió Juan Manuel con Natasha el 22 de agosto, y cambia el alcance del
+proyecto: **el taller no necesita un centro de yoga**. Necesita una sala y
+gente. Una casa con sitio, un local de una asociación, un grupo que ya se junta.
+
+> Voy a empezar un programa de un día al mes por diferentes centros y lugares
+> para enseñar a pronunciar los mantras correctamente. Si quieres y juntas a
+> unas cuantas personas, es gratis, y no se vende ni se publicita nada.
+
+**Dos frases que valen para todo el material:**
+
+«**Centros y lugares**» — no cierra la puerta a que sea en una casa.
+
+«**No se vende ni se publicita nada**» — mata de un golpe la objeción de fondo,
+que es «este viene a colocarme algo». Dicha antes de que nadie la piense, y en
+seis palabras.
+
+Vale la pena tenerla también para los centros.
+
 ## Si la persona lleva un centro o da clases en uno
 
 Aquí sí va el dossier. Es la mejor situación que se puede dar: te ahorras el

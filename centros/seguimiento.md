@@ -45,6 +45,7 @@ alguien. Si no está escrito, a los tres centros ya no te acuerdas.
 | 22-ago-26 | Prana Escuela de Yoga | ~~Visita en el CALENDAR: jueves 27, 20:10~~ **ANULADA**: están cerrados por vacaciones | — |
 | 22-ago-26 | Prana Escuela de Yoga | **WhatsApp enviado** al 639 52 09 52 | Visitar martes o jueves sobre las 20:10, antes de la clase de Pablo. Preguntar por Fran, Pablo o Esther |
 | 22-ago-26 | Prana Escuela de Yoga | Datos verificados en su web: teléfono 639 52 09 52 (el del directorio era otro) y **no publican email**. Profesores: Fran, Pablo y Esther. Sube a prioridad A | WhatsApp preparado al 639 52 09 52 |
+| 22-ago-26 | Natasha | **ENVIADO** a las 13:30 por WhatsApp, con el dossier. Ofrecido también «si juntas a unas cuantas personas»: abre la puerta a hacerlo fuera de un centro | Esperar respuesta |
 | 22-ago-26 | Natasha (contacto, no centro) | WhatsApp preparado con el dossier. Le vendió un armonio Nitai desde India y Juan Manuel la asesoró: se entra por ahí | Enviar. Si conoce a alguien que lleve centro, esa pista va antes que cualquier visita en frío |
 | 22-ago-26 | Lloc de Yoga Alicante | Fecha en el CALENDAR del GTD+H: **martes 25-ago, 17:35** | Ir |
 | 22-ago-26 | Lloc de Yoga Alicante | Tarea de la visita enviada al grupo Personal de Signal | Visitar martes o miércoles a las 17:35 |
@@ -72,6 +73,9 @@ La cuenta de enviados tiene que ser real o no sirve de nada.
 - **Pregunta siempre si están abiertos.** Prana está cerrado por vacaciones en
   agosto y su director vive fuera de Alicante. Media visita programada puede
   caerse por eso, y no se ve en ninguna web.
+- **No hay cuenta de Instagram.** Descubierto el 22-ago. Eso deja **5 centros
+  inalcanzables por escrito** (Lloc de Yoga, Sadhana, Yoga Alicante, La Mar de
+  Yoga y Mandala): a esos hay que ir en persona, sin avisar.
 - **Muchos no publican horario de clases.** Como el horario es lo que decide
   cuándo presentarse, cuando no esté hay que mirarlo en su Instagram o llamar
   y preguntar solo eso, sin contar nada más.

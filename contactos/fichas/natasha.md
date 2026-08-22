@@ -1,6 +1,6 @@
 # Natasha
 
-**Contacto** · estado `preparado`
+**Contacto** · estado `enviado`
 
 | | |
 |---|---|
@@ -16,7 +16,7 @@ Le vendio un armonio Nitai desde India y Juan Manuel la asesoro en la compra
 
 ## Notas
 
-Toca armonio, asi que el mantra y el kirtan le son familiares. La entrada natural es preguntar como le va el armonio. Si resulta que da clases o lleva un centro, sube al principio de la cola: una presentacion suya vale mas que diez visitas en frio.
+ENVIADO por WhatsApp el 22-ago a las 13:30, con el dossier de centros. Texto de Juan Manuel: "voy a empezar un programa de un dia al mes por diferentes centros y lugares para ensenar a pronunciar los mantras correctamente. Si quieres y juntas a unas cuantas personas, es gratis, y no se vende ni se publicita nada." A las 13:53 anadio: "o si conoces a alguien que lleve un centro o de clases, dime el nombre y ya me presento yo". Toca armonio, se lo vendio Nitai desde India con asesoramiento de Juan Manuel. Pendiente de respuesta.
 
 
 ## Cómo se le escribe a un conocido

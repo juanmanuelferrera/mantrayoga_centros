@@ -1,6 +1,6 @@
 # Sadhana Yoga Bienestar
 
-**Alicante** · prioridad A · estado `pendiente`
+**Alicante** · prioridad A · estado `visita directa`
 
 | | |
 |---|---|
@@ -18,7 +18,7 @@
 
 ## Notas de este centro
 
-Nombre sanscrito y enfoque de crecimiento personal. Contactar por IG.
+Solo Instagram, y no tenemos cuenta: inalcanzable por escrito. Su web sadhana-bienestar.com NO resuelve, el dominio esta caido. 5,0/5 con 27 resenas, compartiendo yoga desde 2018. OJO: puede estar en El Campello y no en Alicante ciudad, hay que confirmarlo antes de ir.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 

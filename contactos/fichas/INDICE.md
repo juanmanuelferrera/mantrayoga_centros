@@ -6,4 +6,4 @@ Para consultarlas desde Signal, pídele a Hermes la ficha por el nombre.
 
 | Nombre | Canal | ¿Decide sala? | Estado | Ficha |
 |---|---|---|---|---|
-| Natasha | WhatsApp | por confirmar | `preparado` | `contactos/fichas/natasha.md` |
+| Natasha | WhatsApp | por confirmar | `enviado` | `contactos/fichas/natasha.md` |
