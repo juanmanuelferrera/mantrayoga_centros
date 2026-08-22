@@ -9,7 +9,7 @@ Para consultarlas desde Signal, pídele a Hermes la ficha por el nombre del cent
 | Centro de bienestar SAMANDI | Alicante | A | `pendiente` | `fichas/centro-de-bienestar-samandi.md` |
 | Dayananda Yoga y meditacion | Alicante | A | `pendiente` | `fichas/dayananda-yoga-y-meditacion.md` |
 | Lloc de Yoga Alicante | Alicante | A | `visita directa` | `fichas/lloc-de-yoga-alicante.md` |
-| Prana Escuela de Yoga | Alicante | A | `preparado` | `fichas/prana-escuela-de-yoga.md` |
+| Prana Escuela de Yoga | Alicante | A | `enviado` | `fichas/prana-escuela-de-yoga.md` |
 | Sadhana Yoga Bienestar | Alicante | A | `pendiente` | `fichas/sadhana-yoga-bienestar.md` |
 | Yoga Espacio Vital | Alicante | A | `enviado` | `fichas/yoga-espacio-vital.md` |
 | Asociacion Atenea Elche | Elche | A | `pendiente` | `fichas/asociacion-atenea-elche.md` |

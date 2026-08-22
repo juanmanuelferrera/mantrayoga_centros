@@ -1,6 +1,6 @@
 # Prana Escuela de Yoga
 
-**Alicante** · prioridad A · estado `preparado`
+**Alicante** · prioridad A · estado `enviado`
 
 | | |
 |---|---|
