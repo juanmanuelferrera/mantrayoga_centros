@@ -11,7 +11,7 @@ en su perfil, es una vía legítima.
 > sentido.
 >
 > Estoy proponiéndolos a centros de Alicante: una hora al mes, sin coste para el
-> centro ni para los alumnos. Solo la sala.
+> centro ni para los alumnos. No se vende ni se publicita nada. Solo la sala.
 >
 > ¿Te paso el detalle?
 

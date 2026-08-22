@@ -35,7 +35,8 @@ sánscrito. Guiada, gratuita para el centro y para quien asiste.
 La sala, una hora, una vez al mes. Y que lo cuentes a tus alumnos.
 
 Nada más. No hay alquiler, no hay porcentaje, no hay exclusividad y no hay
-permanencia. Si después del primero no te convence, no hay un segundo.
+permanencia. **No se vende ni se publicita nada.** Si después del primero no te
+convence, no hay un segundo.
 
 ---
 

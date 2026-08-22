@@ -29,8 +29,8 @@ Te escribo por si os encaja un taller mensual en [Nombre del centro]: una hora,
 para aprender a cantar bien los mantras clásicos en sánscrito, con su
 pronunciación y su sentido. Cada mes un tema distinto.
 
-Es gratuito para el centro y para quien venga. Solo necesito la sala una hora al
-mes, y que lo contéis a vuestros alumnos.
+Es gratuito para el centro y para quien venga. No se vende ni se publicita nada.
+Solo necesito la sala una hora al mes, y que lo contéis a vuestros alumnos.
 
 No te pido nada ahora. Me pasaré un día de estos a saludar y te dejo una hoja
 con el detalle; si pillo buen momento, te lo cuento en cinco minutos. Si
@@ -40,6 +40,17 @@ Un saludo,
 Juan Manuel Ferrera
 info@bhaktiyoga.es · 687 35 76 60
 Centros de Bhakti yoga · bhaktiyoga.es
+
+### La frase que va siempre
+
+**«No se vende ni se publicita nada.»**
+
+Va justo detrás de decir que es gratis, que es exactamente donde el otro empieza
+a pensar «¿y este qué me quiere colocar?». Mata la objeción de fondo antes de
+que llegue a formularse, y en seis palabras.
+
+Es de Juan Manuel, de un mensaje a una conocida el 22 de agosto. Desde entonces
+va en todos los primeros contactos, sean email o WhatsApp.
 
 ### Por qué sin adjunto
 
