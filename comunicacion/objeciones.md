@@ -108,6 +108,29 @@ domingo por la mañana. Me adapto a lo que os sobre.
 Nada. Si tenéis pantalla la aprovecho para poner el verso, y si no, llevo el
 texto impreso. El taller sale igual.
 
+**"Nosotros no organizamos talleres de terceros, pero alquilamos la sala."**
+Apareció con Sadhana el 22 de agosto, y es la objeción más seria de todas
+porque no es un no: es otro modelo de negocio.
+
+Detrás casi siempre hay un malentendido: te leen como alguien que trae **su**
+evento y necesita un local. Aclaralo una vez, sin negociar:
+
+> "Creo que no me expliqué bien. No es un taller mío al que yo traiga gente: es
+> un taller para vuestros alumnos, gratuito para ellos y para vosotros. No cobro
+> nada, no vendo nada y no publicito nada. Por eso el alquiler no encaja: no hay
+> dinero en esto en ningún sentido, ni entrando ni saliendo."
+
+Es la diferencia entre alquilar una sala e invitar a un profesor.
+
+**Y si aun así quieren cobrar, es que no.** No pagues. No es cuestión de dinero
+sino de modelo: lo que hace posible llegar a veinte o treinta centros es
+precisamente que no cuesta nada a nadie. En cuanto pagas en uno, dejas de poder
+decir "gratis" con la misma cara, y el proyecto se convierte en otra cosa mucho
+más pequeña.
+
+Se agradece la claridad, se cierra bien y se sigue. Un centro que alquila no es
+un centro perdido: es un centro con otro modelo.
+
 **"¿Y si no viene nadie?"**
 Entonces no has perdido nada, porque no has pagado nada. Yo tampoco. Probamos
 uno más o lo dejamos.

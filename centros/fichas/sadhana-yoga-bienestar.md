@@ -1,10 +1,10 @@
 # Sadhana Yoga Bienestar
 
-**El Campello** · prioridad A · estado `enviado`
+**El Campello** · prioridad A · estado `hablando`
 
 | | |
 |---|---|
-| Contacto | — |
+| Contacto | varias socias; contesta una de ellas |
 | Dirección | C/ Juan Ramon Jimenez 17, local, El Campello |
 | Teléfono | 614 19 50 33 |
 | Email | — |
@@ -16,7 +16,7 @@
 
 ## Notas de este centro
 
-VERIFICADO en sadhanayoga.net 22-ago. Movil 614 19 50 33, se va por WhatsApp. NO publican email ni nombres. Abren de lunes a viernes de 9:00 a 20:00. YA HACEN TALLERES ESPECIALES ademas de clases regulares: ese es el gancho, encaja en algo que ya programan. 5,0/5 con 27 resenas, compartiendo yoga desde 2018. OJO: esta en El Campello, no en Alicante ciudad, unos 10 km. No agrupar con las visitas del centro de Alicante. ENVIADO por WhatsApp el 22-ago con el texto estandar del paso 1, sin el gancho de los talleres ni la frase de "no se vende ni se publicita nada". CUANDO CONTESTEN, decir estas dos cosas, que no iban en el mensaje: 1) que YA HACEN TALLERES ESPECIALES ademas de las clases regulares, asi que esto encaja en algo que ya programan y no es un formato nuevo que tengan que inventar; 2) que NO SE VENDE NI SE PUBLICITA NADA.
+El Campello, C/ Juan Ramon Jimenez 17. Movil 614 19 50 33, web sadhanayoga.net. Lun-vie 9:00-20:00. 5,0/5 con 27 resenas, desde 2018. RESPUESTA 22-ago: NO organizan talleres para terceros, pero ALQUILAN la shala: 75 EUR/hora la grande, 35 EUR/hora la pequena, y solo si encaja con sus lineas de trabajo. Estan cerrando horarios del nuevo curso y los fines de semana la shala esta muy solicitada. Lo tienen que hablar entre las socias y dijeron que lo valoran. NOS LEEN COMO UN TERCERO QUE TRAE SU EVENTO, no como un taller para sus alumnas: esa es la aclaracion que se les manda. NO PAGAR ALQUILER: rompe el modelo que hace posible los 20-30 centros.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 

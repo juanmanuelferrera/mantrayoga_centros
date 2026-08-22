@@ -45,6 +45,7 @@ alguien. Si no está escrito, a los tres centros ya no te acuerdas.
 | 22-ago-26 | Prana Escuela de Yoga | ~~Visita en el CALENDAR: jueves 27, 20:10~~ **ANULADA**: están cerrados por vacaciones | — |
 | 22-ago-26 | Prana Escuela de Yoga | **WhatsApp enviado** al 639 52 09 52 | Visitar martes o jueves sobre las 20:10, antes de la clase de Pablo. Preguntar por Fran, Pablo o Esther |
 | 22-ago-26 | Prana Escuela de Yoga | Datos verificados en su web: teléfono 639 52 09 52 (el del directorio era otro) y **no publican email**. Profesores: Fran, Pablo y Esther. Sube a prioridad A | WhatsApp preparado al 639 52 09 52 |
+| 22-ago-26 | Sadhana Yoga Bienestar | **Contestan**: no organizan talleres de terceros pero **alquilan** la shala (75 €/h la grande, 35 €/h la pequeña). Cerrando horarios del nuevo curso. Lo hablan entre socias | Aclarar que es un taller para sus alumnas, no un evento nuestro. **No pagar alquiler** |
 | 22-ago-26 | Yoga María Om Tare | Web repasada: la profesora es **María**, da Hatha Yoga Meditación lun/mié/jue 17:30, y el nombre del centro **es un mantra**. Sube a prioridad A | Email preparado a yogamaria.omtare@gmail.com, sin verificar |
 | 22-ago-26 | Sadhana Yoga Bienestar | PENDIENTE al contestar: sacar que ya hacen talleres especiales y que no se vende ni se publicita nada. Texto listo en su ficha | Esperar respuesta |
 | 22-ago-26 | Sadhana Yoga Bienestar | **WhatsApp enviado** al 614 19 50 33, con el texto estándar | Visitar en El Campello, viaje aparte. Si contestan, sacar lo de los talleres que ya hacen |
