@@ -70,6 +70,22 @@ desactualizados (hay centros con dos teléfonos distintos según la fuente).
 **Antes de llamar, comprueba el dato en la web o el Instagram del propio
 centro.** Llamar a un número que ya no es suyo quema el primer contacto.
 
+## Las fichas
+
+Hay **una ficha por centro** en `centros/fichas/`, con sus datos, sus notas y el
+guion de la visita. Se generan desde el CSV:
+
+```
+python3 centros/generar-fichas.py
+```
+
+**El CSV es la única fuente de verdad.** No edites una ficha a mano: se borran y
+se regeneran enteras cada vez. Edita el CSV y vuelve a ejecutar el script.
+
+**Para consultarlas desde Signal**, pídele a Hermes la ficha por el nombre del
+centro y él lee el archivo de esa carpeta. El índice está en
+`centros/fichas/INDICE.md`.
+
 ## Estado de la investigación
 
 45 centros localizados. Reparto:

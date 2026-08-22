@@ -14,7 +14,8 @@ bhaktiyoga.es).
 | `docs/` | Estrategia, fases y registro de métricas |
 | `dossier/` | El PDF que se envía a los centros |
 | `programa/` | El guion del taller: formato fijo y los ocho temas |
-| `centros/` | Lista de centros, estado de cada uno y calendario perpetuo |
+| `centros/` | Lista de centros, ficha de cada uno, calendario perpetuo y bitácora |
+| `centros/fichas/` | **Una ficha por centro**, generada desde el CSV. Consultable desde Signal con Hermes |
 | `comunicacion/` | Email, WhatsApp, llamada, objeciones, cartel, Instagram |
 
 ## Enlaces
