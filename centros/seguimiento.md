@@ -64,6 +64,22 @@ Por prioridad: 11 de A, 21 de B, 13 de C.
 Con 11 centros de prioridad A ya hay más de los 6-8 que caben en la Fase A. No
 hace falta buscar más para empezar.
 
+## El correo hay que buscarlo
+
+El CSV trae email de solo 7 de los 45 centros, y esos siete vienen de un
+directorio, con la misma advertencia que los teléfonos: **compruébalo en su web
+antes de escribir**.
+
+Para el resto hay dos caminos, y el segundo suele ser mejor:
+
+- **Buscar el correo en su web**, en la página de contacto o en el pie.
+- **Escribir por Instagram**, que en un estudio pequeño lo lee antes el dueño
+  que el buzón de info@. El texto está en `comunicacion/whatsapp.md`.
+
+Tres de los cinco centros de prioridad A de Alicante ciudad (Dayananda, Lloc de
+Yoga y Sadhana) no tienen web localizada: con esos se va por Instagram
+directamente, o se entra sin avisar.
+
 ## Nota sobre Benidorm
 
 Son 45 minutos de coche cada trayecto. No compensa un solo taller. Si entran
