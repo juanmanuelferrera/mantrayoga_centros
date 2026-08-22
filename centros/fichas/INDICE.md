@@ -19,7 +19,7 @@ Para consultarlas desde Signal, pídele a Hermes la ficha por el nombre del cent
 | Espigol salut natural | Elche | A | `pendiente` | `fichas/espigol-salut-natural.md` |
 | Sala Om Yoga | Elche | A | `pendiente` | `fichas/sala-om-yoga.md` |
 | Shambala Paz y Bienestar | Elche | A | `pendiente` | `fichas/shambala-paz-y-bienestar.md` |
-| YOGA PRANA Y AMA | Elche | A | `preparado` | `fichas/yoga-prana-y-ama.md` |
+| YOGA PRANA Y AMA | Elche | A | `enviado` | `fichas/yoga-prana-y-ama.md` |
 | Esenciayoga San Juan | San Juan de Alicante | A | `visita directa` | `fichas/esenciayoga-san-juan.md` |
 | Alaya Clinica | Alicante | B | `pendiente` | `fichas/alaya-clinica.md` |
 | Beyoga Alicante | Alicante | B | `pendiente` | `fichas/beyoga-alicante.md` |

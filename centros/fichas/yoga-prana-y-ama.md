@@ -1,6 +1,6 @@
 # YOGA PRANA Y AMA
 
-**Elche** · prioridad A · estado `preparado`
+**Elche** · prioridad A · estado `enviado`
 
 | | |
 |---|---|
