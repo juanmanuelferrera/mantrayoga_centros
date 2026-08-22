@@ -1,6 +1,6 @@
 # Esencial Yoga Rambla
 
-**Alicante** · prioridad B · estado `verificar si existe`
+**Alicante** · prioridad B · estado `visita directa`
 
 | | |
 |---|---|
@@ -16,7 +16,7 @@
 
 ## Notas de este centro
 
-OJO: su dominio esencialyoga.es NO RESUELVE (comprobado 22-ago). Segundo caso despues de Zona Phi. Antes de gastar tiempo, comprobar si siguen abiertos: estan en Rambla Mendez Nunez 40, pleno centro, asi que se ve al pasar. Telefonos de directorio y sin verificar: 965 21 54 74 y 722 755 055.
+OJO: su dominio esencialyoga.es NO RESUELVE (comprobado 22-ago). Segundo caso despues de Zona Phi. Antes de gastar tiempo, comprobar si siguen abiertos: estan en Rambla Mendez Nunez 40, pleno centro, asi que se ve al pasar. Telefonos de directorio y sin verificar: 965 21 54 74 y 722 755 055. VISITA PROGRAMADA: mie 26 a las 15:45, dentro del paseo post-comida.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 

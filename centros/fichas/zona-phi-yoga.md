@@ -1,6 +1,6 @@
 # Zona Phi Yoga
 
-**Alicante** · prioridad B · estado `verificar si existe`
+**Alicante** · prioridad B · estado `visita directa`
 
 | | |
 |---|---|
@@ -16,7 +16,7 @@
 
 ## Notas de este centro
 
-OJO: su dominio zonaphi.com YA NO ES SUYO, redirige a v-campexpo.com, una web de otro sector. Suele significar que cerraron o perdieron el dominio. Antes de gastar tiempo con ellos, comprobar si el centro sigue abierto: pasar por Avinguda Goleta 11 o mirar si tienen redes activas. Los telefonos que teniamos, 690 84 70 48 y 605 052 301, son de directorio y probablemente ya no valgan.
+OJO: su dominio zonaphi.com YA NO ES SUYO, redirige a v-campexpo.com, una web de otro sector. Suele significar que cerraron o perdieron el dominio. Antes de gastar tiempo con ellos, comprobar si el centro sigue abierto: pasar por Avinguda Goleta 11 o mirar si tienen redes activas. Los telefonos que teniamos, 690 84 70 48 y 605 052 301, son de directorio y probablemente ya no valgan. VISITA PROGRAMADA: jue 3 sep a las 18:00, en la ruta norte junto con Esenciayoga San Juan.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 

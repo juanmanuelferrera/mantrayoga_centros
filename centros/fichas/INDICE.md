@@ -20,13 +20,13 @@ Para consultarlas desde Signal, pídele a Hermes la ficha por el nombre del cent
 | Sala Om Yoga | Elche | A | `pendiente` | `fichas/sala-om-yoga.md` |
 | Shambala Paz y Bienestar | Elche | A | `pendiente` | `fichas/shambala-paz-y-bienestar.md` |
 | YOGA PRANA Y AMA | Elche | A | `pendiente` | `fichas/yoga-prana-y-ama.md` |
-| Esenciayoga San Juan | San Juan de Alicante | A | `pendiente` | `fichas/esenciayoga-san-juan.md` |
+| Esenciayoga San Juan | San Juan de Alicante | A | `visita directa` | `fichas/esenciayoga-san-juan.md` |
 | Alaya Clinica | Alicante | B | `pendiente` | `fichas/alaya-clinica.md` |
 | Beyoga Alicante | Alicante | B | `pendiente` | `fichas/beyoga-alicante.md` |
 | Ecovital Actividades | Alicante | B | `pendiente` | `fichas/ecovital-actividades.md` |
-| Esencial Yoga Rambla | Alicante | B | `verificar si existe` | `fichas/esencial-yoga-rambla.md` |
+| Esencial Yoga Rambla | Alicante | B | `visita directa` | `fichas/esencial-yoga-rambla.md` |
 | Vibra Yoga Studio | Alicante | B | `pendiente` | `fichas/vibra-yoga-studio.md` |
-| Zona Phi Yoga | Alicante | B | `verificar si existe` | `fichas/zona-phi-yoga.md` |
+| Zona Phi Yoga | Alicante | B | `visita directa` | `fichas/zona-phi-yoga.md` |
 | Althaia Yoga Center | Benidorm | B | `pendiente` | `fichas/althaia-yoga-center.md` |
 | Centro de Yoga Lotus | Benidorm | B | `pendiente` | `fichas/centro-de-yoga-lotus.md` |
 | Escuela RYLS Yoga (Rosa Yoga Lifestyle) | Benidorm | B | `pendiente` | `fichas/escuela-ryls-yoga-rosa-yoga-lifestyle.md` |

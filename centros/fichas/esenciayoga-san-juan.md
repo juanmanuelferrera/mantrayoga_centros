@@ -1,6 +1,6 @@
 # Esenciayoga San Juan
 
-**San Juan de Alicante** · prioridad A · estado `pendiente`
+**San Juan de Alicante** · prioridad A · estado `visita directa`
 
 | | |
 |---|---|
@@ -16,7 +16,7 @@
 
 ## Notas de este centro
 
-Kundalini. Muy buen encaje.
+Kundalini. Muy buen encaje. En la RUTA NORTE del jue 3 sep a las 18:00, con Zona Phi.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 
