@@ -1,24 +1,22 @@
 # Sadhana Yoga Bienestar
 
-**Alicante** · prioridad A · estado `visita directa`
+**El Campello** · prioridad A · estado `preparado`
 
 | | |
 |---|---|
 | Contacto | — |
-| Dirección | — |
-| Teléfono | — |
+| Dirección | C/ Juan Ramon Jimenez 17, local, El Campello |
+| Teléfono | 614 19 50 33 |
 | Email | — |
-| Web | — |
+| Web | sadhanayoga.net |
 | Instagram | @sadhana_yogabienestar |
 | Estilo | Yoga y bienestar integral |
-
-> Sin teléfono, email ni web localizados. La vía es Instagram, o presentarse directamente.
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.
 
 ## Notas de este centro
 
-Solo Instagram, y no tenemos cuenta: inalcanzable por escrito. Su web sadhana-bienestar.com NO resuelve, el dominio esta caido. 5,0/5 con 27 resenas, compartiendo yoga desde 2018. OJO: puede estar en El Campello y no en Alicante ciudad, hay que confirmarlo antes de ir.
+VERIFICADO en sadhanayoga.net 22-ago. Movil 614 19 50 33, se va por WhatsApp. NO publican email ni nombres. Abren de lunes a viernes de 9:00 a 20:00. YA HACEN TALLERES ESPECIALES ademas de clases regulares: ese es el gancho, encaja en algo que ya programan. 5,0/5 con 27 resenas, compartiendo yoga desde 2018. OJO: esta en El Campello, no en Alicante ciudad, unos 10 km. No agrupar con las visitas del centro de Alicante.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 
