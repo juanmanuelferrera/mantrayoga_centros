@@ -16,7 +16,7 @@ Para consultarlas desde Signal, pídele a Hermes la ficha por el nombre del cent
 | Yoga Maria Om Tare | Alicante | A | `preparado` | `fichas/yoga-maria-om-tare.md` |
 | Sadhana Yoga Bienestar | El Campello | A | `hablando` | `fichas/sadhana-yoga-bienestar.md` |
 | Asociacion Atenea Elche | Elche | A | `pendiente` | `fichas/asociacion-atenea-elche.md` |
-| Espigol salut natural | Elche | A | `pendiente` | `fichas/espigol-salut-natural.md` |
+| Espigol salut natural | Elche | A | `preparado` | `fichas/espigol-salut-natural.md` |
 | Sala Om Yoga | Elche | A | `enviado` | `fichas/sala-om-yoga.md` |
 | Shambala Paz y Bienestar | Elche | A | `pendiente` | `fichas/shambala-paz-y-bienestar.md` |
 | YOGA PRANA Y AMA | Elche | A | `enviado` | `fichas/yoga-prana-y-ama.md` |

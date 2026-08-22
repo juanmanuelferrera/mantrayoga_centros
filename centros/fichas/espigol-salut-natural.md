@@ -1,24 +1,22 @@
 # Espigol salut natural
 
-**Elche** · prioridad A · estado `pendiente`
+**Elche** · prioridad A · estado `preparado`
 
 | | |
 |---|---|
 | Contacto | — |
-| Dirección | C/ Federico Garcia Lorca 2, 2 Izq |
-| Teléfono | — |
-| Email | — |
-| Web | — |
+| Dirección | C/ Federico Garcia Lorca 2, bajo, 03204 Elche |
+| Teléfono | WhatsApp 692 155 685 / fijo 965 446 674 |
+| Email | info@espigol.es |
+| Web | espigol.es |
 | Instagram | — |
-| Estilo | Terapias holisticas y yoga |
-
-> Sin teléfono, email ni web localizados. La vía es Instagram, o presentarse directamente.
+| Estilo | Yoga, meditacion, mindfulness, terapias naturales, constelaciones, reiki |
 
 **Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.
 
 ## Notas de este centro
 
-Centro de terapias, programa talleres con frecuencia.
+Tienen NUMERO DE WHATSAPP DECLARADO: 692 155 685, ademas del fijo y del email. Su web espigol.es daba ERROR 500 el 22-ago, asi que los datos vienen de varios directorios que coinciden entre si. Dan yoga, MEDITACION y mindfulness, y organizan CLASES Y TALLERES: encaja en lo que ya hacen. HORARIO: lun-vie 9-14 y 17-20, sabados 9:30-13; EN AGOSTO solo mananas de 9:30 a 13:00, asi que ahora hay que ir por la manana. POR CONFIRMAR EN LA VISITA: varios directorios dicen que abrieron en 1980. Si es cierto es una buena conversacion, porque Juan Manuel empezo a cantar en 1981.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 
