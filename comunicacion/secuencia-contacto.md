@@ -17,7 +17,7 @@ comercial en la puerta; aparecer cinco días después de un email te convierte e
 
 ## Paso 1 · Día 0 · El email
 
-Manda el material y anuncia la visita. Nada más.
+**Sin adjunto.** El correo se sostiene solo y anuncia la visita. Nada más.
 
 **Asunto:** Taller de mantra yoga para [Nombre del centro], sin coste
 
@@ -25,26 +25,49 @@ Hola [nombre del contacto]:
 
 Me llamo Juan Manuel Ferrera y practico y guío mantra yoga desde 1981.
 
-Te dejo una hoja con un taller que estoy llevando a centros de yoga de Alicante:
-una hora al mes, para aprender a cantar bien los mantras clásicos en sánscrito,
-con su pronunciación y su sentido. Cada mes un tema distinto. Es gratuito para
-el centro y para quien venga.
+Te escribo por si os encaja un taller mensual en [Nombre del centro]: una hora,
+para aprender a cantar bien los mantras clásicos en sánscrito, con su
+pronunciación y su sentido. Cada mes un tema distinto.
 
-No te pido nada ahora. Me pasaré un día de estos por el centro a saludar y, si
-pillo buen momento, te lo cuento en cinco minutos. Si prefieres que avisemos
-antes, dime tú el día.
+Es gratuito para el centro y para quien venga. Solo necesito la sala una hora al
+mes, y que lo contéis a vuestros alumnos.
+
+No te pido nada ahora. Me pasaré un día de estos a saludar y te dejo una hoja
+con el detalle; si pillo buen momento, te lo cuento en cinco minutos. Si
+prefieres que avisemos antes, dime tú el día.
 
 Un saludo,
 Juan Manuel Ferrera
 info@bhaktiyoga.es · 687 35 76 60
 Centros de Bhakti yoga · bhaktiyoga.es
 
-*(Adjunto: dossier-centros.pdf, 2 páginas)*
+### Por qué sin adjunto
 
-**La frase que hace el trabajo** es "me pasaré un día de estos". Convierte la
-visita en algo avisado. Sin ella, apareces sin más y arrancas a la defensiva.
+Un PDF de un remitente desconocido casi no se abre, y en algunos buzones manda
+el correo a promociones o a spam. Además, en un estudio pequeño el correo se lee
+en el móvil, entre clase y clase: lo que no esté en el cuerpo del mensaje no se
+lee.
 
-Si no tienes email pero sí Instagram o WhatsApp, sirve igual. Ver `whatsapp.md`.
+**El dossier es lo que dejas encima del mostrador, no un adjunto.** Ahí sí hace
+su trabajo: en papel, con el nombre del dueño escrito encima, y quedándose allí
+después de que te vayas.
+
+Si alguien contesta pidiendo más detalle, entonces sí: le mandas el PDF. Pedido
+se abre; no pedido, no.
+
+### La frase que hace el trabajo
+
+"Me pasaré un día de estos". Convierte la visita en algo avisado. Sin ella,
+apareces sin más y arrancas a la defensiva.
+
+**Y te compromete.** No mandes este correo a un centro que no vayas a poder
+visitar en una semana.
+
+### Si no hay email
+
+Instagram o WhatsApp sirven igual, y en un estudio pequeño los lee el dueño
+antes que el buzón de info@. Ver `whatsapp.md`. Ahí tampoco se manda nada
+adjunto.
 
 ---
 

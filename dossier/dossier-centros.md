@@ -129,6 +129,16 @@ minutos y decides con calma. Si prefieres que avisemos antes, dime tú el día.
 
 ---
 
+## Cómo se usa
+
+**Impreso, en mano, durante la visita.** No se adjunta al primer correo: un PDF
+de un desconocido casi no se abre, y el correo del paso 1 se sostiene solo.
+
+Llévalo impreso, con el nombre de la persona escrito a mano en la esquina antes
+de entrar, y déjalo allí aunque no esté quien decide.
+
+Se manda en PDF solo cuando alguien lo pide.
+
 ## Notas de producción
 
 - Dos páginas A4, PDF. Se genera desde este archivo.
