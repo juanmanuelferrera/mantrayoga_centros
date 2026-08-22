@@ -11,6 +11,7 @@ Para consultarlas desde Signal, pídele a Hermes la ficha por el nombre del cent
 | Lloc de Yoga Alicante | Alicante | A | `visita directa` | `fichas/lloc-de-yoga-alicante.md` |
 | Prana Escuela de Yoga | Alicante | A | `cerrando` | `fichas/prana-escuela-de-yoga.md` |
 | Yoga Espacio Vital | Alicante | A | `enviado` | `fichas/yoga-espacio-vital.md` |
+| Yoga Maria Om Tare | Alicante | A | `preparado` | `fichas/yoga-maria-om-tare.md` |
 | Sadhana Yoga Bienestar | El Campello | A | `enviado` | `fichas/sadhana-yoga-bienestar.md` |
 | Asociacion Atenea Elche | Elche | A | `pendiente` | `fichas/asociacion-atenea-elche.md` |
 | Espigol salut natural | Elche | A | `pendiente` | `fichas/espigol-salut-natural.md` |
@@ -25,7 +26,6 @@ Para consultarlas desde Signal, pídele a Hermes la ficha por el nombre del cent
 | Escuela de Yoga Azucena Molina | Alicante | B | `pendiente` | `fichas/escuela-de-yoga-azucena-molina.md` |
 | Esencial Yoga Rambla | Alicante | B | `pendiente` | `fichas/esencial-yoga-rambla.md` |
 | Vibra Yoga Studio | Alicante | B | `pendiente` | `fichas/vibra-yoga-studio.md` |
-| Yoga Maria Om Tare | Alicante | B | `pendiente` | `fichas/yoga-maria-om-tare.md` |
 | Zona Phi Yoga | Alicante | B | `pendiente` | `fichas/zona-phi-yoga.md` |
 | Althaia Yoga Center | Benidorm | B | `pendiente` | `fichas/althaia-yoga-center.md` |
 | Centro de Yoga Lotus | Benidorm | B | `pendiente` | `fichas/centro-de-yoga-lotus.md` |

@@ -1,22 +1,22 @@
 # Yoga Maria Om Tare
 
-**Alicante** · prioridad B · estado `pendiente`
+**Alicante** · prioridad A · estado `preparado`
 
 | | |
 |---|---|
-| Contacto | — |
+| Contacto | Maria (profesora) |
 | Dirección | C/ Doctor Recasens 56, 03009 |
 | Teléfono | 657 27 99 55 |
 | Email | yogamaria.omtare@gmail.com |
 | Web | omtare.es |
 | Instagram | — |
-| Estilo | Yoga |
+| Estilo | Hatha, Yoga y meditacion, restaurativo, adaptado, diversidad funcional |
 
-**Prioridad B.** B — centro generalista, receptivo, sin encaje obvio pero sin barrera.
+**Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.
 
 ## Notas de este centro
 
-Nombre de mantra tibetano: probable apertura. Valoracion 5,0/5. Aparcamiento cerca, comodo para cargar el armonio.
+Web omtare.es: la profesora es MARIA. Da "Hatha Yoga Meditacion" lunes, miercoles y jueves de 17:30 a 19:00, o sea que la meditacion ya esta en su horario. Y el nombre del centro ES UN MANTRA (Om Tare, de Tara): mejor gancho imposible. Manana lun-vie 9:30-10:45; tardes lun, mie y jue 17:30-19:00 y 19:30-20:45. VISITA: lunes, miercoles o jueves sobre las 17:15, antes de la clase de meditacion. Su web NO publica telefono ni email: el 657 27 99 55 y yogamaria.omtare@gmail.com son de directorio, SIN VERIFICAR, aunque el correo cuadra con el nombre. 5,0/5 y aparcamiento cerca, comodo para el armonio.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 
