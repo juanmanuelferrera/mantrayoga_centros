@@ -1,6 +1,6 @@
 # Espigol salut natural
 
-**Elche** · prioridad A · estado `preparado`
+**Elche** · prioridad A · estado `enviado`
 
 | | |
 |---|---|
