@@ -58,6 +58,28 @@ Hay un plato para donativo voluntario al final, sin insistir y sin discurso.
 Esto elimina de golpe la única objeción real del centro: el riesgo. No pierde
 dinero si no viene nadie.
 
+## No se paga alquiler. Nunca
+
+Decisión de Juan Manuel, 22 de agosto de 2026, a raíz de Sadhana.
+
+Algunos centros no ceden la sala: la alquilan. Sadhana pidió 75 € la hora por la
+sala grande y 35 € por la pequeña. **La respuesta es que no**, en todos los
+casos y sin excepción.
+
+No es por el dinero. Es que **lo que hace posible llegar a veinte o treinta
+centros es que esto no le cuesta nada a nadie**. En cuanto se paga en uno, ya no
+se puede decir «gratis» con la misma cara, el siguiente lo pide también, y el
+proyecto se convierte en otra cosa mucho más pequeña: 35 € al mes por centro son
+420 € al año por uno solo.
+
+**Antes de aceptar el no, aclara una vez.** Cuando responden con tarifas suelen
+haber entendido que traes tu propio evento y necesitas local. No es eso: es un
+taller para sus alumnos, gratis para ellos y para el centro. Es la diferencia
+entre alquilar una sala e invitar a un profesor. Se dice una vez, sin negociar.
+
+Si aun así quieren cobrar, se agradece la claridad y se sigue. Un centro que
+alquila no es un centro perdido: es un centro con otro modelo.
+
 ## Qué gana el centro
 
 Es lo único que le importa al dueño y hay que decirlo en la primera frase.
