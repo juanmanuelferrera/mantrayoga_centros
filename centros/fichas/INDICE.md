@@ -9,6 +9,7 @@ Para consultarlas desde Signal, pídele a Hermes la ficha por el nombre del cent
 | Centro de Yoga Oasis | Alicante | A | `enviado` | `fichas/centro-de-yoga-oasis.md` |
 | Centro de bienestar SAMANDI | Alicante | A | `pendiente` | `fichas/centro-de-bienestar-samandi.md` |
 | Dayananda Yoga y meditacion | Alicante | A | `pendiente` | `fichas/dayananda-yoga-y-meditacion.md` |
+| Escuela de Yoga Azucena Molina | Alicante | A | `preparado` | `fichas/escuela-de-yoga-azucena-molina.md` |
 | Lloc de Yoga Alicante | Alicante | A | `visita directa` | `fichas/lloc-de-yoga-alicante.md` |
 | Prana Escuela de Yoga | Alicante | A | `cerrando` | `fichas/prana-escuela-de-yoga.md` |
 | Yoga Espacio Vital | Alicante | A | `enviado` | `fichas/yoga-espacio-vital.md` |
@@ -23,8 +24,7 @@ Para consultarlas desde Signal, pídele a Hermes la ficha por el nombre del cent
 | Alaya Clinica | Alicante | B | `pendiente` | `fichas/alaya-clinica.md` |
 | Beyoga Alicante | Alicante | B | `pendiente` | `fichas/beyoga-alicante.md` |
 | Ecovital Actividades | Alicante | B | `pendiente` | `fichas/ecovital-actividades.md` |
-| Escuela de Yoga Azucena Molina | Alicante | B | `pendiente` | `fichas/escuela-de-yoga-azucena-molina.md` |
-| Esencial Yoga Rambla | Alicante | B | `pendiente` | `fichas/esencial-yoga-rambla.md` |
+| Esencial Yoga Rambla | Alicante | B | `verificar si existe` | `fichas/esencial-yoga-rambla.md` |
 | Vibra Yoga Studio | Alicante | B | `pendiente` | `fichas/vibra-yoga-studio.md` |
 | Zona Phi Yoga | Alicante | B | `verificar si existe` | `fichas/zona-phi-yoga.md` |
 | Althaia Yoga Center | Benidorm | B | `pendiente` | `fichas/althaia-yoga-center.md` |

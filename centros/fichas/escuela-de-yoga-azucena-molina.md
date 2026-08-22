@@ -1,18 +1,22 @@
 # Escuela de Yoga Azucena Molina
 
-**Alicante** · prioridad B · estado `pendiente`
+**Alicante** · prioridad A · estado `preparado`
 
 | | |
 |---|---|
-| Contacto | — |
-| Dirección | C/ Polop 24, 03013 |
-| Teléfono | 696 20 88 83 / 655 123 993 |
+| Contacto | Azucena Molina (es su propio centro, decide ella sola) |
+| Dirección | C/ Polop 24, Alicante |
+| Teléfono | 655 123 993 |
 | Email | info@azucenamolinayoga.es |
 | Web | azucenamolinayoga.es |
 | Instagram | — |
-| Estilo | Alineacion, restaurativo, terapia holistica |
+| Estilo | Iyengar, Kundalini, meditacion y relajacion, craneosacral, intensivos |
 
-**Prioridad B.** B — centro generalista, receptivo, sin encaje obvio pero sin barrera.
+**Prioridad A.** A — ya hacen meditación, kundalini o talleres. La puerta está medio abierta.
+
+## Notas de este centro
+
+VERIFICADO en azucenamolinayoga.es 22-ago: email y movil confirmados en su propia web (el 696 20 88 83 de un directorio no aparece). Es SU centro, con su nombre: decide ella sola, sin socios ni juntas, asi que la respuesta puede ser rapida. Da KUNDALINI y MEDITACION, y ya organiza INTENSIVOS y RETIROS, o sea que los formatos fuera de la clase semanal no le son ajenos. No publica horario.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 
