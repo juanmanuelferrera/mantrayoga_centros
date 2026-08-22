@@ -10,6 +10,7 @@ Siguen la secuencia de `comunicacion/secuencia-contacto.md`.
 |---|---|
 | `pendiente` | Aún no contactado |
 | `preparado` | Texto listo y datos comprobados, pero **sin enviar todavía** |
+| `visita directa` | Se entra sin escribir antes, porque no hay canal o no compensa |
 | `enviado` | Paso 1: email o mensaje enviado de verdad (día 0) |
 | `visitado` | Paso 2: te pasaste por el centro |
 | `revisita` | Fuiste y no estaba quien decide. Hay que volver en otra franja |
@@ -40,7 +41,7 @@ alguien. Si no está escrito, a los tres centros ya no te acuerdas.
 
 | Fecha | Centro | Qué pasó | Siguiente paso |
 |---|---|---|---|
-| 22-ago-26 | Lloc de Yoga Alicante | Texto del DM **preparado, sin enviar**. Sin email localizado. Entrada por el kundalini: sus alumnos ya cantan mantras | Enviar el DM a @lloc_de_yoga_alicante |
+| 22-ago-26 | Lloc de Yoga Alicante | Decidido entrar **sin escribir antes**. No tienen email público. Horario localizado: solo lunes a jueves, 17:30-21:30 | Visita en frío, martes o miércoles a las 17:35. Ficha en `proxima-visita.md` |
 | 22-ago-26 | Yoga Espacio Vital | **Confirmado enviado** por Juan Manuel | Visitar entre el 26 y el 29 de agosto |
 | 22-ago-26 | Yoga Espacio Vital | Email del paso 1 enviado a yogaespaciovital@gmail.com. Sin adjunto, con nombre de contacto genérico porque no publican ninguno | Visitar entre el 26 y el 29 de agosto |
 | 22-ago-26 | Yoga Espacio Vital | Datos verificados en su web: el directorio daba mal el email (info@…) y el teléfono (617…). Los correctos son yogaespaciovital@gmail.com y 647 83 34 70 | — |
