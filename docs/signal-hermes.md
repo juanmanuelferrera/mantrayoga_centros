@@ -4,12 +4,15 @@ Cómo consultar y anotar cosas del proyecto desde el móvil.
 
 ## Consultar una ficha
 
-Pídele a Hermes la ficha por el nombre del centro. Él lee el archivo de
-`centros/fichas/`. El índice está en `centros/fichas/INDICE.md`.
+Pídele a Hermes la ficha por el nombre. Hay dos carpetas y él lee de las dos:
+
+- **Centros:** `centros/fichas/` · índice en `centros/fichas/INDICE.md`
+- **Personas conocidas:** `contactos/fichas/` · índice en `contactos/fichas/INDICE.md`
 
 > «Dame la ficha de Lloc de Yoga»
 > «¿A qué hora abre Prana?»
 > «¿Qué centros me quedan pendientes en Elche?»
+> «Dame la ficha de Natasha»
 
 ## Mandar un mensaje al grupo Personal
 

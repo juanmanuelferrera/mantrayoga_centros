@@ -16,6 +16,7 @@ bhaktiyoga.es).
 | `programa/` | El guion del taller: formato fijo y los ocho temas |
 | `centros/` | Lista de centros, ficha de cada uno, calendario perpetuo y bitácora |
 | `centros/fichas/` | **Una ficha por centro**, generada desde el CSV. Consultable desde Signal con Hermes |
+| `contactos/` | **Gente conocida**, con una ficha por persona. No son centros y se les escribe distinto |
 | `comunicacion/` | Email, WhatsApp, llamada, objeciones, cartel, Instagram |
 | `comunicacion/personas-conocidas.md` | Mensajes para gente que ya conoces, que se escribe distinto |
 
