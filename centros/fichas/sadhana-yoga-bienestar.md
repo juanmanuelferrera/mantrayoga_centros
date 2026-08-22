@@ -16,7 +16,7 @@
 
 ## Notas de este centro
 
-VERIFICADO en sadhanayoga.net 22-ago. Movil 614 19 50 33, se va por WhatsApp. NO publican email ni nombres. Abren de lunes a viernes de 9:00 a 20:00. YA HACEN TALLERES ESPECIALES ademas de clases regulares: ese es el gancho, encaja en algo que ya programan. 5,0/5 con 27 resenas, compartiendo yoga desde 2018. OJO: esta en El Campello, no en Alicante ciudad, unos 10 km. No agrupar con las visitas del centro de Alicante. ENVIADO por WhatsApp el 22-ago con el texto estandar del paso 1, sin el gancho de los talleres ni la frase de "no se vende ni se publicita nada". Si contestan, entrar por ahi en la conversacion.
+VERIFICADO en sadhanayoga.net 22-ago. Movil 614 19 50 33, se va por WhatsApp. NO publican email ni nombres. Abren de lunes a viernes de 9:00 a 20:00. YA HACEN TALLERES ESPECIALES ademas de clases regulares: ese es el gancho, encaja en algo que ya programan. 5,0/5 con 27 resenas, compartiendo yoga desde 2018. OJO: esta en El Campello, no en Alicante ciudad, unos 10 km. No agrupar con las visitas del centro de Alicante. ENVIADO por WhatsApp el 22-ago con el texto estandar del paso 1, sin el gancho de los talleres ni la frase de "no se vende ni se publicita nada". CUANDO CONTESTEN, decir estas dos cosas, que no iban en el mensaje: 1) que YA HACEN TALLERES ESPECIALES ademas de las clases regulares, asi que esto encaja en algo que ya programan y no es un formato nuevo que tengan que inventar; 2) que NO SE VENDE NI SE PUBLICITA NADA.
 
 > Los datos que vienen de directorios fallan a menudo: el primer centro que comprobamos tenía mal el email y el teléfono. Compruébalos en su web antes de escribir o llamar.
 
